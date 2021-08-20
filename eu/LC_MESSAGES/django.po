@@ -1,0 +1,3029 @@
+# Tropela.eus [eu]
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-30 12:48+0100\n"
+"PO-Revision-Date: 2020-08-27 21:12+0200\n"
+"Last-Translator: Eneko Illarramendi <eneko@illarra.com>\n"
+"Language-Team: Tropela <translate@tropela.eus>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.1\n"
+
+#: tropela/api/exceptions.py:8
+msgctxt "api: exceptions"
+msgid "Service temporarily unavailable, try again later."
+msgstr "Zerbitzua ez dago eskuragai, saiatu beranduago."
+
+#: tropela/api/serializers/races.py:121
+#, python-format
+msgctxt "ui: percentage"
+msgid "%(value)s%%"
+msgstr "%%%(value)s"
+
+#: tropela/api/serializers/users.py:13
+msgctxt "forms: user.profile"
+msgid "First name"
+msgstr "Izena"
+
+#: tropela/api/serializers/users.py:14
+msgctxt "forms: user.profile"
+msgid "Last name"
+msgstr "Abizenak"
+
+#: tropela/api/serializers/users.py:15
+msgctxt "forms: user.profile"
+msgid "City"
+msgstr "Herria"
+
+#: tropela/api/serializers/users.py:16
+msgctxt "forms: user.profile"
+msgid "Country"
+msgstr "Herrialdea"
+
+#: tropela/api/serializers/users.py:17
+msgctxt "forms: user.profile"
+msgid "Language"
+msgstr "Hizkuntza"
+
+#: tropela/api/serializers/users.py:18
+msgctxt "forms: user.profile"
+msgid "Avatar preference"
+msgstr "Lehenetsitako avatarra"
+
+#: tropela/api/serializers/users.py:19
+msgctxt "user: privacy"
+msgid "Make my profile page public"
+msgstr "Nire profilaren orria publikoa egin"
+
+#: tropela/api/serializers/users.py:20
+msgctxt "user: privacy"
+msgid "Receive emails from Tropela"
+msgstr "Tropelaren emailak jaso"
+
+#: tropela/api/serializers/users.py:21
+msgctxt "user: privacy"
+msgid "Receive notifications from Tropela"
+msgstr "Tropelaren notifikazioak jaso"
+
+#: tropela/api/serializers/users.py:22
+msgctxt "user: privacy"
+msgid "Share my activity in social media (when I create a team)"
+msgstr "Nire ekintzak sare sozialetan zabaldu (nire kiniela egitean)"
+
+#: tropela/api/views/dorsals.py:22
+msgctxt "api: dorsal.exceptions"
+msgid "Please include a `race_id` query parameter in your request."
+msgstr "Mesedez gehitu ezazu `race_id` parametroa zure eskaeran."
+
+#: tropela/api/views/porras.py:39
+msgctxt "api: porra.exceptions"
+msgid "Duplicate entry - this user already has a team for this race."
+msgstr ""
+"Duplikatuta - erabiltzaile honek badu iada porra bat lehiaketa honetan."
+
+#: tropela/api/views/races.py:91
+msgctxt "api: exceptions"
+msgid "We are still preparing the race. Dorsals are not visible yet."
+msgstr ""
+"Oraindik lehiaketa prestatzen ari gara. Dortsalak ez daude ikusgai oraindik."
+
+#: tropela/api/views/races.py:145
+msgctxt "api: exceptions"
+msgid "Please include a `user_id` query parameter in your request."
+msgstr "Mesedez gehitu ezazu `user_id` parametroa zure eskaeran."
+
+#: tropela/api/views/tropeltxos.py:76 tropela/api/views/tropeltxos.py:110
+msgctxt "api: tropeltxo.exceptions"
+msgid "You have reached your tropeltxo limit."
+msgstr "Zure tropeltxoen mugara iritsi zara."
+
+#: tropela/api/views/tropeltxos.py:122
+msgctxt "api: membership.exceptions"
+msgid "Duplicate entry - this user already is in this tropeltxo."
+msgstr "Duplikatuta - erabiltzaile hau iada tropeltxo honetan dago."
+
+#: tropela/api/views/tropeltxos.py:137
+msgctxt "api: membership.exceptions"
+msgid "Only Admin can choose another admin."
+msgstr "Tropeltxoko jabeak bakarrik aldatu dezakete jabetza."
+
+#: tropela/api/views/users.py:40
+msgctxt "api: exceptions"
+msgid "Please include a `season` query parameter in your request."
+msgstr "Mesedez gehitu ezazu `season` parametroa zure eskaeran."
+
+#: tropela/context_processors.py:31
+msgctxt "user_message: no porra"
+msgid "No team for this race"
+msgstr "Kinielarik ez lehiaketa honetan"
+
+#: tropela/context_processors.py:32
+msgctxt "user_message: no standings for a collection"
+msgid "No standings"
+msgstr "Sailkapenik gabe"
+
+#: tropela/context_processors.py:33
+msgctxt "porra.modal: porra ID"
+msgid "Team ID"
+msgstr "Kiniela zenbakia"
+
+#: tropela/context_processors.py:34
+msgctxt "porra.modal: porra last updated"
+msgid "Last updated"
+msgstr "Azken aldaketa data"
+
+#: tropela/context_processors.py:35
+msgctxt "porra.modal: stages switch"
+msgid "Show all stages"
+msgstr "Etapa guztiak erakutsi"
+
+#: tropela/context_processors.py:36
+msgctxt "ui.tooltip: tropeltxo"
+msgid "Public"
+msgstr "Publikoa"
+
+#: tropela/context_processors.py:37
+msgctxt "ui.tooltip: tropeltxo"
+msgid "Private"
+msgstr "Pribatua"
+
+#: tropela/context_processors.py:38
+msgctxt "ui.tooltip: rider in ideal team"
+msgid "In the ideal team"
+msgstr "Kiniela idealean"
+
+#: tropela/context_processors.py:39
+msgctxt "ui.tooltip: rider in team"
+msgid "In your team"
+msgstr "Zure kinielan"
+
+#: tropela/context_processors.py:40
+msgctxt "ui.tooltip: risk factor"
+msgid "Risk factor"
+msgstr "Arrisku maila"
+
+#: tropela/context_processors.py:41
+msgctxt "ui.tooltip: number of teams in collection"
+msgid "Number of teams"
+msgstr "Kiniela kopurua"
+
+#: tropela/context_processors.py:42
+#: tropela/site/templates/admin/tropela/race/dorsals/dorsals.html:46
+msgctxt "ui"
+msgid "Loading..."
+msgstr "Kargatzen..."
+
+#: tropela/context_processors.py:43
+msgctxt "ui"
+msgid "Saving..."
+msgstr "Gordetzen..."
+
+#: tropela/context_processors.py:44
+msgctxt "ui"
+msgid "Calculating..."
+msgstr "Kalkulatzen..."
+
+#: tropela/context_processors.py:45 tropela/site/templates/porras/porra.html:56
+#: tropela/site/templates/porras/porra.html:63
+msgctxt "ui: button"
+msgid "Save"
+msgstr "Gorde"
+
+#: tropela/context_processors.py:46
+msgctxt "ui"
+msgid "Search examples"
+msgstr "Bilaketa adibideak"
+
+#: tropela/context_processors.py:47
+msgctxt "notifications"
+msgid "Notifications"
+msgstr "Oharrak"
+
+#: tropela/context_processors.py:48
+msgctxt "notifications"
+msgid "No notifications"
+msgstr "Ez duzu oharrik"
+
+#: tropela/context_processors.py:49
+msgctxt "search: filter"
+msgid "Username"
+msgstr "Erabiltzailea"
+
+#: tropela/context_processors.py:50
+msgctxt "search: filter"
+msgid "City"
+msgstr "Herria"
+
+#: tropela/context_processors.py:51
+msgctxt "dorsal: sorting"
+msgid "Name"
+msgstr "Izena"
+
+#: tropela/context_processors.py:52
+msgctxt "dorsal: sorting"
+msgid "Percentage"
+msgstr "Portzentaia"
+
+#: tropela/context_processors.py:53 tropela/site/templates/pages/rules.html:17
+msgctxt "dorsal: sorting"
+msgid "Points"
+msgstr "Puntuak"
+
+#: tropela/context_processors.py:54
+#: tropela/site/templates/admin/tropela/race/dorsals/dorsals.html:99
+msgctxt "dorsal: filters"
+msgid "All"
+msgstr "Guztiak"
+
+#: tropela/context_processors.py:55 tropela/site/templates/pages/rules.html:29
+#: tropela/site/templates/races/race/v-home.html:57
+msgctxt "race: final stage"
+msgid "Final"
+msgstr "Bukaerakoa"
+
+#: tropela/context_processors.py:56
+msgctxt "race: filters"
+msgid "Hide riders with zero points"
+msgstr "Punturik ez dutenak ezkutatu"
+
+#: tropela/context_processors.py:57
+msgctxt "race: filters"
+msgid "Filters"
+msgstr "Filtroak"
+
+#: tropela/context_processors.py:58
+msgctxt "race: filters"
+msgid "Group"
+msgstr "Multzoa"
+
+#: tropela/context_processors.py:59
+msgctxt "race: filters"
+msgid "Status"
+msgstr "Egoera"
+
+#: tropela/context_processors.py:60
+msgctxt "search: results"
+msgid "Results"
+msgstr "Emaitzak"
+
+#: tropela/context_processors.py:61
+msgctxt "race.box: XXX porras"
+msgid "teams"
+msgstr "kiniela"
+
+#: tropela/context_processors.py:62
+msgctxt "race.box"
+msgid "Next race"
+msgstr "Hurrengo lehiaketa"
+
+#: tropela/context_processors.py:63
+msgctxt "race.box"
+msgid "This race has been canceled."
+msgstr "Lasterketa hau bertan behera utzi dute."
+
+#: tropela/context_processors.py:65 tropela/site/templates/porras/porra.html:40
+#: tropela/site/templates/races/race/race.html:116
+msgctxt "sponsored_games: cta"
+msgid "This is a sponsored race, with nice prizes for Tropela users."
+msgstr ""
+"Lehiaketa hau babestuta dago, eta sari ederrak ditu Tropelako "
+"erabiltzaileentzat."
+
+#: tropela/context_processors.py:67
+msgctxt "forms: porra.create"
+msgid "Your team has been created."
+msgstr "Zure kiniela behar bezala sortu da."
+
+#: tropela/context_processors.py:68
+msgctxt "forms: porra.update"
+msgid "Your team information has been updated."
+msgstr "Zure kinielaren informazioa behar bezala eguneratu da."
+
+#: tropela/context_processors.py:69
+#: tropela/site/templates/races/race/race.html:22
+#: tropela/site/views/races.py:87
+msgctxt "race.box: registration deadline"
+msgid "Deadline for creating your team"
+msgstr "Kiniela egiteko azken eguna"
+
+#: tropela/context_processors.py:70
+msgctxt "menu.collections: year"
+msgid "Year"
+msgstr "Urtekoa"
+
+#: tropela/context_processors.py:71
+#: tropela/site/templates/races/race/race.html:133
+#: tropela/site/templates/users/standings/race/_parent_menu.html:11
+msgctxt "race: vue path"
+msgid "/points/"
+msgstr "/txirrindularien-puntuak/"
+
+#: tropela/context_processors.py:72
+#: tropela/site/templates/races/race/race.html:133
+#: tropela/site/templates/users/standings/race/_parent_menu.html:8
+msgctxt "race: vue path"
+msgid "/standings/"
+msgstr "/sailkapenak/"
+
+#: tropela/context_processors.py:75
+msgctxt "cookies: message"
+msgid ""
+"This website uses cookies to ensure you get the best experience on our "
+"website."
+msgstr ""
+"Webgune honek cookie-ak erabiltzen ditu nabigazio esperientzia hobetzeko eta "
+"gure zerbitzuak eskaintzeko."
+
+#: tropela/context_processors.py:77
+msgctxt "cookies: link"
+msgid "Learn more"
+msgstr "Gehiago irakurri"
+
+#: tropela/context_processors.py:78
+msgctxt "cookies: dismiss"
+msgid "Got it!"
+msgstr "Ulertuta!"
+
+#: tropela/context_processors.py:80
+msgctxt "xedap: bike"
+msgid "Road"
+msgstr "Errepidekoa"
+
+#: tropela/context_processors.py:81
+msgctxt "xedap: bike"
+msgid "Victorian"
+msgstr "Viktoriarra"
+
+#: tropela/context_processors.py:82
+msgctxt "xedap: hair"
+msgid "Short"
+msgstr "Motza"
+
+#: tropela/context_processors.py:83
+msgctxt "xedap: hair"
+msgid "Long"
+msgstr "Luzea"
+
+#: tropela/context_processors.py:84
+msgctxt "xedap: hair"
+msgid "Afro"
+msgstr "Afro"
+
+#: tropela/context_processors.py:85
+msgctxt "xedap: hair"
+msgid "Punk"
+msgstr "Punk"
+
+#: tropela/context_processors.py:86
+msgctxt "xedap: hair"
+msgid "Vietnamese hat"
+msgstr "Vietnamiarra"
+
+#: tropela/context_processors.py:87
+msgctxt "xedap: top"
+msgid "- (w)"
+msgstr "- (e)"
+
+#: tropela/context_processors.py:88
+msgctxt "xedap: top"
+msgid "Jersey"
+msgstr "Mailota"
+
+#: tropela/context_processors.py:89
+msgctxt "xedap: top"
+msgid "Jersey (w)"
+msgstr "Mailota (e)"
+
+#: tropela/context_processors.py:90
+msgctxt "xedap: top"
+msgid "T-shirt"
+msgstr "Kamiseta"
+
+#: tropela/context_processors.py:91
+msgctxt "xedap: top"
+msgid "T-shirt (w)"
+msgstr "Kamiseta (e)"
+
+#: tropela/context_processors.py:92
+msgctxt "xedap: top"
+msgid "Solid, long"
+msgstr "Kamiseta, luzea"
+
+#: tropela/context_processors.py:93
+msgctxt "xedap: top"
+msgid "Solid, long (w)"
+msgstr "Kamiseta, luzea (e)"
+
+#: tropela/context_processors.py:94
+msgctxt "xedap: top"
+msgid "Stripes"
+msgstr "Marraduna"
+
+#: tropela/context_processors.py:95
+msgctxt "xedap: top"
+msgid "Stripes (w)"
+msgstr "Marraduna (e)"
+
+#: tropela/context_processors.py:96
+msgctxt "xedap: top"
+msgid "Stripes, long"
+msgstr "Marraduna, luzea"
+
+#: tropela/context_processors.py:97
+msgctxt "xedap: top"
+msgid "Stripes, long (w)"
+msgstr "Marraduna, luzea (e)"
+
+#: tropela/context_processors.py:98
+msgctxt "xedap: top"
+msgid "Bikini"
+msgstr "Bikinia"
+
+#: tropela/context_processors.py:99
+msgctxt "xedap: bottom"
+msgid "Bib shorts"
+msgstr "Kulotak"
+
+#: tropela/context_processors.py:100
+msgctxt "xedap: bottom"
+msgid "Shorts"
+msgstr "Galtza motzak"
+
+#: tropela/context_processors.py:101
+msgctxt "xedap: bottom"
+msgid "Short tights"
+msgstr "Estuak"
+
+#: tropela/context_processors.py:102
+msgctxt "xedap: bottom"
+msgid "Leggings"
+msgstr "Legging-ak"
+
+#: tropela/context_processors.py:103
+msgctxt "xedap: bottom"
+msgid "Bikini"
+msgstr "Bikinia"
+
+#: tropela/context_processors.py:104
+msgctxt "xedap: face"
+msgid "Blush"
+msgstr "Koloreteak"
+
+#: tropela/context_processors.py:105
+msgctxt "xedap: face"
+msgid "Clown"
+msgstr "Txiribiton"
+
+#: tropela/context_processors.py:106
+msgctxt "xedap: face"
+msgid "El Zorro"
+msgstr "El Zorro"
+
+#: tropela/context_processors.py:107
+msgctxt "xedap: face_hair"
+msgid "Beard"
+msgstr "Bizarra"
+
+#: tropela/context_processors.py:108
+msgctxt "xedap: face_hair"
+msgid "D'Artagnan"
+msgstr "D'Artagnan"
+
+#: tropela/context_processors.py:109
+msgctxt "xedap: face_hair"
+msgid "Moustache"
+msgstr "Bigotea"
+
+#: tropela/context_processors.py:110
+msgctxt "xedap: face_hair"
+msgid "Billy Goat"
+msgstr "Perilla"
+
+#: tropela/context_processors.py:111
+msgctxt "xedap: shoes"
+msgid "Cycling"
+msgstr "Errepidea"
+
+#: tropela/context_processors.py:112
+msgctxt "xedap: shoes"
+msgid "Boots"
+msgstr "Botak"
+
+#: tropela/context_processors.py:113
+msgctxt "xedap: shoes"
+msgid "Aladin"
+msgstr "Aladino"
+
+#: tropela/models/bc.py:6 tropela/models/dorsals.py:13
+#: tropela/models/games.py:12 tropela/models/games.py:41
+#: tropela/models/races.py:29 tropela/models/races.py:67
+#: tropela/models/results.py:7 tropela/models/riders.py:72
+#: tropela/models/subscriptions.py:37 tropela/models/tropeltxos.py:14
+msgctxt "-- admin: labels"
+msgid "name"
+msgstr "izena"
+
+#: tropela/models/bc.py:7
+msgctxt "-- admin: labels"
+msgid "alias"
+msgstr "aliasa"
+
+#: tropela/models/bc.py:8
+msgctxt "-- admin: town.labels"
+msgid "region"
+msgstr "eskualdea"
+
+#: tropela/models/bc.py:9
+msgctxt "-- admin: town.labels"
+msgid "province"
+msgstr "probintzia"
+
+#: tropela/models/bc.py:20
+msgctxt "-- admin: town.verbose_name"
+msgid "town"
+msgstr "herria"
+
+#: tropela/models/bc.py:21
+msgctxt "-- admin: town.verbose_name_plural"
+msgid "towns"
+msgstr "herriak"
+
+#: tropela/models/config.py:6
+msgctxt "-- admin: labels"
+msgid "key"
+msgstr "giltza"
+
+#: tropela/models/config.py:7 tropela/models/notifications.py:19
+#: tropela/models/results.py:29
+msgctxt "-- admin: labels"
+msgid "value"
+msgstr "balioa"
+
+#: tropela/models/config.py:10
+msgctxt "-- admin: config.verbose_name"
+msgid "configuration"
+msgstr "konfigurazioa"
+
+#: tropela/models/config.py:11
+msgctxt "-- admin: config.verbose_name_plural"
+msgid "configurations"
+msgstr "konfigurazioak"
+
+#: tropela/models/dorsals.py:14
+#: tropela/site/templates/admin/tropela/race/dorsals/v-list.html:15
+msgctxt "-- admin: dorsal_group.labels"
+msgid "group size"
+msgstr "aukeratu beharreko txirrindulari kopurua"
+
+#: tropela/models/dorsals.py:15 tropela/models/races.py:31
+#: tropela/models/results.py:8
+msgctxt "-- admin: labels"
+msgid "position"
+msgstr "ordena"
+
+#: tropela/models/dorsals.py:17
+#: tropela/site/templates/admin/tropela/race/dorsals/v-list.html:16
+msgctxt "-- admin: dorsal_group.labels"
+msgid "risk factor weight"
+msgstr "arrisku maila ponderazioa"
+
+#: tropela/models/dorsals.py:25
+#: tropela/site/templates/admin/tropela/race/dorsals/dorsals.html:110
+msgctxt "-- admin: dorsal_group.verbose_name"
+msgid "dorsal group"
+msgstr "dortsal multzoa"
+
+#: tropela/models/dorsals.py:26
+msgctxt "-- admin: dorsal_group.verbose_name_plural"
+msgid "dorsal groups"
+msgstr "dortsal multzoak"
+
+#: tropela/models/dorsals.py:40
+msgctxt "-- admin: exceptions"
+msgid "Dorsal groups cannot be deleted once registration is open."
+msgstr "Dortsal multzoak ezin dira ezabatu behin lehiaketa hasita dagoenean."
+
+#: tropela/models/dorsals.py:52
+#: tropela/site/templates/admin/tropela/race/dorsals/dorsals.html:67
+#: tropela/site/templates/admin/tropela/race/dorsals/dorsals.html:80
+#: tropela/site/templates/admin/tropela/race/dorsals/dorsals.html:91
+#: tropela/site/templates/admin/tropela/race/dorsals/dorsals.html:119
+#: tropela/site/templates/admin/tropela/race/dorsals/v-list.html:20
+#: tropela/site/templates/admin/tropela/race/dorsals/v-list.html:44
+msgctxt "dorsal.status"
+msgid "Participating"
+msgstr "Ziur"
+
+#: tropela/models/dorsals.py:53
+#: tropela/site/templates/admin/tropela/race/dorsals/dorsals.html:73
+#: tropela/site/templates/admin/tropela/race/dorsals/dorsals.html:82
+#: tropela/site/templates/admin/tropela/race/dorsals/dorsals.html:92
+#: tropela/site/templates/admin/tropela/race/dorsals/v-list.html:21
+#: tropela/site/templates/admin/tropela/race/dorsals/v-list.html:46
+msgctxt "dorsal.status"
+msgid "Retired"
+msgstr "Erretiratuta"
+
+#: tropela/models/dorsals.py:54
+#: tropela/site/templates/admin/tropela/race/dorsals/dorsals.html:64
+#: tropela/site/templates/admin/tropela/race/dorsals/dorsals.html:79
+#: tropela/site/templates/admin/tropela/race/dorsals/dorsals.html:93
+#: tropela/site/templates/admin/tropela/race/dorsals/dorsals.html:118
+#: tropela/site/templates/admin/tropela/race/dorsals/v-list.html:22
+#: tropela/site/templates/admin/tropela/race/dorsals/v-list.html:43
+msgctxt "dorsal.status"
+msgid "Unconfirmed"
+msgstr "Dudan"
+
+#: tropela/models/dorsals.py:55
+#: tropela/site/templates/admin/tropela/race/dorsals/dorsals.html:70
+#: tropela/site/templates/admin/tropela/race/dorsals/dorsals.html:81
+#: tropela/site/templates/admin/tropela/race/dorsals/dorsals.html:94
+#: tropela/site/templates/admin/tropela/race/dorsals/dorsals.html:120
+#: tropela/site/templates/admin/tropela/race/dorsals/v-list.html:23
+#: tropela/site/templates/admin/tropela/race/dorsals/v-list.html:45
+msgctxt "dorsal.status"
+msgid "Not participating"
+msgstr "Ez doa"
+
+#: tropela/models/dorsals.py:62 tropela/models/payments.py:35
+#: tropela/models/riders.py:35 tropela/models/subscriptions.py:89
+#: tropela/models/users.py:31
+#: tropela/site/templates/admin/tropela/race/dorsals/dorsals.html:115
+#: tropela/site/templates/admin/tropela/race/dorsals/v-list.html:29
+msgctxt "-- admin: labels"
+msgid "status"
+msgstr "egoera"
+
+#: tropela/models/dorsals.py:63
+msgctxt "-- admin: dorsal.labels"
+msgid "risk factor"
+msgstr "arrisku maila"
+
+#: tropela/models/dorsals.py:68
+msgctxt "-- admin: dorsal.verbose_name"
+msgid "dorsal"
+msgstr "dortsala"
+
+#: tropela/models/dorsals.py:69
+#: tropela/site/templates/admin/tropela/race/change_form.html:12
+#: tropela/site/templates/admin/tropela/race/dorsals/dorsals.html:90
+#: tropela/site/templates/admin/tropela/race/dorsals/v-list.html:19
+msgctxt "-- admin: dorsal.verbose_name_plural"
+msgid "dorsals"
+msgstr "dortsalak"
+
+#: tropela/models/games.py:13 tropela/models/games.py:43
+#: tropela/models/slides.py:21
+msgctxt "-- admin: labels"
+msgid "URL"
+msgstr "URL-a"
+
+#: tropela/models/games.py:15
+msgctxt "-- admin: labels"
+msgid "logo"
+msgstr "logoa"
+
+#: tropela/models/games.py:19
+msgctxt "-- admin: sponsor.logo.help_text"
+msgid "Max side 300px."
+msgstr "Zabalera maximoa 300px."
+
+#: tropela/models/games.py:23
+msgctxt "-- admin: sponsor.verbose_name"
+msgid "sponsor"
+msgstr "babeslea"
+
+#: tropela/models/games.py:24
+msgctxt "-- admin: sponsor.verbose_name_plural"
+msgid "sponsors"
+msgstr "babesleak"
+
+#: tropela/models/games.py:38 tropela/models/slides.py:14
+#: tropela/models/subscriptions.py:35
+msgctxt "-- admin: labels"
+msgid "is visible"
+msgstr "ikusgai"
+
+#: tropela/models/games.py:42 tropela/models/races.py:146
+msgctxt "-- admin: labels"
+msgid "hashtags"
+msgstr "hashtag-ak"
+
+#: tropela/models/games.py:45
+msgctxt "-- admin: sponsored_game.labels"
+msgid "legal"
+msgstr "lege oharra"
+
+#: tropela/models/games.py:46
+msgctxt "-- admin: sponsored_game.labels"
+msgid "prizes"
+msgstr "sariak"
+
+#: tropela/models/games.py:48
+msgctxt "-- admin: sponsored_game.labels"
+msgid "banner"
+msgstr "bannerra"
+
+#: tropela/models/games.py:55
+msgctxt "-- admin: sponsored_game.verbose_name"
+msgid "sponsored game"
+msgstr "babestutakoa"
+
+#: tropela/models/games.py:56
+msgctxt "-- admin: sponsored_game.verbose_name_plural"
+msgid "sponsored games"
+msgstr "babestutakoak"
+
+#: tropela/models/games.py:67 tropela/models/standings.py:18
+#: tropela/models/standings.py:47
+msgctxt "-- admin: standing.labels"
+msgid "position"
+msgstr "postua"
+
+#: tropela/models/games.py:68 tropela/models/standings.py:19
+#: tropela/models/standings.py:48
+msgctxt "-- admin: standing.labels"
+msgid "points"
+msgstr "puntuak"
+
+#: tropela/models/games.py:69 tropela/models/standings.py:20
+msgctxt "-- admin: standing.labels"
+msgid "evolution"
+msgstr "eboluzioa"
+
+#: tropela/models/games.py:70 tropela/models/standings.py:21
+msgctxt "-- admin: standing.labels"
+msgid "aggregate position"
+msgstr "postua metatuan"
+
+#: tropela/models/games.py:71 tropela/models/standings.py:22
+msgctxt "-- admin: standing.labels"
+msgid "aggregate points"
+msgstr "puntuak metatuan"
+
+#: tropela/models/games.py:72 tropela/models/standings.py:23
+#: tropela/models/standings.py:49
+msgctxt "-- admin: standing.labels"
+msgid "aggregate evolution"
+msgstr "evoluzioa metatuan"
+
+#: tropela/models/games.py:83
+msgctxt "-- admin: sponsored_game_standing.verbose_name"
+msgid "game standing"
+msgstr "babestutako sailkapena"
+
+#: tropela/models/games.py:84
+msgctxt "-- admin: sponsored_game_standing.verbose_name_plural"
+msgid "game standings"
+msgstr "babestutako sailkapenak"
+
+#: tropela/models/generic.py:15
+msgctxt "payment.status"
+msgid "Succeeded"
+msgstr ""
+
+#: tropela/models/generic.py:16
+msgctxt "payment.status"
+msgid "Pending"
+msgstr "Zain"
+
+#: tropela/models/generic.py:17
+msgctxt "payment.status"
+msgid "Failed"
+msgstr ""
+
+#: tropela/models/notifications.py:17 tropela/models/races.py:69
+#: tropela/models/riders.py:70
+msgctxt "-- admin: labels"
+msgid "category"
+msgstr "kategoria"
+
+#: tropela/models/notifications.py:20
+msgctxt "-- admin: labels"
+msgid "deadline"
+msgstr "iraungitze-data"
+
+#: tropela/models/notifications.py:26
+msgctxt "-- admin: notification.verbose_name"
+msgid "notification"
+msgstr "notifikazioa"
+
+#: tropela/models/notifications.py:27
+msgctxt "-- admin: notification.verbose_name_plural"
+msgid "notifications"
+msgstr "notifikazioak"
+
+#: tropela/models/pages.py:7
+msgctxt "-- admin: labels"
+msgid "route name"
+msgstr "ruta"
+
+#: tropela/models/pages.py:8
+msgctxt "-- admin: labels"
+msgid "template name"
+msgstr "templatea"
+
+#: tropela/models/pages.py:11
+msgctxt "-- admin: page.verbose_name"
+msgid "page"
+msgstr "orrialdea"
+
+#: tropela/models/pages.py:12
+msgctxt "-- admin: page.verbose_name_plural"
+msgid "pages"
+msgstr "orrialdeak"
+
+#: tropela/models/pages.py:32
+msgctxt "-- admin: page_block.verbose_name"
+msgid "page block"
+msgstr "orrialde zatia"
+
+#: tropela/models/pages.py:33
+msgctxt "-- admin: page_block.verbose_name_plural"
+msgid "page blocks"
+msgstr "orrialde zatiak"
+
+#: tropela/models/payments.py:25
+msgctxt "-- admin: payment.labels"
+msgid "currency"
+msgstr "txanpona"
+
+#: tropela/models/payments.py:27
+msgctxt "-- admin: payment.labels"
+msgid "amount"
+msgstr "kopurua"
+
+#: tropela/models/payments.py:33
+msgctxt "-- admin: payment.labels"
+msgid "provider"
+msgstr "zerbitzua"
+
+#: tropela/models/payments.py:38
+msgctxt "-- admin: payment.labels"
+msgid "reference"
+msgstr "erreferentzia"
+
+#: tropela/models/payments.py:40
+msgctxt "-- admin: payment.labels"
+msgid "full response"
+msgstr "erantzun osoa"
+
+#: tropela/models/payments.py:47
+msgctxt "-- admin: payment.verbose_name"
+msgid "payment"
+msgstr "ordainketa"
+
+#: tropela/models/payments.py:48
+msgctxt "-- admin: payment.verbose_name_plural"
+msgid "payments"
+msgstr "ordainketak"
+
+#: tropela/models/porras.py:23
+#, python-format
+msgctxt "api: race.exceptions"
+msgid "%(race)s is not open for registration."
+msgstr "%(race)s lehiaketa ez dago apuntatzeko irekita."
+
+#: tropela/models/porras.py:33
+#, python-format
+msgctxt "api: dorsal.exceptions"
+msgid "Dorsal \"%(dorsal_id)s\" is not in this race."
+msgstr "\"%(dorsal_id)s\" dortsalik ez dago lehiaketa honetan."
+
+#: tropela/models/porras.py:45
+#, python-format
+msgctxt "api: dorsal.exceptions"
+msgid ""
+"Dorsal count is not valid for group \"%(group_id)s\" - expected %(expected)s "
+"dorsals (got %(real)s)."
+msgstr ""
+"Dortsal kopurua ez da egokia \"%(group_id)s\" multzoan - %(expected)s "
+"dortsal espero genituen eta %(real)s jaso ditugu."
+
+#: tropela/models/porras.py:67
+msgctxt "-- admin: porra.verbose_name"
+msgid "porra"
+msgstr "porra"
+
+#: tropela/models/porras.py:68
+msgctxt "-- admin: porra.verbose_name_plural"
+msgid "porras"
+msgstr "porrak"
+
+#: tropela/models/races.py:30 tropela/models/races.py:147
+msgctxt "-- admin: labels"
+msgid "presentation"
+msgstr "aurkezpena"
+
+#: tropela/models/races.py:35
+msgctxt "-- admin: collection.verbose_name"
+msgid "collection"
+msgstr "bilduma"
+
+#: tropela/models/races.py:36 tropela/models/races.py:74
+msgctxt "-- admin: collection.verbose_name_plural"
+msgid "collections"
+msgstr "bildumak"
+
+#: tropela/models/races.py:54
+msgctxt "racing_event.type"
+msgid "Grand Tour"
+msgstr "Itzuli haundia"
+
+#: tropela/models/races.py:55
+msgctxt "racing_event.type"
+msgid "Tour"
+msgstr "Itzulia"
+
+#: tropela/models/races.py:56
+msgctxt "racing_event.type"
+msgid "Classic"
+msgstr "Klasikoa"
+
+#: tropela/models/races.py:57
+msgctxt "racing_event.type"
+msgid "Championship"
+msgstr "Txapelketa"
+
+#: tropela/models/races.py:63
+msgctxt "racing_event.category"
+msgid "Men"
+msgstr "Gizonezkoa"
+
+#: tropela/models/races.py:64
+msgctxt "racing_event.category"
+msgid "Women"
+msgstr "Emakumezkoa"
+
+#: tropela/models/races.py:68 tropela/models/stages.py:40
+#: tropela/models/subscriptions.py:83
+msgctxt "-- admin: labels"
+msgid "type"
+msgstr "mota"
+
+#: tropela/models/races.py:77
+msgctxt "-- admin: labels"
+msgid "WP category id"
+msgstr "WP kategoria [id]"
+
+#: tropela/models/races.py:81 tropela/models/races.py:153
+msgctxt "-- admin: race.labels"
+msgid "logo"
+msgstr "logoa"
+
+#: tropela/models/races.py:84 tropela/models/races.py:157
+msgctxt "-- admin: race.logo.help_text"
+msgid "Max side 300px."
+msgstr "Zabalera maximoa 300px."
+
+#: tropela/models/races.py:87 tropela/models/races.py:160
+msgctxt "-- admin: race.labels"
+msgid "thumbnail"
+msgstr "thumbnail-a"
+
+#: tropela/models/races.py:90 tropela/models/races.py:164
+msgctxt "-- admin: race.thumb.help_text"
+msgid "200px square."
+msgstr "200px-ko karratua."
+
+#: tropela/models/races.py:99
+msgctxt "-- admin: racing_event.verbose_name"
+msgid "racing event"
+msgstr "lasterketa"
+
+#: tropela/models/races.py:100
+msgctxt "-- admin: racing_event.verbose_name_plural"
+msgid "racing events"
+msgstr "lasterketak"
+
+#: tropela/models/races.py:132
+msgctxt "race.status"
+msgid "Preparing"
+msgstr "Prestatzen"
+
+#: tropela/models/races.py:133
+msgctxt "race.status"
+msgid "Registering"
+msgstr "Irekita"
+
+#: tropela/models/races.py:134
+msgctxt "race.status"
+msgid "Racing"
+msgstr "Lehiatzen"
+
+#: tropela/models/races.py:135
+msgctxt "race.status"
+msgid "Finished"
+msgstr "Bukatuta"
+
+#: tropela/models/races.py:136
+msgctxt "race.status"
+msgid "Closed"
+msgstr "Itxita"
+
+#: tropela/models/races.py:137 tropela/site/templates/races/race/v-home.html:62
+msgctxt "race.status"
+msgid "Canceled"
+msgstr "Bertan behera"
+
+#: tropela/models/races.py:141 tropela/models/riders.py:33
+#: tropela/models/riders.py:76 tropela/models/users.py:45
+#: tropela/site/templates/admin/tropela/race/dorsals/dorsals.html:96
+msgctxt "-- admin: labels"
+msgid "country"
+msgstr "herrialdea"
+
+#: tropela/models/races.py:142
+msgctxt "-- admin: labels"
+msgid "start date"
+msgstr "hasiera eguna"
+
+#: tropela/models/races.py:143
+msgctxt "-- admin: labels"
+msgid "end date"
+msgstr "amaiera eguna"
+
+#: tropela/models/races.py:144 tropela/models/stages.py:36
+msgctxt "-- admin: race.labels"
+msgid "is canceled"
+msgstr "bertan behera utzita"
+
+#: tropela/models/races.py:145 tropela/models/riders.py:77
+msgctxt "-- admin: labels"
+msgid "website"
+msgstr "webgunea"
+
+#: tropela/models/races.py:148
+msgctxt "-- admin: race.labels"
+msgid "course"
+msgstr "ibilbidea"
+
+#: tropela/models/races.py:149
+msgctxt "-- admin: race.labels"
+msgid "is protour"
+msgstr "UCI ProTour-ean"
+
+#: tropela/models/races.py:168
+msgctxt "-- admin: race.labels"
+msgid "registration start"
+msgstr "apuntatzeko epearen hasiera"
+
+#: tropela/models/races.py:169
+msgctxt "-- admin: race.labels"
+msgid "registration end"
+msgstr "apuntatzeko epearen amaiera"
+
+#: tropela/models/races.py:170
+msgctxt "-- admin: race.labels"
+msgid "closing date"
+msgstr "ixteko eguna"
+
+#: tropela/models/races.py:171
+msgctxt "-- admin: race.labels"
+msgid "is visible"
+msgstr "ikusgai"
+
+#: tropela/models/races.py:173
+msgctxt "-- admin: race.labels"
+msgid "letter maximums"
+msgstr "letren maximoak"
+
+#: tropela/models/races.py:178
+msgctxt "-- admin: race.labels"
+msgid "risk factor values"
+msgstr "arrisku mailen balioak"
+
+#: tropela/models/races.py:197
+msgctxt "-- admin: race.verbose_name"
+msgid "race"
+msgstr "lehiaketa"
+
+#: tropela/models/races.py:198
+#: tropela/site/templates/admin/tropela/race/dorsals/dorsals.html:25
+msgctxt "-- admin: race.verbose_name_plural"
+msgid "races"
+msgstr "lehiaketak"
+
+#: tropela/models/races.py:201
+#, python-format
+msgctxt "race.representation"
+msgid "%(race)s %(season)s"
+msgstr "%(season)sko %(race)s"
+
+#: tropela/models/results.py:13
+msgctxt "-- admin: point_section.verbose_name"
+msgid "point section"
+msgstr "puntuen atala"
+
+#: tropela/models/results.py:14
+msgctxt "-- admin: point_section.verbose_name_plural"
+msgid "point sections"
+msgstr "puntuen atalak"
+
+#: tropela/models/results.py:26
+msgctxt "-- admin: point.labels"
+msgid "is final"
+msgstr "bukaerakoa"
+
+#: tropela/models/results.py:28
+msgctxt "-- admin: point.labels"
+msgid "position"
+msgstr "postua"
+
+#: tropela/models/results.py:33
+msgctxt "-- admin: point.verbose_name"
+msgid "point"
+msgstr "puntua"
+
+#: tropela/models/results.py:34 tropela/site/admin/races.py:127
+msgctxt "-- admin: point.verbose_name_plural"
+msgid "points"
+msgstr "puntuak"
+
+#: tropela/models/results.py:45
+msgctxt "-- admin: result_raw.verbose_name"
+msgid "raw result"
+msgstr "emaitza gordina"
+
+#: tropela/models/results.py:46
+msgctxt "-- admin: result_raw.verbose_name_plural"
+msgid "raw results"
+msgstr "emaitza gordinak"
+
+#: tropela/models/results.py:60
+msgctxt "-- admin: result.labels"
+msgid "points"
+msgstr "puntuak"
+
+#: tropela/models/results.py:61
+msgctxt "-- admin: result.labels"
+msgid "aggregate points"
+msgstr "puntu metatuak"
+
+#: tropela/models/results.py:71
+msgctxt "-- admin: result.verbose_name"
+msgid "result"
+msgstr "emaitza"
+
+#: tropela/models/results.py:72
+msgctxt "-- admin: result.verbose_name_plural"
+msgid "results"
+msgstr "emaitzak"
+
+#: tropela/models/riders.py:16
+msgctxt "rider.gender"
+msgid "Male"
+msgstr "Gizona"
+
+#: tropela/models/riders.py:17
+msgctxt "rider.gender"
+msgid "Female"
+msgstr "Emakumea"
+
+#: tropela/models/riders.py:25
+msgctxt "rider.status"
+msgid "Active"
+msgstr "Aktiboan"
+
+#: tropela/models/riders.py:26
+msgctxt "rider.status"
+msgid "Retired"
+msgstr "Erretiratuta"
+
+#: tropela/models/riders.py:27
+msgctxt "rider.status"
+msgid "Banned"
+msgstr "Zigortuta"
+
+#: tropela/models/riders.py:28
+msgctxt "rider.status"
+msgid "Dead"
+msgstr "Zenduta"
+
+#: tropela/models/riders.py:31
+msgctxt "-- admin: labels"
+msgid "first name"
+msgstr "izena"
+
+#: tropela/models/riders.py:32
+msgctxt "-- admin: labels"
+msgid "last name"
+msgstr "abizena"
+
+#: tropela/models/riders.py:34
+msgctxt "-- admin: labels"
+msgid "gender"
+msgstr "sexua"
+
+#: tropela/models/riders.py:44
+msgctxt "-- admin: rider.verbose_name"
+msgid "rider"
+msgstr "txirrindularia"
+
+#: tropela/models/riders.py:45
+#: tropela/site/templates/admin/tropela/race/dorsals/dorsals.html:106
+msgctxt "-- admin: rider.verbose_name_plural"
+msgid "riders"
+msgstr "txirrindulariak"
+
+#: tropela/models/riders.py:63 tropela/site/admin/riders.py:97
+msgctxt "-- admin: exceptions"
+msgid "You cannot delete a rider that has a dorsal asigned for a race."
+msgstr ""
+"Ezin duzu lehiaketaren batetan dortsal bat duen txirrindulari bat ezabatu."
+
+#: tropela/models/riders.py:68 tropela/models/standings.py:44
+msgctxt "-- admin: labels"
+msgid "season"
+msgstr "denboraldia"
+
+#: tropela/models/riders.py:73
+msgctxt "-- admin: labels"
+msgid "short name"
+msgstr "izen laburra"
+
+#: tropela/models/riders.py:74
+msgctxt "-- admin: labels"
+msgid "code"
+msgstr "kodea"
+
+#: tropela/models/riders.py:85
+msgctxt "-- admin: team.verbose_name"
+msgid "team"
+msgstr "taldea"
+
+#: tropela/models/riders.py:86
+#: tropela/site/templates/admin/tropela/race/dorsals/dorsals.html:97
+msgctxt "-- admin: team.verbose_name_plural"
+msgid "teams"
+msgstr "taldeak"
+
+#: tropela/models/slides.py:16
+msgctxt "-- admin: labels"
+msgid "image"
+msgstr "irudia"
+
+#: tropela/models/slides.py:18
+msgctxt "-- admin: slide.image.help_text"
+msgid "Recommended size: 1200px by 500px"
+msgstr "Tamaina gomendatua: 1200px bider 500px"
+
+#: tropela/models/slides.py:20
+msgctxt "-- admin: labels"
+msgid "title"
+msgstr "izenburua"
+
+#: tropela/models/slides.py:29
+msgctxt "-- admin: slide.verbose_name"
+msgid "slide"
+msgstr "sarrerako slide-a"
+
+#: tropela/models/slides.py:30
+msgctxt "-- admin: slide.verbose_name_plural"
+msgid "slides"
+msgstr "sarrerarako slide-ak"
+
+#: tropela/models/stages.py:8
+msgctxt "-- admin: exceptions"
+msgid "date is not valid for a final stage."
+msgstr "data ez da egokia bukearako etaparentzat."
+
+#: tropela/models/stages.py:14
+msgctxt "-- admin: exceptions"
+msgid "stage date is not between start and end dates of the race."
+msgstr "etapako data ez dago lehiaketako hasiera eta amaiera daten artean."
+
+#: tropela/models/stages.py:27
+msgctxt "stage.type"
+msgid "Normal"
+msgstr "Normala"
+
+#: tropela/models/stages.py:28
+msgctxt "stage.type"
+msgid "Prologue"
+msgstr "Prologoa"
+
+#: tropela/models/stages.py:29
+msgctxt "stage.type"
+msgid "Mountains"
+msgstr "Mendiak"
+
+#: tropela/models/stages.py:30
+msgctxt "stage.type"
+msgid "Hills"
+msgstr "Mendate ertainak"
+
+#: tropela/models/stages.py:31
+msgctxt "stage.type"
+msgid "Individual Time Trial (ITT)"
+msgstr "Bakarkako erlojupekoa"
+
+#: tropela/models/stages.py:32
+msgctxt "stage.type"
+msgid "Team Time Trial (TTT)"
+msgstr "Taldekako erlojupekoa"
+
+#: tropela/models/stages.py:33
+msgctxt "stage.type"
+msgid "Rest day"
+msgstr "Atseden eguna"
+
+#: tropela/models/stages.py:38
+msgctxt "-- admin: labels"
+msgid "date"
+msgstr "data"
+
+#: tropela/models/stages.py:39
+msgctxt "-- admin: labels"
+msgid "is final"
+msgstr "bukaerakoa"
+
+#: tropela/models/stages.py:41
+msgctxt "-- admin: stage.labels"
+msgid "start"
+msgstr "hasiera"
+
+#: tropela/models/stages.py:42
+msgctxt "-- admin: stage.labels"
+msgid "finish"
+msgstr "amaiera"
+
+#: tropela/models/stages.py:43
+msgctxt "-- admin: labels"
+msgid "km"
+msgstr "km"
+
+#: tropela/models/stages.py:45
+msgctxt "-- admin: stage.labels"
+msgid "has standings"
+msgstr "sailkapenekin"
+
+#: tropela/models/stages.py:55
+msgctxt "-- admin: stage.verbose_name"
+msgid "stage"
+msgstr "etapa"
+
+#: tropela/models/stages.py:56 tropela/site/admin/races.py:139
+#: tropela/site/templates/admin/tropela/race/change_form.html:9
+#: tropela/site/templates/admin/tropela/stage/results/results.html:22
+msgctxt "-- admin: stage.verbose_name_plural"
+msgid "stages"
+msgstr "etapak"
+
+#: tropela/models/standings.py:34
+msgctxt "-- admin: standing.verbose_name"
+msgid "standing"
+msgstr "sailkapena"
+
+#: tropela/models/standings.py:35
+msgctxt "-- admin: standing.verbose_name_plural"
+msgid "standings"
+msgstr "sailkapenak"
+
+#: tropela/models/standings.py:50
+msgctxt "-- admin: standing.labels"
+msgid "porras"
+msgstr "porrak"
+
+#: tropela/models/standings.py:59
+msgctxt "-- admin: standing_collection.verbose_name"
+msgid "collection standing"
+msgstr "bilduma sailkapena"
+
+#: tropela/models/standings.py:60
+msgctxt "-- admin: standing_collection.verbose_name_plural"
+msgid "collection standings"
+msgstr "bilduma sailkapenak"
+
+#: tropela/models/subscriptions.py:33
+msgctxt "-- admin: labels"
+msgid "group"
+msgstr "taldea"
+
+#: tropela/models/subscriptions.py:36
+msgctxt "-- admin: labels"
+msgid "default"
+msgstr "defektuzkoa"
+
+#: tropela/models/subscriptions.py:38
+msgctxt "-- admin: labels"
+msgid "description"
+msgstr "deskribapena"
+
+#: tropela/models/subscriptions.py:40
+msgctxt "-- admin: subscription_type.labels"
+msgid "duration"
+msgstr "iraupena"
+
+#: tropela/models/subscriptions.py:41
+msgctxt "-- admin: subscription_type.duration.help_text"
+msgid "In days"
+msgstr "Egunetan"
+
+#: tropela/models/subscriptions.py:43 tropela/models/subscriptions.py:94
+msgctxt "-- admin: labels"
+msgid "currency"
+msgstr "txanpona"
+
+#: tropela/models/subscriptions.py:45 tropela/models/subscriptions.py:103
+msgctxt "-- admin: labels"
+msgid "total"
+msgstr "totala"
+
+#: tropela/models/subscriptions.py:48
+msgctxt "-- admin: subscription_type.labels"
+msgid "VAT rate (%)"
+msgstr "BEZ-a (%)"
+
+#: tropela/models/subscriptions.py:55
+msgctxt "-- admin: subscription_type.verbose_name"
+msgid "subscription type"
+msgstr "harpidetza mota"
+
+#: tropela/models/subscriptions.py:56
+msgctxt "-- admin: subscription_type.verbose_name_plural"
+msgid "subscription types"
+msgstr "harpidetza motak"
+
+#: tropela/models/subscriptions.py:92
+msgctxt "-- admin: labels"
+msgid "due at"
+msgstr "amaiera"
+
+#: tropela/models/subscriptions.py:97
+msgctxt "-- admin: labels"
+msgid "subtotal"
+msgstr "subtotal-a"
+
+#: tropela/models/subscriptions.py:100
+msgctxt "-- admin: labels"
+msgid "VAT"
+msgstr "BEZ"
+
+#: tropela/models/subscriptions.py:116
+msgctxt "-- admin: subscription.verbose_name"
+msgid "subscription"
+msgstr "harpidetza"
+
+#: tropela/models/subscriptions.py:117
+msgctxt "-- admin: subscription.verbose_name_plural"
+msgid "subscriptions"
+msgstr "harpidetzak"
+
+#: tropela/models/subscriptions.py:128
+#, python-format
+msgctxt "subscription.representation"
+msgid "Subscription %(uuid)s"
+msgstr "%(uuid)s harpidetza"
+
+#: tropela/models/tropeltxos.py:15 tropela/models/users.py:53
+msgctxt "-- admin: labels"
+msgid "is public"
+msgstr "publikoa"
+
+#: tropela/models/tropeltxos.py:17
+msgctxt "-- admin: tropeltxo.labels"
+msgid "members count"
+msgstr "kide kopurua"
+
+#: tropela/models/tropeltxos.py:31
+msgctxt "-- admin: tropeltxo.verbose_name"
+msgid "tropeltxo"
+msgstr "tropeltxoa"
+
+#: tropela/models/tropeltxos.py:32
+msgctxt "-- admin: tropeltxo.verbose_name_plural"
+msgid "tropeltxos"
+msgstr "tropeltxoak"
+
+#: tropela/models/tropeltxos.py:69
+msgctxt "membership.level"
+msgid "Admin"
+msgstr "Kudeatzailea"
+
+#: tropela/models/tropeltxos.py:70
+msgctxt "membership.level"
+msgid "Moderator"
+msgstr "Moderatzailea"
+
+#: tropela/models/tropeltxos.py:71
+msgctxt "membership.level"
+msgid "Member"
+msgstr "Kidea"
+
+#: tropela/models/tropeltxos.py:72
+msgctxt "membership.level"
+msgid "Pending member"
+msgstr "Zain"
+
+#: tropela/models/tropeltxos.py:73
+msgctxt "membership.level"
+msgid "Invited member"
+msgstr "Gonbidatuta"
+
+#: tropela/models/tropeltxos.py:74
+msgctxt "membership.level"
+msgid "Rejected"
+msgstr "Ezeztatuta"
+
+#: tropela/models/tropeltxos.py:80
+msgctxt "-- admin: membership.labels"
+msgid "last view"
+msgstr "azken bistaratzea"
+
+#: tropela/models/tropeltxos.py:89
+msgctxt "-- admin: tropeltxo_membership.verbose_name"
+msgid "membership"
+msgstr "kidetza"
+
+#: tropela/models/tropeltxos.py:90
+msgctxt "-- admin: tropeltxo_membership.verbose_name_plural"
+msgid "memberships"
+msgstr "kidetzak"
+
+#: tropela/models/tropeltxos.py:107
+msgctxt "-- admin: labels"
+msgid "text"
+msgstr "testua"
+
+#: tropela/models/tropeltxos.py:115
+msgctxt "-- admin: tropeltxo_message.verbose_name"
+msgid "message"
+msgstr "mezua"
+
+#: tropela/models/tropeltxos.py:116
+msgctxt "-- admin: tropeltxo_message.verbose_name_plural"
+msgid "messages"
+msgstr "mezuak"
+
+#: tropela/models/users.py:23
+msgctxt "user.profile.status"
+msgid "Deleted (soft delete)"
+msgstr "Ezabatuta (soft delete)"
+
+#: tropela/models/users.py:24
+msgctxt "user.profile.status"
+msgid "Cockroach"
+msgstr "Kakalardoa"
+
+#: tropela/models/users.py:25
+msgctxt "user.profile.status"
+msgid "Normal"
+msgstr "Normala"
+
+#: tropela/models/users.py:26
+msgctxt "user.profile.status"
+msgid "Verified"
+msgstr "Baieztatuta"
+
+#: tropela/models/users.py:34 tropela/site/admin/users.py:89
+msgctxt "-- admin: labels"
+msgid "language"
+msgstr "hizkuntza"
+
+#: tropela/models/users.py:36
+msgctxt "-- admin: labels"
+msgid "city"
+msgstr "herria"
+
+#: tropela/models/users.py:43
+msgctxt "-- admin: labels"
+msgid "herria"
+msgstr "herria"
+
+#: tropela/models/users.py:47
+msgctxt "-- admin: user.profile.labels"
+msgid "avatar preference"
+msgstr "lehenetsitako avatarra"
+
+#: tropela/models/users.py:55
+msgctxt "-- admin: user.profile.labels"
+msgid "receive emails"
+msgstr "emailak jaso"
+
+#: tropela/models/users.py:58
+msgctxt "-- admin: user.profile.labels"
+msgid "receive notifications"
+msgstr "notifikazioak jaso"
+
+#: tropela/models/users.py:61
+msgctxt "-- admin: user.profile.labels"
+msgid "share on social media"
+msgstr "sare sozialetan zabaldu"
+
+#: tropela/models/users.py:65
+msgctxt "-- admin: labels"
+msgid "custom rider"
+msgstr "txirrindularia"
+
+#: tropela/models/users.py:68
+msgctxt "-- admin: user.profile.labels"
+msgid "avatar URL"
+msgstr "avatarraren URL-a"
+
+#: tropela/models/users.py:71
+msgctxt "-- admin: user.profile.labels"
+msgid "last email"
+msgstr "azken emaila"
+
+#: tropela/models/users.py:74 tropela/site/admin/users.py:95
+msgctxt "-- admin: user.profile.labels"
+msgid "is premium"
+msgstr "Luxuzko Gregarioa"
+
+#: tropela/models/users.py:80
+msgctxt "-- admin: user_profile.verbose_name"
+msgid "user profile"
+msgstr "profila"
+
+#: tropela/models/users.py:81
+msgctxt "-- admin: user_profile.verbose_name_plural"
+msgid "user profiles"
+msgstr "profilak"
+
+#: tropela/settings/base.py:273
+msgctxt "country"
+msgid "United States"
+msgstr "Estatu Batuak"
+
+#: tropela/settings/base.py:274
+msgctxt "country"
+msgid "Basque Country"
+msgstr "Euskal Herria"
+
+#: tropela/settings/base.py:275
+msgctxt "country"
+msgid "Asturias"
+msgstr "Asturias"
+
+#: tropela/settings/base.py:276
+msgctxt "country"
+msgid "Catalonia"
+msgstr "Katalunia"
+
+#: tropela/settings/base.py:277
+msgctxt "country"
+msgid "Galicia"
+msgstr "Galizia"
+
+#: tropela/settings/base.py:278
+msgctxt "country"
+msgid "Kosovo"
+msgstr "Kosovo"
+
+#: tropela/site/admin/races.py:109
+msgctxt "-- admin: th.dorsals"
+msgid "Dorsals"
+msgstr "Dortsalak"
+
+#: tropela/site/admin/races.py:115
+msgctxt "-- admin: th.dorsal_groups"
+msgid "Groups"
+msgstr "Multzoak"
+
+#: tropela/site/admin/races.py:144
+#, python-format
+msgctxt "-- admin: actions"
+msgid "%(race)s already has dorsal groups. Aborted."
+msgstr "%(race)s lehiaketak baditu multzoak. Ez da ekintza burutu."
+
+#: tropela/site/admin/races.py:148
+#, python-format
+msgctxt "-- admin: actions"
+msgid "Dorsal groups have been duplicated for %(race)s."
+msgstr "%(race)s lehiaketarentzat dortsal multzoak sortu dira."
+
+#: tropela/site/admin/races.py:151
+msgctxt "-- admin: actions"
+msgid "[Tropela] Clone dorsal groups"
+msgstr "[Tropela] Multzoak klonatu"
+
+#: tropela/site/admin/races.py:156
+#, python-format
+msgctxt "-- admin: actions"
+msgid "%(race)s already has points. Aborted."
+msgstr "%(race)s lehiaketak baditu puntuak. Ez da ekintza burutu."
+
+#: tropela/site/admin/races.py:160
+#, python-format
+msgctxt "-- admin: actions"
+msgid "Points have been duplicated for %(race)s."
+msgstr "%(race)s lehiaketarentzat puntuak sortu dira."
+
+#: tropela/site/admin/races.py:163
+msgctxt "-- admin: actions"
+msgid "[Tropela] Clone points"
+msgstr "[Tropela] Puntuak klonatu"
+
+#: tropela/site/admin/races.py:170
+msgctxt "-- admin: actions"
+msgid "Emails are being sent."
+msgstr "Emailak bidaltzen ari dira."
+
+#: tropela/site/admin/races.py:174
+msgctxt "-- admin: actions"
+msgid "[Mailer] Send `red dorsals` email"
+msgstr "[Emailak] `Dortsalak gorriz` emaila bidali"
+
+#: tropela/site/admin/riders.py:53
+msgctxt "-- admin: actions"
+msgid "[Tropela] Change category to `Men`"
+msgstr "[Tropela] Kategoria aldatu: `Gizonezkoa`"
+
+#: tropela/site/admin/riders.py:58
+msgctxt "-- admin: actions"
+msgid "[Tropela] Change category to `Women`"
+msgstr "[Tropela] Kategoria aldatu: `Emakumezkoa`"
+
+#: tropela/site/admin/riders.py:70
+#, fuzzy, python-format
+msgctxt "-- admin: actions"
+msgid "teams have been cloned for %(season)s."
+msgstr "talde kopiatu dira %(season)s denboraldirako."
+
+#: tropela/site/admin/riders.py:74
+#, python-format
+msgctxt "-- admin: actions"
+msgid "[Tropela] Clone selected teams for season %(season)s"
+msgstr "[Tropela] Aukeratutatako taldeak klonatu %(season)s denboraldirako"
+
+#: tropela/site/admin/riders.py:110
+msgctxt "-- admin: actions"
+msgid "[Tropela] Change gender to `Female`"
+msgstr "[Tropela] Sexua aldatu: `Emakumea`"
+
+#: tropela/site/admin/riders.py:115
+msgctxt "-- admin: actions"
+msgid "[Tropela] Change gender to `Male`"
+msgstr "[Tropela] Sexua aldatu: `Gizona`"
+
+#: tropela/site/admin/riders.py:120
+msgctxt "-- admin: actions"
+msgid "[Tropela] Change status to `Active`"
+msgstr "[Tropela] Egoera aldatu: `Aktiboan`"
+
+#: tropela/site/admin/riders.py:125
+msgctxt "-- admin: actions"
+msgid "[Tropela] Change status to `Retired`"
+msgstr "[Tropela] Egoera aldatu: `Erretiratuta`"
+
+#: tropela/site/admin/riders.py:130
+msgctxt "-- admin: actions"
+msgid "[Tropela] Change status to `Banned`"
+msgstr "[Tropela] Egoera aldatu: `Zigortuta`"
+
+#: tropela/site/admin/stages.py:52
+msgctxt "-- admin: th.results"
+msgid "Results"
+msgstr "Emaitzak"
+
+#: tropela/site/admin/stages.py:57
+msgctxt "-- admin: th.standings"
+msgid "Standings"
+msgstr "Sailkapenak"
+
+#: tropela/site/admin/stages.py:63
+#, python-format
+msgctxt "-- admin: actions"
+msgid "Results and standings are being calculated for %(stage)s."
+msgstr "Puntuak eta sailkapenak kalkulatzen ari dira %(stage)s etaparentzat."
+
+#: tropela/site/admin/stages.py:66
+msgctxt "-- admin: actions"
+msgid "[Tropela] Calculate standings"
+msgstr "[Tropela] Sailkapenak kalkulatu"
+
+#: tropela/site/admin/stages.py:73
+#, python-format
+msgctxt "-- admin: actions"
+msgid "Standings have been deleted for %(stage)s."
+msgstr "%(stage)s etaparentzat emaitzak ezabatu dira."
+
+#: tropela/site/admin/stages.py:76
+msgctxt "-- admin: actions"
+msgid "[Tropela] Delete standings"
+msgstr "[Tropela] Sailkapenak ezabatu"
+
+#: tropela/site/admin/users.py:37
+msgctxt "-- admin: user.filters"
+msgid "Type"
+msgstr "Mota"
+
+#: tropela/site/admin/users.py:41
+msgctxt "-- admin: user.filters"
+msgid "Premium users"
+msgstr "Luxuzko Gregarioak"
+
+#: tropela/site/admin/users.py:51
+msgctxt "-- admin: user.filters"
+msgid "Language"
+msgstr "Hizkuntza"
+
+#: tropela/site/admin/users.py:104
+msgctxt "-- admin: actions"
+msgid "Users are now premium."
+msgstr "Erabiltzaileak Luxuzko Gregario bihurtu dituzu."
+
+#: tropela/site/admin/users.py:107
+msgctxt "-- admin: user.actions"
+msgid "[Tropela] Make premium"
+msgstr "[Tropela] Luxuzko Gregario egin"
+
+#: tropela/site/templates/_header.html:28
+msgctxt "menu"
+msgid "Home"
+msgstr "Sarrera"
+
+#: tropela/site/templates/_header.html:31
+#: tropela/site/templates/_user_menu.html:45
+msgctxt "menu"
+msgid "Races"
+msgstr "Lehiaketak"
+
+#: tropela/site/templates/_header.html:34
+#: tropela/site/templates/_user_menu.html:48
+msgctxt "menu"
+msgid "Rules"
+msgstr "Arauak"
+
+#: tropela/site/templates/_header.html:38
+#: tropela/site/templates/_user_menu.html:52
+msgctxt "menu"
+msgid "Blog"
+msgstr "Bloga"
+
+#: tropela/site/templates/_header.html:42
+#: tropela/site/templates/_user_menu.html:56
+msgctxt "menu"
+msgid "Store"
+msgstr "Denda"
+
+#: tropela/site/templates/_header.html:45
+#: tropela/site/templates/_user_menu.html:59
+msgctxt "menu"
+msgid "About us"
+msgstr "Tropela Elkartea"
+
+#: tropela/site/templates/_header.html:52
+#: tropela/site/templates/_welcome.html:14
+#: tropela/site/templates/account/signup.html:7
+#: tropela/site/templates/account/signup.html:10
+#: tropela/site/templates/account/signup.html:17
+msgid "Sign Up"
+msgstr ""
+
+#: tropela/site/templates/_header.html:55
+#: tropela/site/templates/account/login.html:8
+#: tropela/site/templates/account/login.html:11
+#: tropela/site/templates/account/login.html:31
+msgid "Sign In"
+msgstr ""
+
+#: tropela/site/templates/_partials/premium_messages.html:15
+#, python-format
+msgctxt "premium: sidebar messages"
+msgid ""
+"Become a First Domestique and compare your results with up to %(limit)s "
+"users."
+msgstr ""
+"Egin zaitez Luxuzko Gregario eta zure emaitzak beste %(limit)s "
+"erabiltzaileren emaitzekin alderatu ahal izango dituzu."
+
+#: tropela/site/templates/_partials/premium_messages.html:19
+#, python-format
+msgctxt "premium: sidebar messages"
+msgid ""
+"Become a First Domestique and increase your tropeltxos limit to %(limit)s."
+msgstr ""
+"Egin zaitez Luxuzko Gregario zure tropeltxoen muga %(limit)sera igotzeko."
+
+#: tropela/site/templates/_partials/premium_messages.html:22
+msgctxt "premium: sidebar messages"
+msgid "With no ads!"
+msgstr "Eta iragarkirik gabe!"
+
+#: tropela/site/templates/_partials/premium_messages.html:23
+msgctxt "premium: sidebar messages"
+msgid "Upgrade"
+msgstr "LG bihurtu"
+
+#: tropela/site/templates/_partials/xedap_message.html:14
+msgctxt "xedap: sidebar messages"
+msgid ""
+"Update your rider in your settings. Hundreds of different combinations to "
+"make your unique avatar, thousands if you are a First Domestique!"
+msgstr ""
+"Zure txirrindularia eguneratu aldagelan. Ehundaka konbinazio dauzkazu zurea "
+"osatzeko, milaka Luxuzko Gregarioa bazara!"
+
+#: tropela/site/templates/_partials/xedap_message.html:15
+msgctxt "xedap: sidebar messages"
+msgid "Change"
+msgstr "Aldatu"
+
+#: tropela/site/templates/_user_menu.html:19
+#: tropela/site/templates/users/dashboard/season.html:8
+msgctxt "user: menu"
+msgid "My dashboard"
+msgstr "Nire Tropela"
+
+#: tropela/site/templates/_user_menu.html:22
+#: tropela/site/templates/races/race/race.html:80
+#: tropela/site/templates/races/race/race.html:150
+#: tropela/site/templates/races/season/season.html:48
+#: tropela/site/templates/races/season/season.html:68
+#: tropela/site/templates/users/dashboard/season.html:35
+#: tropela/site/templates/users/dashboard/season.html:58
+#: tropela/site/templates/users/dashboard/season.html:89
+#: tropela/site/templates/users/standings/race/race.html:8
+#: tropela/site/templates/users/standings/race/race.html:46
+#: tropela/site/templates/users/standings/season/season.html:41
+msgctxt "race: menu"
+msgid "My standings"
+msgstr "Nire sailkapenak"
+
+#: tropela/site/templates/_user_menu.html:25
+#: tropela/site/templates/users/tropeltxos/tropeltxos.html:8
+#: tropela/site/templates/users/tropeltxos/tropeltxos.html:19
+msgctxt "user: menu"
+msgid "My tropeltxos"
+msgstr "Nire tropeltxoak"
+
+#: tropela/site/templates/_user_menu.html:28
+#: tropela/site/templates/users/user/_submenu.html:13
+msgctxt "user: menu"
+msgid "Settings and privacy"
+msgstr "Ezarpenak eta pribatutasuna"
+
+#: tropela/site/templates/_user_menu.html:31
+msgctxt "user: menu"
+msgid "Admin area"
+msgstr "Administrazio gunea"
+
+#: tropela/site/templates/_user_menu.html:34
+#: tropela/site/templates/account/logout.html:6
+#: tropela/site/templates/account/logout.html:9
+#: tropela/site/templates/account/logout.html:16
+msgid "Sign Out"
+msgstr ""
+
+#: tropela/site/templates/_welcome.html:8 tropela/site/templates/base.html:56
+msgctxt "welcome: intro"
+msgid ""
+"Tropela.eus is a fantasy cycling game where you can play with your friends "
+"and family, for free, in the most exciting races of the season."
+msgstr ""
+"Tropela.eus-en zure familia eta lagunekin lehiatu zaitezke txirrindularitza "
+"denboraldiko lasterketa onenetan."
+
+#: tropela/site/templates/_welcome.html:10
+msgctxt "welcome: bullets"
+msgid "Create your free Tropela.eus account."
+msgstr "Sortu zure doako Tropela.eus kontua."
+
+#: tropela/site/templates/_welcome.html:11
+msgctxt "welcome: bullets"
+msgid "Make your team for one the upcoming races."
+msgstr "Egin zure kiniela irekita dagoen lehiaketaren batetan."
+
+#: tropela/site/templates/_welcome.html:12
+msgctxt "welcome: bullets"
+msgid "Join a tropeltxo to compete against your friends and family!"
+msgstr "Sartu tropeltxo batetan zure lagunekin edo familiarekin lehiatzeko!"
+
+#: tropela/site/templates/account/email.html:7
+#: tropela/site/templates/account/email.html:12
+msgid "E-mail Addresses"
+msgstr ""
+
+#: tropela/site/templates/account/email.html:16
+msgid "The following e-mail addresses are associated with your account:"
+msgstr ""
+
+#: tropela/site/templates/account/email.html:29
+msgid "Primary"
+msgstr ""
+
+#: tropela/site/templates/account/email.html:36
+msgid "Verified"
+msgstr ""
+
+#: tropela/site/templates/account/email.html:38
+msgid "Unverified"
+msgstr ""
+
+#: tropela/site/templates/account/email.html:44
+msgid "Make Primary"
+msgstr ""
+
+#: tropela/site/templates/account/email.html:45
+msgid "Re-send Verification"
+msgstr ""
+
+#: tropela/site/templates/account/email.html:46
+#: tropela/site/templates/socialaccount/connections.html:40
+msgid "Remove"
+msgstr ""
+
+#: tropela/site/templates/account/email.html:49
+msgid "Warning:"
+msgstr ""
+
+#: tropela/site/templates/account/email.html:49
+msgid ""
+"You currently do not have any e-mail address set up. You should really add "
+"an e-mail address so you can receive notifications, reset your password, etc."
+msgstr ""
+
+#: tropela/site/templates/account/email.html:55
+msgid "Add E-mail Address"
+msgstr ""
+
+#: tropela/site/templates/account/email.html:61
+msgid "Add E-mail"
+msgstr ""
+
+#: tropela/site/templates/account/email.html:70
+msgid "Do you really want to remove the selected e-mail address?"
+msgstr ""
+
+#: tropela/site/templates/account/email_confirm.html:7
+#: tropela/site/templates/account/email_confirm.html:10
+msgid "Confirm E-mail Address"
+msgstr ""
+
+#: tropela/site/templates/account/email_confirm.html:14
+#, python-format
+msgid ""
+"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
+"address for user %(user_display)s."
+msgstr ""
+
+#: tropela/site/templates/account/email_confirm.html:18
+msgid "Confirm"
+msgstr ""
+
+#: tropela/site/templates/account/email_confirm.html:22
+#, python-format
+msgid ""
+"This e-mail confirmation link expired or is invalid. Please <a href="
+"\"%(email_url)s\">issue a new e-mail confirmation request</a>."
+msgstr ""
+
+#: tropela/site/templates/account/login.html:15
+#, python-format
+msgid ""
+"Please sign in with one\n"
+"of your existing third party accounts. Or, <a href=\"%(signup_url)s\">sign "
+"up</a>\n"
+"for a %(site_name)s account and sign in below:"
+msgstr ""
+
+#: tropela/site/templates/account/login.html:37
+msgctxt "account: login"
+msgid "Create a new account here"
+msgstr "Sortu kontu berri bat hemen"
+
+#: tropela/site/templates/account/login.html:43
+msgid "Forgot Password?"
+msgstr ""
+
+#: tropela/site/templates/account/logout.html:10
+msgid "Are you sure you want to sign out?"
+msgstr ""
+
+#: tropela/site/templates/account/password_change.html:7
+#: tropela/site/templates/account/password_change.html:12
+#: tropela/site/templates/account/password_change.html:18
+#: tropela/site/templates/account/password_reset_from_key.html:7
+#: tropela/site/templates/account/password_reset_from_key.html:15
+#: tropela/site/templates/account/password_reset_from_key_done.html:6
+#: tropela/site/templates/account/password_reset_from_key_done.html:9
+msgid "Change Password"
+msgstr ""
+
+#: tropela/site/templates/account/password_reset.html:8
+#: tropela/site/templates/account/password_reset.html:11
+#: tropela/site/templates/account/password_reset_done.html:7
+#: tropela/site/templates/account/password_reset_done.html:10
+msgid "Password Reset"
+msgstr ""
+
+#: tropela/site/templates/account/password_reset.html:17
+msgid ""
+"Forgotten your password? Enter your e-mail address below, and we'll send you "
+"an e-mail allowing you to reset it."
+msgstr ""
+
+#: tropela/site/templates/account/password_reset.html:22
+msgid "Reset My Password"
+msgstr ""
+
+#: tropela/site/templates/account/password_reset_done.html:16
+msgid ""
+"We have sent you an e-mail. Please contact us if you do not receive it "
+"within a few minutes."
+msgstr ""
+
+#: tropela/site/templates/account/password_reset_done.html:21
+msgctxt "ui"
+msgid "Back"
+msgstr "Atzera"
+
+#: tropela/site/templates/account/password_reset_from_key.html:12
+msgid "Bad Token"
+msgstr ""
+
+#: tropela/site/templates/account/password_reset_from_key.html:13
+#, python-format
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a <a href=\"%(passwd_reset_url)s\">new password reset</"
+"a>."
+msgstr ""
+
+#: tropela/site/templates/account/password_reset_from_key.html:20
+msgid "change password"
+msgstr ""
+
+#: tropela/site/templates/account/password_reset_from_key.html:23
+#: tropela/site/templates/account/password_reset_from_key_done.html:10
+msgid "Your password is now changed."
+msgstr ""
+
+#: tropela/site/templates/account/password_set.html:7
+#: tropela/site/templates/account/password_set.html:10
+#: tropela/site/templates/account/password_set.html:15
+msgid "Set Password"
+msgstr ""
+
+#: tropela/site/templates/account/signup.html:22
+#, python-format
+msgid ""
+"Already have an account? Then please <a href=\"%(login_url)s\">sign in</a>."
+msgstr ""
+
+#: tropela/site/templates/admin/tropela/race/dorsals/dorsals.html:22
+#: tropela/site/templates/admin/tropela/stage/results/results.html:19
+msgctxt "-- admin: ui"
+msgid "Home"
+msgstr "Hasiera"
+
+#: tropela/site/templates/admin/tropela/race/dorsals/dorsals.html:44
+msgctxt "-- admin"
+msgid "Manage dorsals"
+msgstr "Dortsalak kudeatu"
+
+#: tropela/site/templates/admin/tropela/race/dorsals/dorsals.html:49
+msgctxt "-- admin"
+msgid "`Confirm` dorsals"
+msgstr "Dudakoak ziurtatu"
+
+#: tropela/site/templates/admin/tropela/race/dorsals/dorsals.html:50
+msgctxt "-- admin"
+msgid "Manage groups"
+msgstr "Multzoak kudeatu"
+
+#: tropela/site/templates/admin/tropela/race/dorsals/dorsals.html:51
+msgctxt "-- admin"
+msgid "Manage teams"
+msgstr "Taldeak kudeatu"
+
+#: tropela/site/templates/admin/tropela/race/dorsals/dorsals.html:78
+msgctxt "-- admin"
+msgid "All groups"
+msgstr "Multzo guztiak"
+
+#: tropela/site/templates/admin/tropela/race/dorsals/dorsals.html:108
+msgctxt "-- admin"
+msgid "Default dorsal group and status:"
+msgstr "Defektuzko dortsal multzoa eta egoera:"
+
+#: tropela/site/templates/admin/tropela/race/dorsals/dorsals.html:132
+msgctxt "-- admin"
+msgid "Riders without a dorsal."
+msgstr "Dortsalik ez duten txirrindulariak."
+
+#: tropela/site/templates/admin/tropela/race/dorsals/v-list.html:52
+msgctxt "ui"
+msgid "Delete"
+msgstr "Ezabatu"
+
+#: tropela/site/templates/admin/tropela/stage/results/results.html:39
+msgctxt "-- admin"
+msgid "Add results"
+msgstr "Emaitzak gehitu"
+
+#: tropela/site/templates/admin/tropela/stage/results/results.html:42
+msgctxt "-- admin: dialog"
+msgid "The information has been saved."
+msgstr "Informazioa behar bezala gorde da."
+
+#: tropela/site/templates/admin/tropela/stage/results/results.html:47
+msgctxt "-- admin: dialog"
+msgid "There was a problem when trying to save the information."
+msgstr "Arazaoren bat izan da informazioa gordetzerakoan."
+
+#: tropela/site/templates/admin/tropela/stage/results/results.html:51
+msgctxt "-- admin: button"
+msgid "Save"
+msgstr "Gorde"
+
+#: tropela/site/templates/admin/tropela/stage/results/results.html:52
+msgctxt "-- admin: button"
+msgid "Clear all"
+msgstr "Garbitu"
+
+#: tropela/site/templates/errors/500.html:10
+msgctxt "errors: 500"
+msgid "A crash in the peloton!"
+msgstr "Erorikoa pelotoian!"
+
+#: tropela/site/templates/errors/500.html:11
+msgctxt "errors: 500"
+msgid ""
+"Server lost control of the bike and crashed into the wall. We are not sure "
+"how serious Server's injuries are yet, but the assistance car is on its way "
+"now... let's hope he can join the peloton again!"
+msgstr ""
+"Zerbitzariak bizikletaren kontrola galdu du eta errepidearen bazterrera "
+"erori da. Oraindik ez dakigu Zerbitzariak zenbaterainoko mina hartu duen, "
+"baina laguntza bidali dugu iada... ea lehen bait lehen tropelean sartzeko "
+"gai den!"
+
+#: tropela/site/templates/errors/500.html:20
+msgctxt "errors: 500"
+msgid "Back to Tropela.eus"
+msgstr "Tropela.eus-era bueltatu"
+
+#: tropela/site/templates/layout.html:46
+msgctxt "menu"
+msgid "Privacy policy"
+msgstr "Pribatutasun politika"
+
+#: tropela/site/templates/layout.html:49
+msgctxt "menu"
+msgid "Terms"
+msgstr ""
+
+#: tropela/site/templates/pages/homepage.html:70
+msgctxt "homepage"
+msgid "Calendar"
+msgstr "Agenda"
+
+#: tropela/site/templates/pages/homepage.html:71
+#: tropela/site/templates/races/season/v-home.html:17
+msgctxt "homepage"
+msgid "These are the competitions for this season."
+msgstr "Hauek dira denboraldi honetako lehiaketak."
+
+#: tropela/site/templates/porras/_submenu.html:9
+msgctxt "race: menu"
+msgid "Back to race"
+msgstr "Lehiaketara bueltatu"
+
+#: tropela/site/templates/porras/_submenu.html:25
+#: tropela/site/templates/porras/porra.html:96
+#: tropela/site/templates/races/race/race.html:85
+#: tropela/site/templates/races/race/race.html:148
+#: tropela/site/templates/users/dashboard/season.html:35
+#: tropela/site/templates/users/dashboard/season.html:60
+msgctxt "porra: form"
+msgid "My team"
+msgstr "Nire kiniela"
+
+#: tropela/site/templates/porras/_submenu.html:28
+#: tropela/site/templates/porras/friends_porra.html:8
+#: tropela/site/templates/porras/porra.html:55
+#: tropela/site/templates/races/race/race.html:94
+#: tropela/site/templates/races/race/race.html:145
+msgctxt "porra: menu"
+msgid "My friends"
+msgstr "Nire lagunak"
+
+#: tropela/site/templates/porras/friends_porra.html:17
+#: tropela/site/templates/porras/friends_porra.html:18
+#: tropela/tools/notifications/porras.py:48
+#, python-format
+msgctxt "notifications: no porra"
+msgid "Don't forget to make your team for %(race)s!"
+msgstr "Ez ahaztu %(race)s lehiaketarako zure kiniela egitea!"
+
+#: tropela/site/templates/porras/porra.html:17
+msgctxt "porra: form"
+msgid "Selection complete"
+msgstr "Aukeraketa osatuta"
+
+#: tropela/site/templates/porras/porra.html:18
+msgctxt "porra: form"
+msgid "Please check your selection"
+msgstr "Zure aukeraketa osatu mesedez"
+
+#: tropela/site/templates/porras/porra.html:40
+msgctxt "sponsored_games: cta"
+msgid ""
+"Don't forget to select the game below if you wish to participate! "
+"(conditions apply)"
+msgstr "Ez ahaztu jokoa aukeratzea parte hartu nahi baduzu!"
+
+#: tropela/site/templates/porras/porra.html:66
+msgctxt "sponsored_games: porra.form"
+msgid "Participate in games:"
+msgstr "Jokoetan parte hartu:"
+
+#: tropela/site/templates/porras/porra.html:75
+msgctxt "porra: form"
+msgid ""
+"Choose your riders from the list and save your team! You can use filters to "
+"make the list more manageable. Keep in mind that there is a limit of riders "
+"you can choose from every group. Good luck!"
+msgstr ""
+"Aukeratu zure txirrindulariak zerrendatik eta gorde zure kiniela! Filtroak "
+"erabili ditzakezu aukeraketa errazteko. Kontutan izan multzo bakoitzeko "
+"aukerak mugatuta daudela. Zorte on!"
+
+#: tropela/site/templates/porras/porra.html:89
+#: tropela/site/templates/races/race/v-dorsals.html:18
+msgctxt "race: filters"
+msgid "Filter by name, team, country"
+msgstr "Izen, talde edo herrialdearen arabera filtratu"
+
+#: tropela/site/templates/races/race/race.html:32
+#: tropela/site/templates/users/standings/race/race.html:16
+msgctxt "race: menu"
+msgid "Back to season"
+msgstr "Denboraldira bueltatu"
+
+#: tropela/site/templates/races/race/race.html:60
+#: tropela/site/templates/users/standings/race/_parent_menu.html:5
+msgctxt "race: menu"
+msgid "Presentation"
+msgstr "Aurkezpena"
+
+#: tropela/site/templates/races/race/race.html:63
+#: tropela/site/templates/users/dashboard/season.html:88
+#: tropela/site/templates/users/standings/race/_parent_menu.html:8
+msgctxt "race: menu"
+msgid "Standings"
+msgstr "Sailkapenak"
+
+#: tropela/site/templates/races/race/race.html:66
+#: tropela/site/templates/users/dashboard/season.html:35
+#: tropela/site/templates/users/standings/race/_parent_menu.html:11
+msgctxt "race: menu"
+msgid "Rider points"
+msgstr "Txirrindularien puntuak"
+
+#: tropela/site/templates/races/race/race.html:69
+#: tropela/site/templates/users/standings/race/_parent_menu.html:14
+msgctxt "race: menu"
+msgid "Rider list"
+msgstr "Dortsalak"
+
+#: tropela/site/templates/races/race/race.html:90
+#: tropela/site/templates/races/race/race.html:135
+#: tropela/site/templates/races/race/race.html:144
+#: tropela/site/templates/users/dashboard/season.html:63
+msgctxt "race: menu"
+msgid "Make team"
+msgstr "Kiniela egin"
+
+#: tropela/site/templates/races/race/race.html:91
+#: tropela/site/templates/races/race/race.html:143
+#: tropela/site/templates/users/tropeltxos/v-form.html:16
+msgctxt "ui: button"
+msgid "Update"
+msgstr "Eguneratu"
+
+#: tropela/site/templates/races/race/race.html:116
+msgctxt "sponsored_games: cta"
+msgid "Make your team to participate! (conditions apply)"
+msgstr "Egin zure kiniela parte hartu ahal izateko!"
+
+#: tropela/site/templates/races/race/race.html:133
+#: tropela/site/templates/users/standings/race/_parent_menu.html:14
+msgctxt "race: vue path"
+msgid "/dorsals/"
+msgstr "/dortsalak/"
+
+#: tropela/site/templates/races/race/race.html:136
+#: tropela/site/templates/users/dashboard/season.html:63
+msgctxt "race: menu"
+msgid "Update team"
+msgstr "Kiniela eguneratu"
+
+#: tropela/site/templates/races/race/v-dorsals.html:9
+#: tropela/site/templates/races/race/v-standings.html:24
+#: tropela/site/templates/races/season/v-standings.html:17
+#: tropela/site/templates/users/dashboard/season.html:41
+#: tropela/site/templates/users/standings/race/v-standings.html:16
+#: tropela/site/templates/users/standings/season/v-standings.html:18
+msgctxt "race: filters"
+msgid "Aggregate"
+msgstr "Metatua"
+
+#: tropela/site/templates/races/race/v-dorsals.html:14
+#: tropela/site/templates/races/race/v-standings.html:29
+#: tropela/site/templates/users/standings/race/v-standings.html:21
+msgctxt "race: filters"
+msgid "Stage"
+msgstr "Etapakoa"
+
+#: tropela/site/templates/races/race/v-home.html:33
+msgctxt "race: home"
+msgid "Tropela standings"
+msgstr "Tropelako sailkapena"
+
+#: tropela/site/templates/races/race/v-home.html:40
+msgctxt "race: home"
+msgid "Rider standings"
+msgstr "Txirrindularien sailkapena"
+
+#: tropela/site/templates/races/race/v-home.html:44
+msgctxt "race: home"
+msgid "Stages"
+msgstr "Etapak"
+
+#: tropela/site/templates/races/race/v-home.html:76
+msgctxt "race: home"
+msgid "Teams"
+msgstr "Taldeak"
+
+#: tropela/site/templates/races/race/v-standings.html:7
+#: tropela/site/templates/races/race/v-sub-stages.html:5
+#: tropela/site/templates/users/standings/race/v-standings.html:10
+msgctxt "race: filters"
+msgid "Stages"
+msgstr "Etapak"
+
+#: tropela/site/templates/races/race/v-standings.html:16
+msgctxt "sponsored_games: standings"
+msgid "Show sponsored standings"
+msgstr "Babestutako sailkapenak erakutsi"
+
+#: tropela/site/templates/races/season/season.html:32
+#: tropela/site/templates/users/standings/season/season.html:32
+msgctxt "season: menu"
+msgid "Races"
+msgstr "Lehiaketak"
+
+#: tropela/site/templates/races/season/season.html:40
+#: tropela/site/templates/users/standings/season/_parent_menu.html:5
+msgctxt "season: menu"
+msgid "Presentation"
+msgstr "Aurkezpena"
+
+#: tropela/site/templates/races/season/season.html:43
+#: tropela/site/templates/users/standings/race/race.html:66
+#: tropela/site/templates/users/standings/season/_parent_menu.html:8
+msgctxt "season: menu"
+msgid "Season standings"
+msgstr "Denboraldiko sailkapenak"
+
+#: tropela/site/templates/races/season/season.html:57
+#: tropela/site/templates/users/standings/season/_parent_menu.html:8
+#: tropela/site/templates/users/standings/season/season.html:49
+msgctxt "season: vue path"
+msgid "/season-standings/"
+msgstr "/denboraldiko-sailkapenak/"
+
+#: tropela/site/templates/races/season/v-home.html:13
+msgctxt "season: cta"
+msgid "Download .ics file"
+msgstr ".ics fitxategia jeitsi"
+
+#: tropela/site/templates/races/season/v-standings.html:10
+#: tropela/site/templates/users/standings/season/v-standings.html:11
+msgctxt "season: filters"
+msgid "Races"
+msgstr "Lehiaketak"
+
+#: tropela/site/templates/races/season/v-standings.html:22
+#: tropela/site/templates/users/dashboard/season.html:46
+#: tropela/site/templates/users/standings/season/v-standings.html:23
+msgctxt "season: filters"
+msgid "Race"
+msgstr "Lehiaketakoa"
+
+#: tropela/site/templates/socialaccount/connections.html:6
+#: tropela/site/templates/socialaccount/connections.html:11
+msgid "Account Connections"
+msgstr ""
+
+#: tropela/site/templates/socialaccount/connections.html:15
+msgid ""
+"You can sign in to your account using any of the following third party "
+"accounts:"
+msgstr ""
+
+#: tropela/site/templates/socialaccount/connections.html:43
+msgid ""
+"You currently have no social network accounts connected to this account."
+msgstr ""
+
+#: tropela/site/templates/socialaccount/connections.html:49
+msgid "Add a 3rd Party Account"
+msgstr ""
+
+#: tropela/site/templates/users/dashboard/season.html:37
+msgctxt "dashboard"
+msgid "My season stats"
+msgstr "Nire denboraldiko estatistikak"
+
+#: tropela/site/templates/users/tropeltxos/tropeltxos.html:15
+msgctxt "forms: tropeltxo.join"
+msgid "You have joined a public tropeltxo."
+msgstr "Tropeltxo publiko batetan sartu zara."
+
+#: tropela/site/templates/users/tropeltxos/tropeltxos.html:15
+msgctxt "forms: tropeltxo.request"
+msgid "A request to join has been sent to a private tropeltxo."
+msgstr "Eskaera behar bezala bidali da tropeltxo pribatu batetara."
+
+#: tropela/site/templates/users/tropeltxos/tropeltxos.html:15
+msgctxt "forms: success"
+msgid "Your request has been successfully processed."
+msgstr "Zure eskaera behar bezala burutu da."
+
+#: tropela/site/templates/users/tropeltxos/tropeltxos.html:15
+msgctxt "forms: error"
+msgid ""
+"An error occurred while processing your request. Please try again later."
+msgstr ""
+"Arazoren bat egon da zure eskaera burutzean. Mesedez saiatu berriro "
+"beranduago."
+
+#: tropela/site/templates/users/tropeltxos/tropeltxos.html:22
+msgctxt "user: menu"
+msgid "Find a tropeltxo"
+msgstr "Tropeltxo bat aurkitu"
+
+#: tropela/site/templates/users/tropeltxos/tropeltxos.html:32
+#, python-format
+msgctxt "tropeltxos: limit"
+msgid ""
+"You have reached your tropeltxos limit (%(limit)s). If you want to join "
+"another tropeltxo you will have to become a First Domestique, or leave one "
+"your current tropeltxos."
+msgstr ""
+"Zure tropeltxoen mugara iritsi zara (%(limit)s). Beste tropeltxo batetako "
+"kide izan nahi baduzu Luxuzko Gregario bilakatu zaitezke, edo egungo "
+"tropeltxoren bat utzi."
+
+#: tropela/site/templates/users/tropeltxos/v-form.html:6
+msgctxt "tropeltxos"
+msgid "Edit tropeltxo"
+msgstr "Tropeltxoa editatu"
+
+#: tropela/site/templates/users/tropeltxos/v-form.html:7
+#: tropela/site/templates/users/tropeltxos/v-list.html:32
+msgctxt "tropeltxos"
+msgid "Create new tropeltxo"
+msgstr "Tropeltxo berria sortu"
+
+#: tropela/site/templates/users/tropeltxos/v-form.html:17
+msgctxt "ui: button"
+msgid "Create"
+msgstr "Sortu"
+
+#: tropela/site/templates/users/tropeltxos/v-list.html:6
+msgctxt "tropeltxos"
+msgid ""
+"By using tropeltxos you will be able to see personalized standings with only "
+"your friends, family members, colleagues or people you know."
+msgstr ""
+"Tropeltxoen bidez zure lagunekin, etxekoekin, zure lankideekin edota "
+"ingurukoekin azpisailkapenak ateratzeko modua izango duzu."
+
+#: tropela/site/templates/users/tropeltxos/v-modal.html:23
+msgctxt "tropeltxos: membership change"
+msgid ""
+"You cannot change your membership or leave this tropeltxo because you are "
+"the only admin. You should make another user admin first."
+msgstr ""
+"Ezin duzu zure egoera aldatu edo tropeltxo hau utzi kudeatzaile bakarra "
+"zarelako. Lehenik eta behin beste erabiltzaile bat izendatu beharko zenuke "
+"kudeatzaile bezala."
+
+#: tropela/site/templates/users/tropeltxos/v-modal.html:25
+msgctxt "tropeltxos: delete"
+msgid "Delete tropeltxo"
+msgstr "Tropeltxoa ezabatu"
+
+#: tropela/site/templates/users/tropeltxos/v-modal.html:27
+msgctxt "tropeltxos: delete"
+msgid ""
+"Are you sure you want to delete this tropeltxo? All members will leave and "
+"all history will be deleted."
+msgstr ""
+"Ziur al zaude tropeltxoa ezabatu nahi duzula? Kide guztiak tropeltxotik "
+"aterako dira eta tropeltxoaren datu guztiak ezabatuko dira."
+
+#: tropela/site/templates/users/tropeltxos/v-modal.html:30
+#: tropela/site/templates/users/tropeltxos/v-modal.html:57
+msgctxt "ui: confirm"
+msgid "Yes"
+msgstr "Bai"
+
+#: tropela/site/templates/users/tropeltxos/v-modal.html:33
+#: tropela/site/templates/users/tropeltxos/v-modal.html:60
+msgctxt "ui: confirm"
+msgid "Not really"
+msgstr "Ez"
+
+#: tropela/site/templates/users/tropeltxos/v-modal.html:40
+msgctxt "tropeltxos: actions"
+msgid "Accept as member"
+msgstr "Kide bezala onartu"
+
+#: tropela/site/templates/users/tropeltxos/v-modal.html:41
+msgctxt "tropeltxos: actions"
+msgid "Reject request"
+msgstr "Eskaera ezeztatu"
+
+#: tropela/site/templates/users/tropeltxos/v-modal.html:44
+msgctxt "tropeltxos: actions"
+msgid "Make moderator"
+msgstr "Moderatzailea bihurtu"
+
+#: tropela/site/templates/users/tropeltxos/v-modal.html:45
+msgctxt "tropeltxos: actions"
+msgid "Make regular member"
+msgstr "Kide arrunta bihurtu"
+
+#: tropela/site/templates/users/tropeltxos/v-modal.html:49
+msgctxt "tropeltxos: membership self"
+msgid "Leave tropeltxo"
+msgstr "Tropeltxoa utzi"
+
+#: tropela/site/templates/users/tropeltxos/v-modal.html:50
+msgctxt "tropeltxos: membership change"
+msgid "Remove user from tropeltxo"
+msgstr "Erabiltzailea tropeltxotik atera"
+
+#: tropela/site/templates/users/tropeltxos/v-modal.html:53
+msgctxt "tropeltxos: membership self"
+msgid "Are you sure you want to leave the tropeltxo?"
+msgstr "Ziur al zaude tropeltxoa utzi nahi duzula?"
+
+#: tropela/site/templates/users/tropeltxos/v-modal.html:54
+msgctxt "tropeltxos: membership change"
+msgid "Are you sure you want to remove this user from the tropeltxo?"
+msgstr "Ziur al zaude erabiltzaile hau tropeltxotik atera nahi duzula?"
+
+#: tropela/site/templates/users/tropeltxos/v-search.html:6
+msgctxt "ui"
+msgid "Search..."
+msgstr "Bilatu..."
+
+#: tropela/site/templates/users/user/_submenu.html:16
+msgctxt "user: menu"
+msgid "Tropeltxos"
+msgstr "Tropeltxoak"
+
+#: tropela/site/templates/users/user/base.html:8
+msgctxt "user: menu"
+msgid "Settings"
+msgstr "Ezarpenak"
+
+#: tropela/site/templates/users/user/base.html:20
+#: tropela/site/templates/users/user/settings.html:18
+msgctxt "user settings: vue path"
+msgid "/profile/"
+msgstr "/profila/"
+
+#: tropela/site/templates/users/user/base.html:21
+#: tropela/site/templates/users/user/settings.html:10
+msgctxt "user: menu"
+msgid "Profile"
+msgstr "Profila"
+
+#: tropela/site/templates/users/user/base.html:22
+#: tropela/site/templates/users/user/settings.html:18
+msgctxt "user settings: vue path"
+msgid "/privacy/"
+msgstr "/pribatutasuna/"
+
+#: tropela/site/templates/users/user/base.html:23
+#: tropela/site/templates/users/user/settings.html:12
+#: tropela/site/templates/users/user/v-privacy.html:7
+msgctxt "user: menu"
+msgid "Privacy"
+msgstr "Pribatutasuna"
+
+#: tropela/site/templates/users/user/base.html:24
+#: tropela/site/templates/users/user/settings.html:18
+msgctxt "user settings: vue path"
+msgid "/subscriptions/"
+msgstr "/harpidetzak/"
+
+#: tropela/site/templates/users/user/base.html:25
+#: tropela/site/templates/users/user/settings.html:14
+msgctxt "user: menu"
+msgid "Subscriptions"
+msgstr "Harpidetzak"
+
+#: tropela/site/templates/users/user/base.html:28
+msgctxt "user: menu"
+msgid "Password"
+msgstr "Pasahitza"
+
+#: tropela/site/templates/users/user/base.html:30
+msgctxt "user: menu"
+msgid "Emails"
+msgstr "Emailak"
+
+#: tropela/site/templates/users/user/base.html:32
+msgctxt "user: menu"
+msgid "Social accounts"
+msgstr "Lotutako kontuak"
+
+#: tropela/site/templates/users/user/settings.html:18
+msgctxt "user settings: payment"
+msgid "Payment in process..."
+msgstr "Ordainketa burutzen..."
+
+#: tropela/site/templates/users/user/settings.html:18
+msgctxt "user settings: payment"
+msgid "Subscription created! Payment in process..."
+msgstr "Harpidetza sortua! Ordainketa burutzen..."
+
+#: tropela/site/templates/users/user/settings.html:18
+msgctxt "user settings: payment"
+msgid "Subscription completed!"
+msgstr "Harpidetza burutu da!"
+
+#: tropela/site/templates/users/user/settings.html:18
+msgctxt "user settings: payment"
+msgid "Payment failed... try again later."
+msgstr "Ordainketa ez da burutu... saiatu berriro."
+
+#: tropela/site/templates/users/user/v-preview.html:25
+msgctxt "premium: sidebar messages"
+msgid "First Domestique"
+msgstr "Luxuzko gregarioa"
+
+#: tropela/site/templates/users/user/v-preview.html:29
+msgctxt "premium: sidebar messages"
+msgid "Become a First Domestique"
+msgstr "Luxuzko gregarioa bilakatu"
+
+#: tropela/site/templates/users/user/v-privacy.html:21
+msgctxt "user: privacy"
+msgid "Download account data"
+msgstr "Kotuari lotutako datuak jeitsi"
+
+#: tropela/site/templates/users/user/v-privacy.html:23
+msgctxt "user: privacy"
+msgid ""
+"You can download a copy of your Tropela information at any time. The "
+"information is on a JSON format, which will allow another service to more "
+"easily import it. Only you can access this page."
+msgstr ""
+"Edozein momentutan jeitsi dezakezu Tropelak zure kontuari lotuta duen "
+"informazio osoa. Datuak JSON formatuan daude, akaso beste zerbitzu baten "
+"bidez inportatu ahal izateko. Zuk bakarrik ikus ditzakezu datu hauek."
+
+#: tropela/site/templates/users/user/v-privacy.html:24
+msgctxt "user: privacy"
+msgid "Download data"
+msgstr "Datuak jeitsi"
+
+#: tropela/site/templates/users/user/v-profile.html:9
+msgctxt "user: profile"
+msgid "User information"
+msgstr "Informazio orokorra"
+
+#: tropela/site/templates/users/user/v-profile.html:32
+msgctxt "xedap: form"
+msgid "Your rider"
+msgstr "Zure txirrindularia"
+
+#: tropela/site/templates/users/user/v-profile.html:37
+msgctxt "xedap: form"
+msgid "Skin color"
+msgstr "Azal kolorea"
+
+#: tropela/site/templates/users/user/v-profile.html:43
+msgctxt "xedap: form"
+msgid "Height"
+msgstr "Altuera"
+
+#: tropela/site/templates/users/user/v-profile.html:49
+msgctxt "xedap: form"
+msgid "Weight"
+msgstr "Pisua"
+
+#: tropela/site/templates/users/user/v-profile.html:55
+msgctxt "xedap: form"
+msgid "Bike"
+msgstr "Bizikleta"
+
+#: tropela/site/templates/users/user/v-profile.html:66
+msgctxt "xedap: form"
+msgid "Top"
+msgstr "Gainean"
+
+#: tropela/site/templates/users/user/v-profile.html:78
+msgctxt "xedap: form"
+msgid "Bottom"
+msgstr "Galtzak"
+
+#: tropela/site/templates/users/user/v-profile.html:90
+msgctxt "xedap: form"
+msgid "Hair style"
+msgstr "Ilea"
+
+#: tropela/site/templates/users/user/v-profile.html:102
+msgctxt "xedap: form"
+msgid "Facial hair"
+msgstr "Aurpegiko ilea"
+
+#: tropela/site/templates/users/user/v-profile.html:114
+msgctxt "xedap: form"
+msgid "Mask"
+msgstr "Maskara"
+
+#: tropela/site/templates/users/user/v-profile.html:126
+msgctxt "xedap: form"
+msgid "Shoes"
+msgstr "Oinetakoak"
+
+#: tropela/site/templates/users/user/v-subscriptions.html:9
+msgctxt "premium: subscriptions"
+msgid "Subscription history"
+msgstr "Harpidetzen historikoa"
+
+#: tropela/site/templates/users/user/v-subscriptions.html:12
+msgctxt "premium: subscriptions"
+msgid "This is an overview of all your subscriptions."
+msgstr "Hemen orain arte burututako harpidetzen zerrenda aurkitu dezakezu."
+
+#: tropela/site/templates/users/user/v-subscriptions.html:30
+msgctxt "premium: subscriptions"
+msgid "First Domestique"
+msgstr "Luxuzko Gregarioa"
+
+#: tropela/site/templates/users/user/v-subscriptions.html:33
+msgctxt "premium: subscriptions"
+msgid "Thank you for supporting Tropela.eus!"
+msgstr "Mila esker Tropela Elkarteari laguntzeagaitik!"
+
+#: tropela/site/templates/users/user/v-subscriptions.html:38
+msgctxt "premium: subscriptions"
+msgid "Become a First Domestique"
+msgstr "Luxuzko Gregarioa bilakatu"
+
+#: tropela/site/templates/users/user/v-subscriptions.html:42
+msgctxt "premium: subscriptions"
+msgid "Choose a product first."
+msgstr "Aukeratu produktu bat."
+
+#: tropela/site/templates/users/user/v-subscriptions.html:54
+msgctxt "premium: payment"
+msgid "Proceed with payment"
+msgstr "Ordainketa burutu"
+
+#: tropela/site/templates/users/user/v-subscriptions.html:56
+msgctxt "premium: payment"
+msgid "Cardholder name"
+msgstr "Izena (txartelean)"
+
+#: tropela/site/templates/users/user/v-subscriptions.html:60
+msgctxt "premium: payment"
+msgid "Credit or debit card"
+msgstr "Txartel zenbakia"
+
+#: tropela/site/templates/users/user/v-subscriptions.html:63
+msgctxt "premium: payment"
+msgid "We will never store your card information."
+msgstr "Ez dugu inoiz zure txartelaren informazioa gordeko."
+
+#: tropela/site/templates/users/user/v-subscriptions.html:66
+msgctxt "ui: button"
+msgid "Pay"
+msgstr "Ordaindu"
+
+#: tropela/site/templates/users/user/v-subscriptions.html:67
+msgctxt "premium: payment"
+msgid "Processing..."
+msgstr "Ordainketa burutzen..."
+
+#: tropela/site/urls.py:15
+msgctxt "urls"
+msgid "<slug:slug>/<int:pk>/my/team/"
+msgstr "<slug:slug>/<int:pk>/nire/kiniela/"
+
+#: tropela/site/urls.py:17
+msgctxt "urls"
+msgid "<slug:slug>/<int:pk>/my/friends/"
+msgstr "<slug:slug>/<int:pk>/nire/lagunak/"
+
+#: tropela/site/urls.py:28
+msgctxt "urls"
+msgid "dashboard/"
+msgstr "tropela/"
+
+#: tropela/site/urls.py:41
+msgctxt "urls"
+msgid "standings/"
+msgstr "sailkapenak/"
+
+#: tropela/site/urls.py:57
+msgctxt "urls"
+msgid "tropeltxos/"
+msgstr "tropeltxoak/"
+
+#: tropela/site/urls.py:64
+msgctxt "urls"
+msgid "profile/"
+msgstr "profila/"
+
+#: tropela/site/urls.py:69
+msgctxt "urls"
+msgid "my/"
+msgstr "nire/"
+
+#: tropela/site/urls.py:71
+msgctxt "urls"
+msgid "rules/"
+msgstr "arauak/"
+
+#: tropela/site/urls.py:72
+msgctxt "urls"
+msgid "about/"
+msgstr "elkartea/"
+
+#: tropela/site/urls.py:73
+msgctxt "urls"
+msgid "privacy-policy/"
+msgstr "pribatutasun-politika/"
+
+#: tropela/site/urls.py:74
+msgctxt "urls"
+msgid "terms/"
+msgstr ""
+
+#: tropela/tasks/porras.py:57
+#, python-format
+msgctxt "porra: share"
+msgid ""
+"I have just made my team for the \"%(race)s\" competition, make yours too!"
+msgstr ""
+"\"%(race)s\" lehiaketarako kiniela egin berri dut, parte hartu zuk ere!"
+
+#: tropela/tasks/premium_emails.py:37
+#, python-format
+msgctxt "emails: red dorsals"
+msgid "Check your rider selection for %(race)s!"
+msgstr "Dortsalak gorriz dituzu %(race)s lasterketan!"
+
+#: tropela/tasks/premium_emails.py:42 tropela/tools/notifications/porras.py:99
+#, python-format
+msgctxt "notifications: red dorsals"
+msgid ""
+"Some riders in your team (#%(porra)s) will not participate in the %(race)s. "
+"You should check your rider selection!"
+msgstr ""
+"Zure kinielako (#%(porra)s) txirrindulariren bat ez da %(race)s-n izango. "
+"Eguneratu ezazu zure kiniela lasterketa hasi baino lehen!"
+
+#: tropela/tools/notifications/porras.py:158
+#, python-format
+msgctxt "notifications: empty tropeltxos"
+msgid ""
+"You are all alone in one of your tropeltxos for the %(race)s... tell your "
+"friends! Tropela is more fun with friends and family."
+msgid_plural ""
+"You are all alone in %(count)s of your tropeltxos for the %(race)s... tell "
+"your friends! Tropela is more fun with friends and family."
+msgstr[0] ""
+"Bakar bakarrik zaude tropeltxo batetan %(race)s lehiaketarako... esan zure "
+"lagunei! Tropela dibertigarriagoa da lagun eta familiarekin."
+msgstr[1] ""
+"Bakar bakarrik zaude, %(count)s tropeltxotan, %(race)s lehiaketarako... esan "
+"zure lagunei! Tropela dibertigarriagoa da lagun eta familiarekin."
+
+#: tropela/tools/notifications/tropeltxos.py:53
+#, python-format
+msgctxt "notifications: tropeltxo request"
+msgid "There is a pending request in the \"%(tropeltxo_name)s\" tropeltxo."
+msgid_plural ""
+"There are %(count)d pending requests in the \"%(tropeltxo_name)s\" tropeltxo."
+msgstr[0] "Eskaera bat duzu zain \"%(tropeltxo_name)s\" tropeltxoan."
+msgstr[1] "%(count)d eskaera dituzu zain \"%(tropeltxo_name)s\" tropeltxoan."
+
+#~ msgctxt "-- admin: labels"
+#~ msgid "size"
+#~ msgstr "tamaina"
+
+#~ msgctxt "-- admin"
+#~ msgid "Please select a team."
+#~ msgstr "Mesedez aukeratu talde bat."
