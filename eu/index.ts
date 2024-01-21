@@ -117,6 +117,8 @@ export default {
       standings: 'Nire sailkapenak',
       tropeltxos: 'Nire tropeltxoak',
     },
+    change_language:
+      'Aplikazioaren hizkuntza aldatu dezakezu hemen. Aldaketak berehala burutuko dira eta hizkuntza zure profilean gordeko da, hurrengo aldiz saioa hasten duzunean gogoratzeko (edozein gailutan).',
     confirm: {
       logout: 'Ziur al zaude saioa amaitu nahi duzula?',
     },

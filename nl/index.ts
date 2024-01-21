@@ -109,6 +109,8 @@ export default {
       standings: 'Mijn klassement',
       tropeltxos: 'Mijn tropeltxos',
     },
+    change_language:
+      'Je kunt hier de taal van de applicatie wijzigen. De wijziging wordt onmiddellijk toegepast en opgeslagen in je profiel, zodat deze kan worden onthouden wanneer je de volgende keer inlogt (op elk apparaat).',
     confirm: {
       logout: 'Weet je zeker dat je wilt afmelden?',
     },

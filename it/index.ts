@@ -117,6 +117,8 @@ export default {
       standings: 'Le mie classifiche',
       tropeltxos: 'I miei tropeltxos',
     },
+    change_language:
+      'Puoi cambiare la lingua dell\'applicazione qui. Il cambiamento verrà applicato immediatamente e salvato nel tuo profilo, in modo che possa essere ricordato la prossima volta che accedi (su qualsiasi dispositivo).',
     confirm: {
       logout: 'Sei sicuro di voler uscire?',
     },

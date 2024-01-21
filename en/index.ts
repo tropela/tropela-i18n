@@ -117,6 +117,8 @@ export default {
       standings: 'My standings',
       tropeltxos: 'My tropeltxos',
     },
+    change_language:
+      'You can change the language of the application here. The change will be applied immediately and saved in your profile, so it can be remembered the next time you log in (on any device).',
     confirm: {
       logout: 'Are you sure you want to sign out?',
     },
