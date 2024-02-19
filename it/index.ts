@@ -8,6 +8,7 @@ export default {
   menu: {
     home: 'Home',
     races: 'Gare',
+    seasons: 'Temporade',
     rules: 'Regole',
     premium: 'Primi gregari',
     blog: 'Blog',
@@ -118,7 +119,7 @@ export default {
       tropeltxos: 'I miei tropeltxos',
     },
     change_language:
-      'Puoi cambiare la lingua dell\'applicazione qui. Il cambiamento verrà applicato immediatamente e salvato nel tuo profilo, in modo che possa essere ricordato la prossima volta che accedi (su qualsiasi dispositivo).',
+      "Puoi cambiare la lingua dell'applicazione qui. Il cambiamento verrà applicato immediatamente e salvato nel tuo profilo, in modo che possa essere ricordato la prossima volta che accedi (su qualsiasi dispositivo).",
     confirm: {
       logout: 'Sei sicuro di voler uscire?',
     },
@@ -178,7 +179,7 @@ export default {
   },
   message: {
     loggedIn: 'Accesso effettuato come {username}',
-    loggedOut: 'Hai effettuato l\'uscita',
+    loggedOut: "Hai effettuato l'uscita",
     passwordResetRequested: 'È stata inviata una email per il ripristino della password',
     porraCreated: 'La tua squadra è stata creata',
     porraUpdated: 'La tua squadra è stata aggiornata',
@@ -204,10 +205,10 @@ export default {
   privacy: {
     shareOnSocialMedia: 'Condividi la tua attività sui social media',
     shareOnSocialMediaDescription:
-    'Quando crei una squadra, condividila sui social media (se stai usando il login di Twitter o Facebook).',
+      'Quando crei una squadra, condividila sui social media (se stai usando il login di Twitter o Facebook).',
     makeProfilePublic: 'Rendi il tuo profilo pubblico',
     makeProfilePublicDescription:
-    'Puoi rendere il tuo profilo pubblico, in modo che gli altri utenti possano vedere la tua storia e i risultati di Tropela.',
+      'Puoi rendere il tuo profilo pubblico, in modo che gli altri utenti possano vedere la tua storia e i risultati di Tropela.',
     receiveEmails: 'Ricevi email da Tropela',
     receiveEmailsDescription: 'Promemoria per creare una squadra, notizie, ecc.',
     receiveNotifications: 'Ricevi notifiche push',
@@ -215,8 +216,8 @@ export default {
   },
   xedap: {
     banner: {
-    updateRider:
-      'Aggiorna il tuo pilota nelle impostazioni. Centinaia di diverse combinazioni per creare il tuo avatar unico, migliaia se sei un Primo Domestico!',
+      updateRider:
+        'Aggiorna il tuo pilota nelle impostazioni. Centinaia di diverse combinazioni per creare il tuo avatar unico, migliaia se sei un Primo Domestico!',
     },
     form: {
       height: {
@@ -231,9 +232,9 @@ export default {
       bikes: {
         label: 'Bici',
         options: {
-        bike_road: 'Strada',
-        bike_victorian: 'Vittoriano',
-        bike_mountain: 'MTB',
+          bike_road: 'Strada',
+          bike_victorian: 'Vittoriano',
+          bike_mountain: 'MTB',
         },
       },
     },

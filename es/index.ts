@@ -8,6 +8,7 @@ export default {
   menu: {
     home: 'Inicio',
     races: 'Competiciones',
+    seasons: 'Temporadas',
     rules: 'Reglas',
     premium: 'Gregarios de lujo',
     blog: 'Blog',

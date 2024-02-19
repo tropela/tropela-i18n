@@ -8,13 +8,14 @@ export default {
   menu: {
     home: 'Accueil',
     races: 'Courses',
+    seasons: 'Saisons',
     rules: 'Règles',
     premium: 'Premiers domestiques',
     blog: 'Blog',
     store: 'Magasin',
     about: 'À propos de nous',
     privacy: 'Politique de confidentialité',
-    terms: 'Conditions d\'utilisation',
+    terms: "Conditions d'utilisation",
     contact: 'Contact',
     tropeltxos: 'Tropeltxos',
   },
@@ -29,7 +30,8 @@ export default {
     },
     passwordReset: {
       title: 'Réinitialiser le mot de passe.',
-      intro: 'Avez-vous oublié votre mot de passe? Remplissez votre adresse e-mail et nous vous enverrons un lien pour le réinitialiser.',
+      intro:
+        'Avez-vous oublié votre mot de passe? Remplissez votre adresse e-mail et nous vous enverrons un lien pour le réinitialiser.',
       link: 'Mot de passe oublié?',
     },
   },
@@ -113,12 +115,12 @@ export default {
       passwordChange: 'Changer de mot de passe',
       emails: 'Emails',
       socialConnections: 'Connexions sociales',
-      signup: 'S\'inscrire',
+      signup: "S'inscrire",
       standings: 'Mon classement',
       tropeltxos: 'Mes tropeltxos',
     },
     change_language:
-      'Vous pouvez changer la langue de l\'application ici. Le changement sera appliqué immédiatement et enregistré dans votre profil, afin qu\'il puisse être mémorisé la prochaine fois que vous vous connectez (sur n\'importe quel appareil).',
+      "Vous pouvez changer la langue de l'application ici. Le changement sera appliqué immédiatement et enregistré dans votre profil, afin qu'il puisse être mémorisé la prochaine fois que vous vous connectez (sur n'importe quel appareil).",
     confirm: {
       logout: 'Êtes-vous sûr de vouloir vous déconnecter ?',
     },
@@ -135,10 +137,10 @@ export default {
         submit: 'Envoyer',
         typeMessage: 'Tapez votre message',
         login: 'Se connecter',
-        signup: 'S\'inscrire',
+        signup: "S'inscrire",
       },
       fields: {
-        username: 'Nom d\'utilisateur',
+        username: "Nom d'utilisateur",
         password: 'Mot de passe',
         password2: 'Mot de passe (répéter)',
         email: 'Email',
@@ -185,10 +187,10 @@ export default {
     userProfileUpdated: 'Votre profil a été mis à jour',
   },
   notice: {
-    noTropeltxoMessages: 'Vous n\'avez aucun message tropeltxo',
+    noTropeltxoMessages: "Vous n'avez aucun message tropeltxo",
     placeStandingsLogIn: 'Connectez-vous pour voir votre classement local.',
     placeStandingsNoPlace: 'Mettez à jour vos informations de ville pour voir votre classement local.',
-    porraClosed: 'Vous ne pouvez pas créer d\'équipe pour cette course.',
+    porraClosed: "Vous ne pouvez pas créer d'équipe pour cette course.",
     porraCreateLogIn: 'Vous devez vous connecter pour créer une équipe.',
     xedapAds: 'Voulez-vous voir vos annonces ici ? Contactez-nous !',
   },
@@ -207,11 +209,12 @@ export default {
       'Lorsque vous créez une équipe, partagez-la sur les réseaux sociaux (si vous utilisez une connexion Twitter ou Facebook).',
     makeProfilePublic: 'Rendre votre profil public',
     makeProfilePublicDescription:
-      'Vous pouvez rendre votre profil public, afin que d\'autres utilisateurs puissent voir votre historique et vos résultats sur Tropela.',
+      "Vous pouvez rendre votre profil public, afin que d'autres utilisateurs puissent voir votre historique et vos résultats sur Tropela.",
     receiveEmails: 'Recevoir des emails de Tropela',
     receiveEmailsDescription: 'Rappels pour créer une équipe, actualités, etc.',
     receiveNotifications: 'Recevoir des notifications push',
-    receiveNotificationsDescription: 'Recevoir des notifications push sur les appareils mobiles, lorsque nous ouvrons un nouveau jeu.',
+    receiveNotificationsDescription:
+      'Recevoir des notifications push sur les appareils mobiles, lorsque nous ouvrons un nouveau jeu.',
   },
   xedap: {
     banner: {

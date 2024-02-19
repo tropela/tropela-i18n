@@ -3,18 +3,18 @@
 //! author : eillarra : https://github.com/eillarra
 
 export default {
-  welcome:
-    'A Tropela.eus pots competir amb la teva família i amics en les millors curses ciclistes de la temporada.',
+  welcome: 'A Tropela.eus pots competir amb la teva família i amics en les millors curses ciclistes de la temporada.',
   menu: {
     home: 'Inici',
     races: 'Competicions',
+    seasons: 'Temporades',
     rules: 'Regles',
     premium: 'Gregaris de luxe',
     blog: 'Blog',
     store: 'Botiga',
     about: 'Associació',
     privacy: 'Política de privacitat',
-    terms: 'Termes d\'ús',
+    terms: "Termes d'ús",
     contact: 'Contacte',
     tropeltxos: 'Tropeltxos',
   },
@@ -25,11 +25,12 @@ export default {
     },
     signup: {
       title: 'Uneix-te al pelotó.',
-      link: 'No tens compte? Registra\'t',
+      link: "No tens compte? Registra't",
     },
     passwordReset: {
       title: 'Restablir contrasenya.',
-      intro: 'Has oblidat la teva contrasenya? Escriu la teva adreça de correu electrònic i t\'enviarem un enllaç per restablir-la.',
+      intro:
+        "Has oblidat la teva contrasenya? Escriu la teva adreça de correu electrònic i t'enviarem un enllaç per restablir-la.",
       link: 'Has oblidat la teva contrasenya?',
     },
   },
@@ -99,7 +100,7 @@ export default {
   },
   user: {
     menu: {
-      admin: 'Zona d\'administració',
+      admin: "Zona d'administració",
       avatar: 'El meu ciclista',
       dashboard: 'Les meves estadístiques',
       privacy: 'Privacitat',
@@ -118,7 +119,7 @@ export default {
       tropeltxos: 'Els meus tropeltxos',
     },
     change_language:
-      'Pots canviar l\'idioma de l\'aplicació aquí. El canvi s\'aplicarà immediatament i es guardarà al teu perfil, perquè es pugui recordar la propera vegada que iniciïs sessió (en qualsevol dispositiu).',
+      "Pots canviar l'idioma de l'aplicació aquí. El canvi s'aplicarà immediatament i es guardarà al teu perfil, perquè es pugui recordar la propera vegada que iniciïs sessió (en qualsevol dispositiu).",
     confirm: {
       logout: 'Estàs segur que vols tancar sessió?',
     },
@@ -138,7 +139,7 @@ export default {
         signup: 'Registrar-se',
       },
       fields: {
-        username: 'Nom d\'usuari',
+        username: "Nom d'usuari",
         password: 'Contrasenya',
         password2: 'Repeteix la contrasenya',
         email: 'Email',
@@ -179,10 +180,10 @@ export default {
   message: {
     loggedIn: 'Has iniciat sessió com {username}',
     loggedOut: 'Has tancat sessió',
-    passwordResetRequested: 'S\'ha enviat un email per restablir la contrasenya',
-    porraCreated: 'El teu equip s\'ha creat correctament',
-    porraUpdated: 'El teu equip s\'ha actualitzat',
-    userProfileUpdated: 'El teu perfil s\'ha actualitzat',
+    passwordResetRequested: "S'ha enviat un email per restablir la contrasenya",
+    porraCreated: "El teu equip s'ha creat correctament",
+    porraUpdated: "El teu equip s'ha actualitzat",
+    userProfileUpdated: "El teu perfil s'ha actualitzat",
   },
   premium: {
     banner: {

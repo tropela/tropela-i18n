@@ -8,6 +8,7 @@ export default {
   menu: {
     home: 'Home',
     races: 'Wedstrijden',
+    seasons: 'Seizoenen',
     rules: 'Reglement',
     premium: 'Meesterknechten',
     blog: 'Blog',
@@ -210,5 +211,5 @@ export default {
       updateRider:
         'Update je renner in je instellingen. Honderden verschillende combinaties om je unieke avatar te maken, duizenden als je een Meesterknecht bent!',
     },
-  }
+  },
 };

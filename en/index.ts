@@ -8,6 +8,7 @@ export default {
   menu: {
     home: 'Home',
     races: 'Races',
+    seasons: 'Seasons',
     rules: 'Rules',
     premium: 'First domestiques',
     blog: 'Blog',

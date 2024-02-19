@@ -8,6 +8,7 @@ export default {
   menu: {
     home: 'Sarrera',
     races: 'Lehiaketak',
+    seasons: 'Denboraldiak',
     rules: 'Arauak',
     premium: 'Luxuzko gregarioak',
     blog: 'Bloga',
@@ -29,7 +30,8 @@ export default {
     },
     passwordReset: {
       title: 'Pasahitza berrezarri.',
-      intro: 'Zure pasahitza ahaztu al duzu? Idatzi zure helbide elektronikoa hemen eta pasahitza berrezartzeko esteka bat bidaliko dizugu.',
+      intro:
+        'Zure pasahitza ahaztu al duzu? Idatzi zure helbide elektronikoa hemen eta pasahitza berrezartzeko esteka bat bidaliko dizugu.',
       link: 'Pasahitza ahaztu duzu?',
     },
   },
