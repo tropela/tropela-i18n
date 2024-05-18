@@ -42,6 +42,8 @@ export default {
     seconds: 'segundo | segundos',
   },
   season: {
+    calendar: 'Calendario',
+    nextRace: 'Próxima competición | Próximas competiciones',
     menu: {
       standings: 'Clasificaciones de la temporada',
     },
@@ -61,6 +63,7 @@ export default {
     },
     canceled: 'Cancelada',
     stage: 'Etapa | Etapas',
+    stage_today: 'Etapa de hoy | Etapas de hoy',
     team: 'Equipo | Equipos',
     dorsal: {
       filter: 'Filtrar por nombre, equipo o país',

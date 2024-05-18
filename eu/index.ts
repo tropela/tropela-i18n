@@ -43,6 +43,8 @@ export default {
     seconds: 'segundu | segundo',
   },
   season: {
+    calendar: 'Egutegia',
+    nextRace: 'Hurrengo lehiaketa | Hurrengo lehiaketak',
     menu: {
       standings: 'Denboraldiko sailkapenak',
     },
@@ -62,6 +64,7 @@ export default {
     },
     canceled: 'Bertan behera',
     stage: 'Etapa | Etapak',
+    stage_today: 'Gaurko etapa | Gaurko etapak',
     team: 'Taldea | Taldeak',
     dorsal: {
       filter: 'Izen, talde edo herrialdearen arabera filtratu',

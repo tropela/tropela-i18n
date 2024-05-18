@@ -42,6 +42,8 @@ export default {
     seconds: 'seconde | seconden',
   },
   season: {
+    calendar: 'Kalender',
+    nextRace: 'Volgende wedstrijd | Volgende wedstrijden',
     menu: {
       standings: 'Algemeen klassement',
     },
@@ -61,6 +63,7 @@ export default {
     },
     canceled: 'Afgelast',
     stage: 'Etappe | Etappes',
+    stage_today: 'Etape van vandaag | Etappes van vandaag',
     team: 'Team | Teams',
     dorsal: {
       filter: 'Filter op naam, team of land',

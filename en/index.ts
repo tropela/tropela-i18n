@@ -42,6 +42,8 @@ export default {
     seconds: 'second | seconds',
   },
   season: {
+    calendar: 'Calendar',
+    nextRace: 'Next race | Next races',
     menu: {
       standings: 'Season standings',
     },
@@ -61,6 +63,7 @@ export default {
     },
     canceled: 'Canceled',
     stage: 'Stage | Stages',
+    stage_today: "Today's stage | Today's stages",
     team: 'Team | Teams',
     dorsal: {
       filter: 'Filter by name, team or country',
