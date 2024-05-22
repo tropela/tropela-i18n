@@ -10,7 +10,7 @@ export default {
     races: 'Competiciones',
     seasons: 'Temporadas',
     rules: 'Reglas',
-    premium: 'Gregarios de lujo',
+    premium: 'Gregario de lujo | Gregarios de lujo',
     blog: 'Blog',
     store: 'Tienda',
     about: 'Asociación',
@@ -208,5 +208,8 @@ export default {
     receiveNotifications: 'Recibir notificaciones',
     receiveNotificationsDescription:
       'Recibir notificaciones `push` en dispositivos móviles, cuando abrimos una nueva competición.',
+  },
+  faq: {
+    title: 'Preguntas frecuentes',
   },
 };

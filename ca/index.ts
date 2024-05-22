@@ -9,7 +9,7 @@ export default {
     races: 'Competicions',
     seasons: 'Temporades',
     rules: 'Regles',
-    premium: 'Gregaris de luxe',
+    premium: 'Gregari de luxe | Gregaris de luxe',
     blog: 'Blog',
     store: 'Botiga',
     about: 'Associació',
@@ -209,4 +209,7 @@ export default {
     receiveNotificationsDescription:
       'Rebre notificacions `push` en dispositius mòbils, quan obrim una nova competició.',
   },
+  faq: {
+    title: 'Preguntes freqüents',
+  }
 };

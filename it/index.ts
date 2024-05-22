@@ -10,7 +10,7 @@ export default {
     races: 'Gare',
     seasons: 'Temporade',
     rules: 'Regole',
-    premium: 'Primi gregari',
+    premium: 'Primo domestico | Primi domestici',
     blog: 'Blog',
     store: 'Negozio',
     about: 'Chi siamo',
@@ -216,6 +216,9 @@ export default {
     receiveEmailsDescription: 'Promemoria per creare una squadra, notizie, ecc.',
     receiveNotifications: 'Ricevi notifiche push',
     receiveNotificationsDescription: 'Ricevi notifiche push sui dispositivi mobili, quando apriamo un nuovo gioco.',
+  },
+  faq: {
+    title: 'Domande frequenti',
   },
   xedap: {
     banner: {

@@ -10,7 +10,7 @@ export default {
     races: 'Races',
     seasons: 'Seasons',
     rules: 'Rules',
-    premium: 'First domestiques',
+    premium: 'First domestique | First domestiques',
     blog: 'Blog',
     store: 'Store',
     about: 'About us',
@@ -216,6 +216,9 @@ export default {
     receiveEmailsDescription: 'Reminders to make a team, news, etc.',
     receiveNotifications: 'Receive push notifications',
     receiveNotificationsDescription: 'Receive push notifications on mobile devices, when we open a new game.',
+  },
+  faq: {
+    title: 'FAQ',
   },
   xedap: {
     banner: {

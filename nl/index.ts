@@ -10,7 +10,7 @@ export default {
     races: 'Wedstrijden',
     seasons: 'Seizoenen',
     rules: 'Reglement',
-    premium: 'Meesterknechten',
+    premium: 'Meesterknecht | Meesterknechten',
     blog: 'Blog',
     store: 'Winkel',
     about: 'Over ons',
@@ -208,6 +208,9 @@ export default {
     receiveEmailsDescription: 'Herinneringen om een team te maken, nieuws, etc.',
     receiveNotifications: 'Ontvang pushmeldingen',
     receiveNotificationsDescription: 'Ontvang pushmeldingen op mobiele apparaten wanneer we een nieuw spel openen.',
+  },
+  faq: {
+    title: 'Veelgestelde vragen',
   },
   xedap: {
     banner: {

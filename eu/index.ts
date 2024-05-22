@@ -10,7 +10,7 @@ export default {
     races: 'Lehiaketak',
     seasons: 'Denboraldiak',
     rules: 'Arauak',
-    premium: 'Luxuzko gregarioak',
+    premium: 'Luxuzko gregarioa | Luxuzko gregarioak',
     blog: 'Bloga',
     store: 'Denda',
     about: 'Tropela Elkartea',
@@ -217,6 +217,9 @@ export default {
     receiveEmailsDescription: 'Kiniela egiteko oroigarriak, lehiaketan inguruko informazioa, Tropelako berriak.',
     receiveNotifications: 'Tropelako notifikazioak jaso',
     receiveNotificationsDescription: 'Mugikorretan, `push` notifikazioak jaso kinielak irekitzean.',
+  },
+  faq: {
+    title: 'Ohiko galderak',
   },
   xedap: {
     banner: {
