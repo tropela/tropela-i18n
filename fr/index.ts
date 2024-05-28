@@ -133,11 +133,13 @@ export default {
     form: {
       actions: {
         change: 'Changer',
+        create: 'Créer',
         delete: 'Supprimer',
         update: 'Mettre à jour',
         reset: 'Réinitialiser',
         save: 'Enregistrer',
         submit: 'Envoyer',
+        filter: 'Filtrer',
         typeMessage: 'Tapez votre message',
         login: 'Se connecter',
         signup: "S'inscrire",

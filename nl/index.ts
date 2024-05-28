@@ -123,12 +123,14 @@ export default {
   ui: {
     form: {
       actions: {
-        change: 'Wijzig',
-        delete: 'Verwijder',
+        change: 'Wijzigen',
+        create: 'Maken',
+        delete: 'Verwijderen',
         update: 'Bijwerken',
-        reset: 'Reset',
+        reset: 'Resetten',
         save: 'Opslaan',
-        submit: 'Verstuur',
+        submit: 'Verstuuren',
+        filter: 'Filteren',
         typeMessage: 'Typ jouw bericht',
         login: 'Aanmelden',
         signup: 'Registreren',

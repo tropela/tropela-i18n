@@ -132,11 +132,13 @@ export default {
     form: {
       actions: {
         change: 'Canviar',
+        create: 'Crear',
         delete: 'Esborrar',
         update: 'Actualitzar',
         reset: 'Reiniciar',
         save: 'Desar',
         submit: 'Enviar',
+        filter: 'Filtrar',
         typeMessage: 'Escriu el teu missatge',
         login: 'Iniciar sessió',
         signup: 'Registrar-se',
@@ -211,5 +213,5 @@ export default {
   },
   faq: {
     title: 'Preguntes freqüents',
-  }
+  },
 };

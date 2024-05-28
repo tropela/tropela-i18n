@@ -133,11 +133,13 @@ export default {
     form: {
       actions: {
         change: 'Aldatu',
+        create: 'Sortu',
         delete: 'Ezabatu',
         update: 'Eguneratu',
         reset: 'Leheneratu',
         save: 'Gorde',
         submit: 'Bidali',
+        filter: 'Filtratu',
         typeMessage: 'Zure mezua idatzi',
         login: 'Saioa hasi',
         signup: 'Kontua sortu',

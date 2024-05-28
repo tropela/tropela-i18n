@@ -132,11 +132,13 @@ export default {
     form: {
       actions: {
         change: 'Change',
+        create: 'Create',
         delete: 'Delete',
         update: 'Update',
         reset: 'Reset',
         save: 'Save',
         submit: 'Submit',
+        filter: 'Filter',
         typeMessage: 'Type your message',
         login: 'Log in',
         signup: 'Sign up',
