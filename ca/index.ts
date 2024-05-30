@@ -186,6 +186,7 @@ export default {
     loggedIn: 'Has iniciat sessió com {username}',
     loggedOut: 'Has tancat sessió',
     passwordResetRequested: "S'ha enviat un email per restablir la contrasenya",
+    porraSaveDelay: 'El teu equip es guardarà en {seconds} segons',
     porraCreated: "El teu equip s'ha creat correctament",
     porraUpdated: "El teu equip s'ha actualitzat",
     userProfileUpdated: "El teu perfil s'ha actualitzat",

@@ -187,6 +187,7 @@ export default {
     loggedIn: 'Saioa hasi duzu {username} bezala',
     loggedOut: 'Saioa amaitu duzu',
     passwordResetRequested: 'Pasahitza berrezartzeko emaila bidali da',
+    porraSaveDelay: 'Kiniela {seconds} segundo barru gordeko da',
     porraCreated: 'Kiniela behar bezala sortu da',
     porraUpdated: 'Kiniela eguneratu da',
     userProfileUpdated: 'Zure profila eguneratu da',

@@ -187,6 +187,7 @@ export default {
     loggedIn: 'Connecté en tant que {username}',
     loggedOut: 'Vous vous êtes déconnecté',
     passwordResetRequested: 'Un email de réinitialisation de mot de passe a été envoyé',
+    porraSaveDelay: 'Votre équipe sera enregistrée dans {seconds} secondes',
     porraCreated: 'Votre équipe a été créée',
     porraUpdated: 'Votre équipe a été mise à jour',
     userProfileUpdated: 'Votre profil a été mis à jour',

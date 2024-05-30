@@ -178,6 +178,7 @@ export default {
     loggedIn: 'Aangemeld als {username}',
     loggedOut: 'Je bent afgemeld',
     passwordResetRequested: 'Een e-mail voor het opnieuw instellen van het wachtwoord is verzonden',
+    porraSaveDelay: 'Je team wordt opgeslagen in {seconds} seconden',
     porraCreated: 'Je team is aangemaakt',
     porraUpdated: 'Je team is bijgewerkt',
     userProfileUpdated: 'Je profiel is bijgewerkt',

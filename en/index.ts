@@ -186,6 +186,7 @@ export default {
     loggedIn: 'Signed in as {username}',
     loggedOut: 'You have signed out',
     passwordResetRequested: 'Password reset email has been sent',
+    porraSaveDelay: 'Your team will be saved in {seconds} seconds',
     porraCreated: 'Your team has been created',
     porraUpdated: 'Your team has been updated',
     userProfileUpdated: 'Your profile has been updated',

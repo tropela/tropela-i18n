@@ -186,6 +186,7 @@ export default {
     loggedIn: 'Has iniciado sesión como {username}',
     loggedOut: 'Has cerrado sesión',
     passwordResetRequested: 'Se ha enviado un email para restablecer la contraseña',
+    porraSaveDelay: 'Tu porra se guardará en {seconds} segundos',
     porraCreated: 'Tu porra se ha creado correctamente',
     porraUpdated: 'Tu porra se ha actualizado',
     userProfileUpdated: 'Tu perfil se ha actualizado',

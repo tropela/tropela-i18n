@@ -186,6 +186,7 @@ export default {
     loggedIn: 'Accesso effettuato come {username}',
     loggedOut: "Hai effettuato l'uscita",
     passwordResetRequested: 'È stata inviata una email per il ripristino della password',
+    porraSaveDelay: 'La tua squadra verrà salvata in {seconds} secondi',
     porraCreated: 'La tua squadra è stata creata',
     porraUpdated: 'La tua squadra è stata aggiornata',
     userProfileUpdated: 'Il tuo profilo è stato aggiornato',
