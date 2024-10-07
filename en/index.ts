@@ -87,6 +87,7 @@ export default {
       showAllStages: 'Show all stages',
     },
     porrasCount: 'No teams | One team | {n} teams',
+    pointsRules: 'Scoring',
   },
   place: {
     menu: {
@@ -189,6 +190,7 @@ export default {
     porraSaveDelay: 'Your team will be saved in {seconds} seconds',
     porraCreated: 'Your team has been created',
     porraUpdated: 'Your team has been updated',
+    porraRandomSelected: 'A random team has been proposed',
     userProfileUpdated: 'Your profile has been updated',
   },
   notice: {
@@ -222,6 +224,68 @@ export default {
   },
   faq: {
     title: 'FAQ',
+    helpTropela: {
+      q: 'How can I help Tropela?',
+      description: 'Become a First Domestique to support our projects.',
+    },
+    profileAvatar: {
+      q: 'How can I change my rider?',
+      description:
+        'You can change your rider in your settings. Hundreds of different combinations to make your unique avatar!',
+    },
+    profilePremium: {
+      q: 'Why do some users have this icon?',
+      description: 'First domestiques are users who help Tropela, and enjoy exclusive advantages.',
+    },
+    raceLoginToCreatePorra: {
+      q: 'How can I participate in this competition?',
+      description: 'To participate in this competition, you must log in and make your team.',
+    },
+    raceDorsalsRetired: {
+      q: 'Where can I see the retired dorsals?',
+      description: 'You can filter the dorsals by status to see the retired ones only.',
+    },
+    racePointsAbc: {
+      q: 'What do the letters next to the riders mean?',
+      description:
+        'The letters show how many users have selected the riders. There are four letters: A (>%30), B (%30-%3), C (%3-%1) and D (<%1).',
+    },
+    racePointsStars: {
+      q: 'What do the stars next to the riders mean?',
+      description:
+        'Riders with stars are in the ideal team; that is, they are the best option to win this competition.',
+    },
+    raceStandings: {
+      q: 'How are the standings calculated?',
+      description:
+        'At the end of each stage, you will receive the points of the riders you have selected in your team. These points determine the standings.',
+    },
+    racePlaceStandings: {
+      q: 'What can I do if I do not see the local standings?',
+      description: 'To see the local standings, you must specify your city in your profile.',
+    },
+    racePorraRiskFactor: {
+      q: 'What is the meaning of the bar?',
+      description:
+        'The bar indicates the level of risk from 0 to 10: the risk the user has taken when making their team.',
+    },
+    racePorraMyRiskFactor: {
+      q: 'What is the risk level of my team?',
+      description: 'The risk you have taken when making your team, from 0 to 10:',
+    },
+    racePorraAds: {
+      q: 'Why do I see ads before saving my team?',
+      description: 'Only First domestiques can save their team without seeing ads.',
+    },
+    racePorraCreateRandom: {
+      q: 'Can you make a random team for me?',
+      description: 'Of course. Choose the letters we should consider and we will propose a team for you!',
+    },
+    tropeltxos: {
+      q: 'Where can I manage my tropeltxos?',
+      description:
+        'With tropeltxos you can see sub-classifications with your friends, family, work colleagues or neighbors.',
+    },
   },
   xedap: {
     banner: {

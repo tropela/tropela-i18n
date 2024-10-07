@@ -87,10 +87,11 @@ export default {
       showAllStages: 'Toon alle etappes',
     },
     porrasCount: 'Geen teams | Een team | {n} teams',
+    pointsRules: 'Punten',
   },
   place: {
     menu: {
-      standings: 'Klassement van mijn gemeente',
+      standings: 'Lokale klassement',
     },
   },
   user: {
@@ -181,6 +182,7 @@ export default {
     porraSaveDelay: 'Je team wordt opgeslagen in {seconds} seconden',
     porraCreated: 'Je team is aangemaakt',
     porraUpdated: 'Je team is bijgewerkt',
+    porraRandomSelected: 'Er is een willekeurig team voorgesteld',
     userProfileUpdated: 'Je profiel is bijgewerkt',
   },
   notice: {
@@ -214,6 +216,67 @@ export default {
   },
   faq: {
     title: 'Veelgestelde vragen',
+    helpTropela: {
+      q: 'Hoe kan ik Tropela helpen?',
+      description: 'Word een Meesterknecht om onze projecten te ondersteunen.',
+    },
+    profileAvatar: {
+      q: 'Hoe kan ik mijn renner veranderen?',
+      description:
+        'Je kunt je renner wijzigen in je instellingen. Honderden verschillende combinaties om je unieke avatar te maken!',
+    },
+    profilePremium: {
+      q: 'Waarom hebben sommige gebruikers dit icon?',
+      description: 'Meesterknechten zijn gebruikers die Tropela helpen en genieten van exclusieve voordelen.',
+    },
+    raceLoginToCreatePorra: {
+      q: 'Hoe kan ik deelnemen aan deze wedstrijd?',
+      description: 'Om deel te nemen aan deze wedstrijd, moet je inloggen en je team samenstellen.',
+    },
+    raceDorsalsRetired: {
+      q: 'Waar kan ik de gestopte renners zien?',
+      description: 'Je kunt de rugnummers filteren op status om alleen de gestopte te zien.',
+    },
+    racePointsAbc: {
+      q: 'Wat betekenen de letters naast de renners?',
+      description:
+        'De letters tonen hoeveel gebruikers de renners hebben geselecteerd. Er zijn vier letters: A (>%30), B (%30-%3), C (%3-%1) en D (<%1).',
+    },
+    racePointsStars: {
+      q: 'Wat betekenen de sterren naast de renners?',
+      description:
+        'Renners met sterren staan in de ideale team; dat wil zeggen, ze zijn de beste optie om deze competitie te winnen.',
+    },
+    raceStandings: {
+      q: 'Hoe worden de standen berekend?',
+      description:
+        'Aan het einde van elke etappe ontvang je de punten van de renners die je hebt geselecteerd in je team. Deze punten bepalen de standen.',
+    },
+    racePlaceStandings: {
+      q: 'Wat kan ik doen als ik de lokale klassement niet zie?',
+      description: 'Om de lokale klassement te zien, moet je je gemeente-informatie bijwerken in je profiel.',
+    },
+    racePorraRiskFactor: {
+      q: 'Wat betekent de balk?',
+      description:
+        'De balk geeft het risiconiveau aan van 0 tot 10: het risico dat de gebruiker heeft genomen bij het maken van zijn team.',
+    },
+    racePorraMyRiskFactor: {
+      q: 'Wat is het risiconiveau van mijn team?',
+      description: 'Het risico dat je hebt genomen bij het maken van je team, van 0 tot 10:',
+    },
+    racePorraAds: {
+      q: 'Waarom zie ik advertenties voordat ik mijn team opsla?',
+      description: 'Alleen Meesterknechten kunnen hun team opslaan zonder advertenties te zien.',
+    },
+    racePorraCreateRandom: {
+      q: 'Kun je een willekeurige team voor me maken?',
+      description: 'Natuurlijk. Kies de letters die we moeten overwegen en we zullen een team voorstellen!',
+    },
+    tropeltxos: {
+      q: 'Waar kan ik mijn tropeltxos beheren?',
+      description: "Met tropeltxos kun je subklassementen zien met je vrienden, familie, collega's of buren.",
+    },
   },
   xedap: {
     banner: {

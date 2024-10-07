@@ -87,6 +87,7 @@ export default {
       showAllStages: 'Mostrar totes les etapes',
     },
     porrasCount: 'No hi ha equips | Un equip | {n} equips',
+    pointsRules: 'Puntuacions',
   },
   place: {
     menu: {
@@ -189,6 +190,7 @@ export default {
     porraSaveDelay: 'El teu equip es guardarà en {seconds} segons',
     porraCreated: "El teu equip s'ha creat correctament",
     porraUpdated: "El teu equip s'ha actualitzat",
+    porraRandomSelected: "S'ha proposat un equip aleatori",
     userProfileUpdated: "El teu perfil s'ha actualitzat",
   },
   premium: {
@@ -214,5 +216,66 @@ export default {
   },
   faq: {
     title: 'Preguntes freqüents',
+    helpTropela: {
+      q: 'Com puc ajudar Tropela?',
+      description: 'Fes-te Gregari de luxe per donar suport als nostres projectes.',
+    },
+    profileAvatar: {
+      q: 'Com puc canviar el meu ciclista?',
+      description: 'Pots canviar el teu ciclista al teu perfil. Tens centenars de combinacions possibles!',
+    },
+    profilePremium: {
+      q: 'Per què alguns usuaris tenen aquest icona?',
+      description: "Els Gregaris de luxe són usuaris que ajuden a Tropela, i gaudeixen d'avantatges exclusius.",
+    },
+    raceLoginToCreatePorra: {
+      q: 'Com puc participar en aquesta competició?',
+      description:
+        "Per participar en aquesta competició, has d'iniciar sessió i fer la teva por en aquesta competició.",
+    },
+    raceDorsalsRetired: {
+      q: 'On puc veure els dorsals retirats?',
+      description: 'Pots filtrar els dorsals per estat per veure els retirats.',
+    },
+    racePointsAbc: {
+      q: 'Què volen dir les lletres que apareixen al costat dels dorsals?',
+      description:
+        'Les lletres mostren quantes persones han seleccionat els ciclistes. Hi ha quatre lletres: A (>%30), B (%30-%3), C (%3-%1) i D (<%1).',
+    },
+    racePointsStars: {
+      q: 'Què volen dir les estrelles al costat dels ciclistes?',
+      description:
+        'Els ciclistes amb estrelles estan a la por ideal; és a dir, són la millor opció per guanyar aquesta competició.',
+    },
+    raceStandings: {
+      q: 'Com es calculen les classificacions?',
+      description:
+        'Al final de cada etapa, rebràs els punts dels ciclistes que has seleccionat a la teva porra. Aquests punts són els que determinen les classificacions.',
+    },
+    racePlaceStandings: {
+      q: 'Què puc fer si no veig les classificacions locals?',
+      description: "Per veure les classificacions locals, has d'especificar la teva ciutat al teu perfil.",
+    },
+    racePorraRiskFactor: {
+      q: 'Quin és el significat de la barra?',
+      description: "La barra indica el nivell de risc de 0 a 10: el risc que l'usuari ha pres al fer la seva porra.",
+    },
+    racePorraMyRiskFactor: {
+      q: 'Quin és el nivell de risc de la meva porra?',
+      description: 'El risc que has pres al fer la teva porra, de 0 a 10:',
+    },
+    racePorraAds: {
+      q: 'Per què veig anuncis abans de desar la meva porra?',
+      description: 'Només els Gregaris de luxe poden desar la seva porra sense veure anuncis.',
+    },
+    racePorraCreateRandom: {
+      q: 'Podeu fer una porra aleatòria per mi?',
+      description: 'Per descomptat. Trieu les lletres que hem de tenir en compte i us farem una porra!',
+    },
+    tropeltxos: {
+      q: 'On puc gestionar els meus tropeltxos?',
+      description:
+        'Amb els tropeltxos podràs veure subclassificacions amb els teus amics, familiars, companys de feina o veïns.',
+    },
   },
 };

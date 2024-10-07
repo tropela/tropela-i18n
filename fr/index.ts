@@ -22,7 +22,7 @@ export default {
   auth: {
     login: {
       title: 'Bienvenue.',
-      link: 'Vous avez déjà un compte? Connectez-vous',
+      link: 'Vous avez déjà un compte ? Connectez-vous',
     },
     signup: {
       title: 'Rejoignez le peloton.',
@@ -31,8 +31,8 @@ export default {
     passwordReset: {
       title: 'Réinitialiser le mot de passe.',
       intro:
-        'Avez-vous oublié votre mot de passe? Remplissez votre adresse e-mail et nous vous enverrons un lien pour le réinitialiser.',
-      link: 'Mot de passe oublié?',
+        'Avez-vous oublié votre mot de passe ? Remplissez votre adresse e-mail et nous vous enverrons un lien pour le réinitialiser.',
+      link: 'Mot de passe oublié ?',
     },
   },
   countdown: {
@@ -88,6 +88,7 @@ export default {
       showAllStages: 'Afficher toutes les étapes',
     },
     porrasCount: 'Aucune équipe | Une équipe | {n} équipes',
+    pointsRules: 'Puntuacions',
   },
   place: {
     menu: {
@@ -190,6 +191,7 @@ export default {
     porraSaveDelay: 'Votre équipe sera enregistrée dans {seconds} secondes',
     porraCreated: 'Votre équipe a été créée',
     porraUpdated: 'Votre équipe a été mise à jour',
+    porraRandomSelected: 'Une équipe aléatoire a été proposée',
     userProfileUpdated: 'Votre profil a été mis à jour',
   },
   notice: {
@@ -202,7 +204,7 @@ export default {
   },
   premium: {
     banner: {
-      join: 'Devenez un Premier Domestique et profitez de fonctionnalités supplémentaires !',
+      join: 'Devenez un Premier domestique et profitez de fonctionnalités supplémentaires !',
       noAds: 'Sans publicité !',
     },
     action: {
@@ -224,11 +226,75 @@ export default {
   },
   faq: {
     title: 'FAQ',
+    helpTropela: {
+      q: 'Comment puis-je aider Tropela ?',
+      description: 'Devenez un Premier domestique pour soutenir nos projets.',
+    },
+    profileAvatar: {
+      q: 'Comment puis-je changer mon coureur ?',
+      description:
+        'Vous pouvez changer votre coureur dans vos paramètres. Des centaines de combinaisons différentes pour créer votre avatar unique!',
+    },
+    profilePremium: {
+      q: 'Pourquoi certains utilisateurs ont-ils cet icône ?',
+      description:
+        "Les premiers domestiques sont des utilisateurs qui aident Tropela et bénéficient d'avantages exclusifs.",
+    },
+    raceLoginToCreatePorra: {
+      q: 'Comment puis-je participer à cette compétition ?',
+      description: 'Pour participer à cette compétition, vous devez vous connecter et créer votre équipe.',
+    },
+    raceDorsalsRetired: {
+      q: 'Où puis-je voir les dossards retirés ?',
+      description: 'Vous pouvez filtrer les dossards par statut pour voir uniquement les retraités.',
+    },
+    racePointsAbc: {
+      q: 'Que signifient les lettres à côté des coureurs ?',
+      description:
+        "Les lettres montrent combien d'utilisateurs ont sélectionné les coureurs. Il y a quatre lettres : A (>%30), B (%30-%3), C (%3-%1) et D (<%1).",
+    },
+    racePointsStars: {
+      q: 'Que signifient les étoiles à côté des coureurs ?',
+      description:
+        "Les coureurs avec des étoiles sont dans l'équipe idéale ; c'est-à-dire, ils sont la meilleure option pour gagner cette compétition.",
+    },
+    raceStandings: {
+      q: 'Comment les classements sont-ils calculés ?',
+      description:
+        'Aan het einde van elke etappe ontvang je de punten van de renners die je in je team hebt geselecteerd. Deze punten bepalen de stand.',
+    },
+    racePlaceStandings: {
+      q: 'Que puis-je faire si je ne vois pas le classement local ?',
+      description: 'Pour voir le classement local, vous devez spécifier votre ville dans votre profil.',
+    },
+    racePorraRiskFactor: {
+      q: 'Que signifie la barre ?',
+      description:
+        "La barre indique le niveau de risque de 0 à 10 : le risque que l'utilisateur a pris en créant son équipe.",
+    },
+    racePorraMyRiskFactor: {
+      q: 'Quel est le niveau de risque de mon équipe ?',
+      description: 'Le risque que vous avez pris en créant votre équipe, de 0 à 10 :',
+    },
+    racePorraAds: {
+      q: "Pourquoi je vois des annonces avant d'enregistrer mon équipe ?",
+      description: "Seuls les premiers domestiques peuvent enregistrer leur équipe sans voir d'annonces.",
+    },
+    racePorraCreateRandom: {
+      q: 'Pouvez-vous me faire une équipe aléatoire ?',
+      description:
+        'Bien sûr. Choisissez les lettres que nous devrions considérer et nous vous proposerons une équipe !',
+    },
+    tropeltxos: {
+      q: 'Où puis-je gérer mes tropeltxos ?',
+      description:
+        'Avec tropeltxos, vous pouvez voir des sous-classifications avec vos amis, votre famille, vos collègues de travail ou vos voisins.',
+    },
   },
   xedap: {
     banner: {
       updateRider:
-        'Mettez à jour votre coureur dans vos paramètres. Des centaines de combinaisons différentes pour créer votre avatar unique, des milliers si vous êtes un Premier Domestique !',
+        'Mettez à jour votre coureur dans vos paramètres. Des centaines de combinaisons différentes pour créer votre avatar unique, des milliers si vous êtes un Premier domestique!',
     },
     form: {
       height: {

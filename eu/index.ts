@@ -88,6 +88,7 @@ export default {
       showAllStages: 'Etapa guztiak erakutsi',
     },
     porrasCount: 'Kinielarik ez | Kiniela bat | {n} kiniela',
+    pointsRules: 'Puntuazioa',
   },
   place: {
     menu: {
@@ -190,6 +191,7 @@ export default {
     porraSaveDelay: 'Kiniela {seconds} segundo barru gordeko da',
     porraCreated: 'Kiniela behar bezala sortu da',
     porraUpdated: 'Kiniela eguneratu da',
+    porraRandomSelected: 'Kiniela proposatu da',
     userProfileUpdated: 'Zure profila eguneratu da',
   },
   notice: {
@@ -223,6 +225,69 @@ export default {
   },
   faq: {
     title: 'Ohiko galderak',
+    helpTropela: {
+      q: 'Nola lagundu diezaioket Tropela Elkarteari?',
+      description: 'Egin zaitez Luxuzko Gregario gure proiektuak bultzatzeko.',
+    },
+    profileAvatar: {
+      q: 'Nola aldatu dezaket nire txirrindularia?',
+      description:
+        'Zure txirrindularia ezarpenetan aldatu dezakezu. Zure txirrindularia osatzeko ehundaka konbinazio dituzu!',
+    },
+    profilePremium: {
+      q: 'Zergatik dute erabiltzaile batzuk ikur hau?',
+      description:
+        'Ikur hau dutenak Luxuzko Gregarioak dira: Tropelari lagunduz abantaila bereziak jasotzen dituzten erabiltzaileak.',
+    },
+    raceLoginToCreatePorra: {
+      q: 'Nola jokatu dezaket lehiaketa honetan?',
+      description: 'Lehiaketa honetan zure kiniela egin ahal izateko saioa hasi behar duzu.',
+    },
+    raceDorsalsRetired: {
+      q: 'Non aurkitu dezaket erretiratuen zerrenda osoa?',
+      description: 'Dortsalen zerrenda filtratu dezakezu erretiratuak bakarrik ikusteko.',
+    },
+    racePointsAbc: {
+      q: 'Zer esan nahi dute dortsalen ondoko letrek?',
+      description:
+        'Partehartzaileek beraien kinieletan txirrindulari hori zenbatek aukeratu duten adierazten dute. Lau letra daude: A (>%30), B (%30-%3), C (%3-%1) eta D (<%1).',
+    },
+    racePointsStars: {
+      q: 'Zer esan nahi du txirrindulari batek izar bat badu?',
+      description:
+        'Izar bat duten txirrindulariak kiniela idealean daude; hau da, aukera onena dira lehiaketa irabazteko.',
+    },
+    raceStandings: {
+      q: 'Nola kalkulatzen dira sailkapenak?',
+      description:
+        'Etapa bakoitzaren amaieran, kinielan aukeratuta dituzun txirrindulariei dagozkien puntuak jasoko dituzu. Puntu hauek lasterketako sailkapenen araberakoak dira.',
+    },
+    racePlaceStandings: {
+      q: 'Zer egin dezaket herriko sailkapenak ikusten ez baditut?',
+      description: 'Herriko sailkapenak ikusi ahal izateko, zure herria zehaztu behar duzu zure profilean.',
+    },
+    racePorraRiskFactor: {
+      q: 'Zein da barraren esanahia?',
+      description:
+        '0tik 10era arrisku maila adirazten du barrak: bere porra egitean erabiltzaileak hartutako arriskua.',
+    },
+    racePorraMyRiskFactor: {
+      q: 'Zein da nire kinielaren arrisku maila?',
+      description: 'Porra egitean hartu duzun arrisku maila 0tik 10era adierazita:',
+    },
+    racePorraAds: {
+      q: 'Zergatik ikusten ditut iragarkiak kiniela gorde aurretik?',
+      description: 'Iragarkiak ez ikusteko aukera Luxuzko Gregarioentzat bakarrik dago eskuragarri.',
+    },
+    racePorraCreateRandom: {
+      q: 'Egin al dezakezue kiniela proposamen bat niretzat?',
+      description: 'Noski. Aukeratu kontutan izan behar ditugun letrak eta kiniela bat proposatuko dizugu!',
+    },
+    tropeltxos: {
+      q: 'Non kudeatu ditzaket tropeltxoak?',
+      description:
+        'Tropeltxoen bidez zure lagunekin, etxekoekin, zure lankideekin edota ingurukoekin azpisailkapenak ateratzeko modua izango duzu.',
+    },
   },
   xedap: {
     banner: {

@@ -87,6 +87,7 @@ export default {
       showAllStages: 'Mostrar todas las etapas',
     },
     porrasCount: 'No hay equipos | Un equipo | {n} equipos',
+    pointsRules: 'Puntuaciones',
   },
   place: {
     menu: {
@@ -189,6 +190,7 @@ export default {
     porraSaveDelay: 'Tu porra se guardará en {seconds} segundos',
     porraCreated: 'Tu porra se ha creado correctamente',
     porraUpdated: 'Tu porra se ha actualizado',
+    porraRandomSelected: 'Se ha propuesto una porra aleatoria',
     userProfileUpdated: 'Tu perfil se ha actualizado',
   },
   premium: {
@@ -214,5 +216,66 @@ export default {
   },
   faq: {
     title: 'Preguntas frecuentes',
+    helpTropela: {
+      q: '¿Cómo puedo ayudar a Tropela?',
+      description: 'Hazte Gregario de Lujo para apoyar nuestros proyectos.',
+    },
+    profileAvatar: {
+      q: '¿Cómo puedo cambiar mi ciclista?',
+      description: 'Puedes cambiar tu ciclista en tu perfil. ¡Tienes cientos de combinaciones posibles!',
+    },
+    profilePremium: {
+      q: '¿Por qué algunos usuarios tienen este icono?',
+      description: 'Los Gregarios de lujo son usuarios que ayudan a Tropela, y disfrutan de ventajas exclusivas.',
+    },
+    raceLoginToCreatePorra: {
+      q: '¿Cómo puedo participar en esta competición?',
+      description: 'Para participar en esta competición, debes iniciar sesión y hacer tu porra.',
+    },
+    raceDorsalsRetired: {
+      q: '¿Dónde puedo ver los dorsales retirados?',
+      description: 'Puedes filtrar los dorsales por estado para ver los retirados.',
+    },
+    racePointsAbc: {
+      q: '¿Qué significan las letras que aparecen junto a los dorsales?',
+      description:
+        'Las letras muestran cuántos usuarios han seleccionado a los ciclistas. Hay cuatro letras: A (>%30), B (%30-%3), C (%3-%1) y D (<%1).',
+    },
+    racePointsStars: {
+      q: '¿Qué quieren decir las estrellas junto a los ciclistas?',
+      description:
+        'Los ciclistas con estrellas están en la porra ideal; es decir, son la mejor opción para ganar esta competición.',
+    },
+    raceStandings: {
+      q: '¿Cómo se calculan las clasificaciones?',
+      description:
+        'Al final de cada etapa, recibirás los puntos de los ciclistas que has seleccionado en tu porra. Estos puntos son los que determinan las clasificaciones.',
+    },
+    racePlaceStandings: {
+      q: '¿Qué puedo hacer si no veo las clasificaciones locales?',
+      description: 'Para ver las clasificaciones locales, debes especificar tu ciudad en tu perfil.',
+    },
+    racePorraRiskFactor: {
+      q: '¿Cuál es el significado de la barra?',
+      description:
+        'La barra indica el nivel de riesgo de 0 a 10: el riesgo que el usuario ha tomado al hacer su porra.',
+    },
+    racePorraMyRiskFactor: {
+      q: '¿Cuál es el nivel de riesgo de mi porra?',
+      description: 'El riesgo que has tomado al hacer tu porra, de 0 a 10:',
+    },
+    racePorraAds: {
+      q: '¿Por qué veo anuncios antes de guardar mi porra?',
+      description: 'Sólo los Gregarios de lujo pueden guardar su porra sin ver anuncios.',
+    },
+    racePorraCreateRandom: {
+      q: '¿Podéis hacer una porra aleatoria para mí?',
+      description: 'Por supuesto. ¡Elige las letras que debemos tener en cuenta y te propondremos una porra!',
+    },
+    tropeltxos: {
+      q: '¿Dónde puedo gestionar mis tropeltxos?',
+      description:
+        'Con los tropeltxos podrás ver subclasificaciones con tus amigos, familiares, compañeros de trabajo o vecinos.',
+    },
   },
 };

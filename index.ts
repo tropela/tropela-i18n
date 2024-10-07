@@ -9,13 +9,13 @@ import it from './it';
 import nl from './nl';
 
 export default {
-  ast: ast,
-  ca: ca,
-  en: en,
-  es: es,
-  eu: eu,
-  fr: fr,
-  gl: gl,
-  it: it,
-  nl: nl,
+  ast,
+  ca,
+  en,
+  es,
+  eu,
+  fr,
+  gl,
+  it,
+  nl,
 };
