@@ -3,6 +3,7 @@
 //! author : github : https://github.com/github
 
 export default {
+  updated: 'Contenuto aggiornato. Per favore, aggiorna la pagina.',
   welcome:
     'Tropela.eus è un gioco di ciclismo fantasy dove puoi giocare con i tuoi amici e familiari, gratuitamente, nelle gare più emozionanti della stagione.',
   menu: {
@@ -136,10 +137,12 @@ export default {
         create: 'Crea',
         delete: 'Elimina',
         update: 'Aggiorna',
+        refresh: 'Aggiorna',
         reset: 'Resetta',
         save: 'Salva',
         submit: 'Invia',
         filter: 'Filtra',
+        dismiss: 'Annulla',
         typeMessage: 'Scrivi il tuo messaggio',
         login: 'Accedi',
         signup: 'Registrati',

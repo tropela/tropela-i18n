@@ -3,6 +3,7 @@
 //! author : eillarra : https://github.com/eillarra
 
 export default {
+  updated: 'Contenido actualizado. Por favor, refresca la página.',
   welcome:
     'En Tropela.eus puedes competir con tus familiares y amigos en las mejores carreras ciclistas de la temporada.',
   menu: {
@@ -136,10 +137,12 @@ export default {
         create: 'Crear',
         delete: 'Borrar',
         update: 'Actualizar',
+        refresh: 'Actualizar',
         reset: 'Resetear',
         save: 'Guardar',
         submit: 'Enviar',
         filter: 'Filtrar',
+        dismiss: 'Descartar',
         typeMessage: 'Escribe tu mensaje',
         login: 'Iniciar sesión',
         signup: 'Regístrate',

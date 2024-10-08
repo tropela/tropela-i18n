@@ -3,8 +3,9 @@
 //! author : eillarra : https://github.com/eillarra
 
 export default {
+  updated: 'Edukiak eguneratu dira. Freskatu orria mesedez.',
   welcome:
-    'Tropela.eus-en zure familia eta lagunekin lehiatu zaitezke txirrindularitza denboraldiko lasterketa onenetan.',
+    'Tropela.eus-en zure familia eta lagunekin lehiatu zaitezke denboraldiko txirrindulari lasterketa onenetan.',
   menu: {
     home: 'Sarrera',
     races: 'Lehiaketak',
@@ -137,10 +138,12 @@ export default {
         create: 'Sortu',
         delete: 'Ezabatu',
         update: 'Eguneratu',
+        refresh: 'Freskatu',
         reset: 'Leheneratu',
         save: 'Gorde',
         submit: 'Bidali',
         filter: 'Filtratu',
+        dismiss: 'Ezeztatu',
         typeMessage: 'Zure mezua idatzi',
         login: 'Saioa hasi',
         signup: 'Kontua sortu',

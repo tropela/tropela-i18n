@@ -3,6 +3,7 @@
 //! author : eillarra : https://github.com/eillarra
 
 export default {
+  updated: 'Contenu mis à jour. Veuillez rafraîchir la page.',
   welcome:
     'Tropela.eus est un jeu de cyclisme fantastique où vous pouvez jouer avec vos amis et votre famille, gratuitement, dans les courses les plus excitantes de la saison.',
   menu: {
@@ -137,10 +138,12 @@ export default {
         create: 'Créer',
         delete: 'Supprimer',
         update: 'Mettre à jour',
+        refresh: 'Rafraîchir',
         reset: 'Réinitialiser',
         save: 'Enregistrer',
         submit: 'Envoyer',
         filter: 'Filtrer',
+        dismiss: 'Rejeter',
         typeMessage: 'Tapez votre message',
         login: 'Se connecter',
         signup: "S'inscrire",

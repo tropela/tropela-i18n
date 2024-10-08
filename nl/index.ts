@@ -3,6 +3,7 @@
 //! author : eillarra : https://github.com/eillarra
 
 export default {
+  updated: 'Bijgewerkte inhoud is beschikbaar. Vernieuw de pagina a.u.b.',
   welcome:
     'Welkom bij Tropela, een gratis online wielerspel waar je kunt strijden tegen je vrienden, familie en andere wielerfans.',
   menu: {
@@ -128,10 +129,12 @@ export default {
         create: 'Maken',
         delete: 'Verwijderen',
         update: 'Bijwerken',
+        refresh: 'Vernieuwen',
         reset: 'Resetten',
         save: 'Opslaan',
         submit: 'Verstuuren',
         filter: 'Filteren',
+        dismiss: 'Sluiten',
         typeMessage: 'Typ jouw bericht',
         login: 'Aanmelden',
         signup: 'Registreren',
