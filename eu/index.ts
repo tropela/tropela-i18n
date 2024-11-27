@@ -4,8 +4,7 @@
 
 export default {
   updated: 'Edukiak eguneratu dira. Freskatu orria mesedez.',
-  welcome:
-    'Tropela.eus-en zure familia eta lagunekin lehiatu zaitezke denboraldiko txirrindulari lasterketa onenetan.',
+  welcome: 'Tropela.eus-en zure familia eta lagunekin lehiatu zaitezke denboraldiko txirrindulari lasterketa onenetan.',
   menu: {
     home: 'Sarrera',
     races: 'Lehiaketak',
@@ -44,9 +43,11 @@ export default {
     seconds: 'segundu | segundo',
   },
   season: {
+    allRaces: 'Lehiaketa guztiak',
     calendar: 'Egutegia',
     nextRace: 'Hurrengo lehiaketa | Hurrengo lehiaketak',
     menu: {
+      presentation: 'Denboraldiaren aurkezpena',
       standings: 'Denboraldiko sailkapenak',
     },
     collection: 'Bilduma | Bildumak',
@@ -57,6 +58,7 @@ export default {
     menu: {
       presentation: 'Aurkezpena',
       standings: 'Sailkapenak',
+      standings2: 'Sailkapenak (lehiaketaraino)',
       points: 'Txirrindularien puntuak',
       dorsals: 'Dortsalak',
       news: 'Berriak',
@@ -147,6 +149,7 @@ export default {
         typeMessage: 'Zure mezua idatzi',
         login: 'Saioa hasi',
         signup: 'Kontua sortu',
+        downloadIcs: 'Egutegia jeitsi',
       },
       fields: {
         username: 'Erabiltzailea',
@@ -178,6 +181,7 @@ export default {
       locale: 'Hizkuntza',
       stage: 'Etapakoa',
       finalStage: 'Bukaerakoa',
+      annual: 'Urtekoa',
     },
     nav: {
       pageFirst: 'Lehen orria',
@@ -285,6 +289,11 @@ export default {
     racePorraCreateRandom: {
       q: 'Egin al dezakezue kiniela proposamen bat niretzat?',
       description: 'Noski. Aukeratu kontutan izan behar ditugun letrak eta kiniela bat proposatuko dizugu!',
+    },
+    seasonIcs: {
+      q: 'Nola jaso dezaket denboraldiaren egutegia?',
+      description:
+        'Hemengo esteka hau erabiliz ICS fitxategi bat jeitsi dezakezu, zure agenda digitalean denboraldiko lehiaketak ikusi ahal izateko.',
     },
     tropeltxos: {
       q: 'Non kudeatu ditzaket tropeltxoak?',

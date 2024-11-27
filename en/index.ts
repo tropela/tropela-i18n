@@ -43,6 +43,7 @@ export default {
     seconds: 'second | seconds',
   },
   season: {
+    allRaces: 'All races',
     calendar: 'Calendar',
     nextRace: 'Next race | Next races',
     menu: {
@@ -56,6 +57,7 @@ export default {
     menu: {
       presentation: 'Presentation',
       standings: 'Standings',
+      standings2: 'Standings (up to this race)',
       points: 'Rider points',
       dorsals: 'Rider list',
       news: 'News',
@@ -146,6 +148,7 @@ export default {
         typeMessage: 'Type your message',
         login: 'Log in',
         signup: 'Sign up',
+        downloadIcs: 'Download calendar',
       },
       fields: {
         username: 'Username',
@@ -177,6 +180,7 @@ export default {
       locale: 'Language',
       stage: 'Stage',
       finalStage: 'Final',
+      annual: 'Annual',
     },
     nav: {
       pageFirst: 'First page',
@@ -283,6 +287,11 @@ export default {
     racePorraCreateRandom: {
       q: 'Can you make a random team for me?',
       description: 'Of course. Choose the letters we should consider and we will propose a team for you!',
+    },
+    seasonIcs: {
+      q: 'How can I download the race calendar?',
+      description:
+        'With the following link you can download a ICS file to add the season races to your digital calendar.',
     },
     tropeltxos: {
       q: 'Where can I manage my tropeltxos?',

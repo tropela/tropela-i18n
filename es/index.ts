@@ -43,6 +43,7 @@ export default {
     seconds: 'segundo | segundos',
   },
   season: {
+    allRaces: 'Todas las competiciones',
     calendar: 'Calendario',
     nextRace: 'Próxima competición | Próximas competiciones',
     menu: {
@@ -56,6 +57,7 @@ export default {
     menu: {
       presentation: 'Presentación',
       standings: 'Clasificaciones',
+      standings2: 'Clasificaciones (hasta esta carrera)',
       points: 'Puntos de los ciclistas',
       dorsals: 'Dorsales',
       news: 'Noticias',
@@ -146,6 +148,7 @@ export default {
         typeMessage: 'Escribe tu mensaje',
         login: 'Iniciar sesión',
         signup: 'Regístrate',
+        downloadIcs: 'Descargar calendario',
       },
       fields: {
         username: 'Nombre de usuario',
@@ -177,6 +180,7 @@ export default {
       locale: 'Idioma',
       stage: 'Etapa',
       finalStage: 'Final',
+      annual: 'Anual',
     },
     nav: {
       pageFirst: 'Primera página',
@@ -274,6 +278,11 @@ export default {
     racePorraCreateRandom: {
       q: '¿Podéis hacer una porra aleatoria para mí?',
       description: 'Por supuesto. ¡Elige las letras que debemos tener en cuenta y te propondremos una porra!',
+    },
+    seasonIcs: {
+      q: '¿Cómo puedo recibir el calendario de competiciones?',
+      description:
+        'Con el siguiente enlace puedes descargar un fichero ICS con el que puedes añadir las competiciones de la temporada a tu calendario digital.',
     },
     tropeltxos: {
       q: '¿Dónde puedo gestionar mis tropeltxos?',
