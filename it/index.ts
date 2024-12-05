@@ -231,6 +231,11 @@ export default {
       q: 'Come posso aiutare Tropela?',
       description: 'Diventa un Primo domestico per sostenere i nostri progetti.',
     },
+    translateTropela: {
+      q: 'Posso aiutare con le traduzioni?',
+      description:
+        'Supportiamo le lingue minoritarie e quelle parlate nei paesi con una forte cultura ciclistica. Puoi aggiungere nuove lingue o migliorare le traduzioni tramite il nostro repository pubblico.',
+    },
     profileAvatar: {
       q: 'Come posso cambiare il mio ciclista?',
       description:

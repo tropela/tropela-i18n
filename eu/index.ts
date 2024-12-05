@@ -236,6 +236,11 @@ export default {
       q: 'Nola lagundu diezaioket Tropela Elkarteari?',
       description: 'Egin zaitez Luxuzko Gregario gure proiektuak bultzatzeko.',
     },
+    translateTropela: {
+      q: 'Itzulpenekin lagundu al dezaket?',
+      description:
+        'Hizkuntza gutxituak eta txirrindularitza kultura indartsua duten herrialdeetako hizkuntzak babesten ditugu. Hizkuntza berriak gehitu edo itzulpenak hobetu ditzakezu gure biltegi publikoan.',
+    },
     profileAvatar: {
       q: 'Nola aldatu dezaket nire txirrindularia?',
       description:

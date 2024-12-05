@@ -235,6 +235,11 @@ export default {
       q: 'How can I help Tropela?',
       description: 'Become a First Domestique to support our projects.',
     },
+    translateTropela: {
+      q: 'Can I help with translations?',
+      description:
+        'We support minority languages and those spoken in countries with a strong cycling culture. You can add new languages or improve translations through our public repository.',
+    },
     profileAvatar: {
       q: 'How can I change my rider?',
       description:

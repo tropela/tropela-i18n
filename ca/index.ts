@@ -223,6 +223,11 @@ export default {
       q: 'Com puc ajudar Tropela?',
       description: 'Fes-te Gregari de luxe per donar suport als nostres projectes.',
     },
+    translateTropela: {
+      q: 'Puc ajudar amb les traduccions?',
+      description:
+        'Donem suport a les llengües minoritàries i a les parlades en països amb una forta cultura ciclista. Pots afegir nous idiomes o millorar les traduccions mitjançant el nostre repositori públic.',
+    },
     profileAvatar: {
       q: 'Com puc canviar el meu ciclista?',
       description: 'Pots canviar el teu ciclista al teu perfil. Tens centenars de combinacions possibles!',

@@ -227,6 +227,11 @@ export default {
       q: 'Hoe kan ik Tropela helpen?',
       description: 'Word een Meesterknecht om onze projecten te ondersteunen.',
     },
+    translateTropela: {
+      q: 'Kan ik helpen met vertalingen?',
+      description:
+        'We ondersteunen minderheidstalen en talen die gesproken worden in landen met een sterke fietscultuur. Je kunt nieuwe talen toevoegen of vertalingen verbeteren via onze openbare repository.',
+    },
     profileAvatar: {
       q: 'Hoe kan ik mijn renner veranderen?',
       description:
