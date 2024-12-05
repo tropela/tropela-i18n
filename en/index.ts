@@ -298,6 +298,11 @@ export default {
       description:
         'With tropeltxos you can see sub-classifications with your friends, family, work colleagues or neighbors.',
     },
+    tropeltxoPrize: {
+      q: 'Are there prizes for the tropeltxo winner?',
+      description:
+        "Tropela does not offer prizes in the tropeltxos, but don't forget that we have a store if you want to have prizes!",
+    },
   },
   xedap: {
     banner: {

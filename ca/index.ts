@@ -280,5 +280,10 @@ export default {
       description:
         'Amb els tropeltxos podràs veure subclassificacions amb els teus amics, familiars, companys de feina o veïns.',
     },
+    tropeltxoPrize: {
+      q: 'Hi ha premis per al guanyador del tropeltxo?',
+      description:
+        'Tropela no ofereix premis als tropeltxos, però no oblidis que tenim una botiga si vols repartir premis!',
+    },
   },
 };

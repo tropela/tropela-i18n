@@ -43,10 +43,11 @@ export default {
     seconds: 'seconde | seconden',
   },
   season: {
+    allRaces: 'Alle wedstrijden',
     calendar: 'Kalender',
     nextRace: 'Volgende wedstrijd | Volgende wedstrijden',
     menu: {
-      standings: 'Algemeen klassement',
+      standings: 'Seizoensklassement',
     },
     collection: 'Collectie | Collecties',
     race: 'Wedstrijd | Wedstrijden',
@@ -56,6 +57,7 @@ export default {
     menu: {
       presentation: 'Overzicht',
       standings: 'Klassement',
+      standings2: 'Klassement (tot deze wedstrijd)',
       points: 'Punten renners',
       dorsals: 'Rennerslijst',
       news: 'Nieuws',
@@ -138,6 +140,7 @@ export default {
         typeMessage: 'Typ jouw bericht',
         login: 'Aanmelden',
         signup: 'Registreren',
+        downloadIcs: 'Kalender downloaden',
       },
       fields: {
         username: 'Gebruikersnaam',
@@ -169,6 +172,7 @@ export default {
       locale: 'Taal',
       stage: 'Etappe',
       finalStage: 'Einde',
+      annual: 'Jaar',
     },
     nav: {
       pageFirst: 'Eerste pagina',
@@ -276,9 +280,19 @@ export default {
       q: 'Kun je een willekeurige team voor me maken?',
       description: 'Natuurlijk. Kies de letters die we moeten overwegen en we zullen een team voorstellen!',
     },
+    seasonIcs: {
+      q: 'Hoe kan ik de kalender downloaden?',
+      description:
+        'Met de volgende link kun je een ICS-bestand downloaden om de seizoenswedstrijden aan je digitale kalender toe te voegen.',
+    },
     tropeltxos: {
       q: 'Waar kan ik mijn tropeltxos beheren?',
       description: "Met tropeltxos kun je subklassementen zien met je vrienden, familie, collega's of buren.",
+    },
+    tropeltxoPrize: {
+      q: 'Zijn er prijzen voor de winnaar van de tropeltxo?',
+      description:
+        'Tropela biedt geen prijzen aan voor tropeltxos, maar vergeet niet dat we een winkel hebben als je prijzen wilt uitdelen!',
     },
   },
   xedap: {

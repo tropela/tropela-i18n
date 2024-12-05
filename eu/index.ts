@@ -300,6 +300,11 @@ export default {
       description:
         'Tropeltxoen bidez zure lagunekin, etxekoekin, zure lankideekin edota ingurukoekin azpisailkapenak ateratzeko modua izango duzu.',
     },
+    tropeltxoPrize: {
+      q: 'Ba al daude sariak tropeltxoko irabazlearentzat?',
+      description:
+        'Tropelak ez ditu sariak ematen tropeltxoetan, baina ez ahaztu denda bat dugula sariren bat banatu nahi baduzue!',
+    },
   },
   xedap: {
     banner: {

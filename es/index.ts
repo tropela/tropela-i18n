@@ -289,5 +289,10 @@ export default {
       description:
         'Con los tropeltxos podrás ver subclasificaciones con tus amigos, familiares, compañeros de trabajo o vecinos.',
     },
+    tropeltxoPrize: {
+      q: '¿Hay premios para el ganador del tropeltxo?',
+      description:
+        'Tropela no ofrece premios en los tropeltxos, pero no olvides que tenemos una tienda si quieres repartir premios!',
+    },
   },
 };
