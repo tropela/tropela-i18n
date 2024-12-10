@@ -3,7 +3,7 @@
 //! author : eillarra : https://github.com/eillarra
 
 export default {
-  updated: 'Edukiak eguneratu dira. Freskatu orria mesedez.',
+  updated: 'Aplikazioa eguneratu dugu. Freskatu azken bertsioa erabiltzeko.',
   welcome: 'Tropela.eus-en zure familia eta lagunekin lehiatu zaitezke denboraldiko txirrindulari lasterketa onenetan.',
   menu: {
     home: 'Sarrera',
@@ -34,6 +34,9 @@ export default {
         'Zure pasahitza ahaztu al duzu? Idatzi zure helbide elektronikoa hemen eta pasahitza berrezartzeko esteka bat bidaliko dizugu.',
       link: 'Pasahitza ahaztu duzu?',
     },
+    passwordResetConfirm: {
+      intro: 'Idatzi hemen zure pasahitz berria; Tropelan sartzeko erabili ahalko duzu.',
+    },
   },
   countdown: {
     months: 'hilabete | hilabete',
@@ -53,6 +56,7 @@ export default {
     collection: 'Bilduma | Bildumak',
     race: 'Lehiaketa | Lehiaketak',
     racesCount: 'Lehiaketarik ez | Lehiaketa bat | {n} lehiaketa',
+    performance: 'Errendimendua',
   },
   race: {
     menu: {
@@ -179,6 +183,7 @@ export default {
       all: 'Guztia | Guztiak',
       aggregate: 'Metatua',
       locale: 'Hizkuntza',
+      race: 'Lehiaketakoa',
       stage: 'Etapakoa',
       finalStage: 'Bukaerakoa',
       annual: 'Urtekoa',
@@ -240,6 +245,11 @@ export default {
       q: 'Itzulpenekin lagundu al dezaket?',
       description:
         'Hizkuntza gutxituak eta txirrindularitza kultura indartsua duten herrialdeetako hizkuntzak babesten ditugu. Hizkuntza berriak gehitu edo itzulpenak hobetu ditzakezu gure biltegi publikoan.',
+    },
+    dashboardPercentage: {
+      q: 'Zer esan nahi dute zure Tropela-ko ehunekoek?',
+      description:
+        'Zure Tropela-n lehiaketa bakoitzeko ehunekoak zure errendimendua adierazten du. Ehunekoa zure atzetik geratu diren erabiltzaileen ehunekoa da.',
     },
     profileAvatar: {
       q: 'Nola aldatu dezaket nire txirrindularia?',

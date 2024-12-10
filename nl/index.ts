@@ -3,7 +3,7 @@
 //! author : eillarra : https://github.com/eillarra
 
 export default {
-  updated: 'Bijgewerkte inhoud is beschikbaar. Vernieuw de pagina a.u.b.',
+  updated: 'We hebben de app bijgewerkt. Ververs om de nieuwste versie te gebruiken.',
   welcome:
     'Welkom bij Tropela, een gratis online wielerspel waar je kunt strijden tegen je vrienden, familie en andere wielerfans.',
   menu: {
@@ -34,6 +34,9 @@ export default {
       intro: 'Ben je je wachtwoord vergeten? Vul je e-mailadres in en we sturen je een link om het te herstellen.',
       link: 'Wachtwoord vergeten?',
     },
+    passwordResetConfirm: {
+      intro: 'Voer hier je nieuwe wachtwoord in; je kunt het gebruiken om toegang te krijgen tot Tropela.',
+    },
   },
   countdown: {
     months: 'maand | maanden',
@@ -52,6 +55,7 @@ export default {
     collection: 'Collectie | Collecties',
     race: 'Wedstrijd | Wedstrijden',
     racesCount: 'Geen wedstrijden | Een wedstrijd | {n} wedstrijden',
+    performance: 'Prestatie',
   },
   race: {
     menu: {
@@ -131,7 +135,7 @@ export default {
         create: 'Maken',
         delete: 'Verwijderen',
         update: 'Bijwerken',
-        refresh: 'Vernieuwen',
+        refresh: 'Verversen',
         reset: 'Resetten',
         save: 'Opslaan',
         submit: 'Verstuuren',
@@ -170,6 +174,7 @@ export default {
       all: 'Alle | Alles',
       aggregate: 'Algemeen',
       locale: 'Taal',
+      race: 'Wedstrijd',
       stage: 'Etappe',
       finalStage: 'Einde',
       annual: 'Jaar',
@@ -231,6 +236,11 @@ export default {
       q: 'Kan ik helpen met vertalingen?',
       description:
         'We ondersteunen minderheidstalen en talen die gesproken worden in landen met een sterke fietscultuur. Je kunt nieuwe talen toevoegen of vertalingen verbeteren via onze openbare repository.',
+    },
+    dashboardPercentage: {
+      q: 'Wat betekenen de percentages in je dashboard?',
+      description:
+        'In je Tropela geven de percentages je prestaties in elke competitie aan. Het percentage is het percentage van de gebruikers dat achter je is geëindigd.',
     },
     profileAvatar: {
       q: 'Hoe kan ik mijn renner veranderen?',

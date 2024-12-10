@@ -3,7 +3,7 @@
 //! author : eillarra : https://github.com/eillarra
 
 export default {
-  updated: 'Contingut actualitzat. Si us plau, refresca la pàgina.',
+  updated: "Hem actualitzat l'aplicació. Refresca per utilitzar l'última versió.",
   welcome: 'A Tropela.eus pots competir amb la teva família i amics en les millors curses ciclistes de la temporada.',
   menu: {
     home: 'Inici',
@@ -33,6 +33,9 @@ export default {
       intro:
         "Has oblidat la teva contrasenya? Escriu la teva adreça de correu electrònic i t'enviarem un enllaç per restablir-la.",
       link: 'Has oblidat la teva contrasenya?',
+    },
+    passwordResetConfirm: {
+      intro: 'Escriu aquí la teva nova contrasenya; podràs utilitzar-la per accedir a Tropela.',
     },
   },
   countdown: {

@@ -3,7 +3,7 @@
 //! author : eillarra : https://github.com/eillarra
 
 export default {
-  updated: 'Updated content is available. Please refresh the page.',
+  updated: 'We have updated the app. Please refresh to use the latest version.',
   welcome:
     'Tropela.eus is a fantasy cycling game where you can play with your friends and family, for free, in the most exciting races of the season.',
   menu: {
@@ -34,6 +34,9 @@ export default {
       intro: 'Did you forget your password? Fill in your email address and we will send you a link to reset it.',
       link: 'Forgot your password?',
     },
+    passwordResetConfirm: {
+      intro: 'Enter your new password here; you can use it to access Tropela.',
+    },
   },
   countdown: {
     months: 'month | months',
@@ -52,6 +55,7 @@ export default {
     collection: 'Collection | Collections',
     race: 'Race | Races',
     racesCount: 'No races | One race | {n} races',
+    performance: 'Performance',
   },
   race: {
     menu: {
@@ -178,6 +182,7 @@ export default {
       all: 'All | All',
       aggregate: 'Aggregate',
       locale: 'Language',
+      race: 'Race',
       stage: 'Stage',
       finalStage: 'Final',
       annual: 'Annual',
@@ -239,6 +244,11 @@ export default {
       q: 'Can I help with translations?',
       description:
         'We support minority languages and those spoken in countries with a strong cycling culture. You can add new languages or improve translations through our public repository.',
+    },
+    dashboardPercentage: {
+      q: 'What do the percentages mean in your dashboard?',
+      description:
+        'In your Tropela, the percentages indicate your performance in each competition. The percentage is the percentage of users who have ended up behind you.',
     },
     profileAvatar: {
       q: 'How can I change my rider?',

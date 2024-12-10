@@ -3,7 +3,7 @@
 //! author : github : https://github.com/github
 
 export default {
-  updated: 'Contenuto aggiornato. Per favore, aggiorna la pagina.',
+  updated: "Abbiamo aggiornato l'app. Ricarica per utilizzare l'ultima versione.",
   welcome:
     'Tropela.eus è un gioco di ciclismo fantasy dove puoi giocare con i tuoi amici e familiari, gratuitamente, nelle gare più emozionanti della stagione.',
   menu: {
@@ -34,6 +34,9 @@ export default {
       intro: 'Hai dimenticato la password? Inserisci il tuo indirizzo email e ti invieremo un link per reimpostarla.',
       link: 'Hai dimenticato la password?',
     },
+    passwordResetConfirm: {
+      intro: 'Inserisci la tua nuova password qui; potrai usarla per accedere a Tropela.',
+    },
   },
   countdown: {
     months: 'mese | mesi',
@@ -51,6 +54,7 @@ export default {
     collection: 'Collezione | Collezioni',
     race: 'Gara | Gare',
     racesCount: 'Nessuna gara | Una gara | {n} gare',
+    performance: 'Prestazioni',
   },
   race: {
     menu: {
@@ -175,8 +179,10 @@ export default {
       all: 'Tutto | Tutti',
       aggregate: 'Aggregato',
       locale: 'Lingua',
+      race: 'Gara',
       stage: 'Tappa',
       finalStage: 'Finale',
+      annual: 'Annuale',
     },
     nav: {
       pageFirst: 'Prima pagina',
@@ -235,6 +241,11 @@ export default {
       q: 'Posso aiutare con le traduzioni?',
       description:
         'Supportiamo le lingue minoritarie e quelle parlate nei paesi con una forte cultura ciclistica. Puoi aggiungere nuove lingue o migliorare le traduzioni tramite il nostro repository pubblico.',
+    },
+    dashboardPercentage: {
+      q: 'Cosa significano le percentuali nel tuo dashboard?',
+      description:
+        'Nel tuo Tropela, le percentuali indicano le tue prestazioni in ogni competizione. La percentuale è la percentuale di utenti che sono finiti dietro di te.',
     },
     profileAvatar: {
       q: 'Come posso cambiare il mio ciclista?',

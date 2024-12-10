@@ -3,7 +3,7 @@
 //! author : eillarra : https://github.com/eillarra
 
 export default {
-  updated: 'Contenido actualizado. Por favor, refresca la página.',
+  updated: 'Hemos actualizado la aplicación. Refresca para usar la última versión.',
   welcome:
     'En Tropela.eus puedes competir con tus familiares y amigos en las mejores carreras ciclistas de la temporada.',
   menu: {
@@ -34,6 +34,9 @@ export default {
       intro: '¿Has olvidado tu contraseña? Escribe tu dirección de email y te enviaremos un enlace para restablecerla.',
       link: '¿Has olvidado tu contraseña?',
     },
+    passwordResetConfirm: {
+      intro: 'Escribe aquí tu nueva contraseña; podrás usarla para acceder a Tropela.',
+    },
   },
   countdown: {
     months: 'mes | meses',
@@ -52,6 +55,7 @@ export default {
     collection: 'Colección | Colecciones',
     race: 'Competición | Competiciones',
     racesCount: 'No hay competiciones | Una competición | {n} competiciones',
+    performance: 'Rendimiento',
   },
   race: {
     menu: {
@@ -178,6 +182,7 @@ export default {
       all: 'Todo | Todos',
       aggregate: 'General',
       locale: 'Idioma',
+      race: 'Competición',
       stage: 'Etapa',
       finalStage: 'Final',
       annual: 'Anual',
@@ -231,6 +236,11 @@ export default {
       q: '¿Puedo ayudar con las traducciones?',
       description:
         'Apoyamos las lenguas minoritarias y aquellas habladas en países con una fuerte cultura ciclista. Puedes añadir nuevos idiomas o mejorar las traducciones a través de nuestro repositorio público.',
+    },
+    dashboardPercentage: {
+      q: '¿Qué significan los porcentajes en tu dashboard?',
+      description:
+        'En tu Tropela, los porcentajes indican tu rendimiento en cada competición. El porcentaje es el porcentaje de usuarios que han terminado por detrás de ti.',
     },
     profileAvatar: {
       q: '¿Cómo puedo cambiar mi ciclista?',

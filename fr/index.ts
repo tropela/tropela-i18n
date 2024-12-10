@@ -3,7 +3,7 @@
 //! author : eillarra : https://github.com/eillarra
 
 export default {
-  updated: 'Contenu mis à jour. Veuillez rafraîchir la page.',
+  updated: "Nous avons mis à jour l'application. Veuillez actualiser pour utiliser la dernière version.",
   welcome:
     'Tropela.eus est un jeu de cyclisme fantastique où vous pouvez jouer avec vos amis et votre famille, gratuitement, dans les courses les plus excitantes de la saison.',
   menu: {
@@ -35,6 +35,9 @@ export default {
         'Avez-vous oublié votre mot de passe ? Remplissez votre adresse e-mail et nous vous enverrons un lien pour le réinitialiser.',
       link: 'Mot de passe oublié ?',
     },
+    passwordResetConfirm: {
+      intro: 'Entrez votre nouveau mot de passe ici ; vous pourrez l’utiliser pour accéder à Tropela.',
+    },
   },
   countdown: {
     months: 'mois | mois',
@@ -52,6 +55,7 @@ export default {
     collection: 'Collection | Collections',
     race: 'Course | Courses',
     racesCount: 'Aucune course | Une course | {n} courses',
+    performance: 'Performance',
   },
   race: {
     menu: {
@@ -176,8 +180,10 @@ export default {
       all: 'Tous | Toutes',
       aggregate: 'Agrégat',
       locale: 'Langue',
+      race: 'Course',
       stage: 'Étape',
       finalStage: 'Finale',
+      annual: 'Annuel',
     },
     nav: {
       pageFirst: 'Première page',
@@ -237,6 +243,11 @@ export default {
       q: 'Puis-je aider avec les traductions ?',
       description:
         'Nous soutenons les langues minoritaires et celles parlées dans les pays ayant une forte culture cycliste. Vous pouvez ajouter de nouvelles langues ou améliorer les traductions via notre dépôt public.',
+    },
+    dashboardPercentage: {
+      q: 'Que signifient les pourcentages dans votre tableau de bord ?',
+      description:
+        'Dans votre Tropela, les pourcentages indiquent votre performance dans chaque compétition. Le pourcentage est le pourcentage d’utilisateurs qui se sont retrouvés derrière vous.',
     },
     profileAvatar: {
       q: 'Comment puis-je changer mon coureur ?',
