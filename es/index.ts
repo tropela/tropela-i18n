@@ -203,6 +203,7 @@ export default {
     porraCreated: 'Tu porra se ha creado correctamente',
     porraUpdated: 'Tu porra se ha actualizado',
     porraRandomSelected: 'Se ha propuesto una porra aleatoria',
+    searchDelay: 'La búsqueda se realizará en {seconds} segundos',
     userProfileUpdated: 'Tu perfil se ha actualizado',
   },
   premium: {

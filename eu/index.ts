@@ -204,6 +204,7 @@ export default {
     porraCreated: 'Kiniela behar bezala sortu da',
     porraUpdated: 'Kiniela eguneratu da',
     porraRandomSelected: 'Kiniela proposatu da',
+    searchDelay: 'Bilaketa {seconds} segundo barru burutuko da',
     userProfileUpdated: 'Zure profila eguneratu da',
   },
   notice: {

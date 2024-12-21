@@ -195,6 +195,7 @@ export default {
     porraCreated: 'Je team is aangemaakt',
     porraUpdated: 'Je team is bijgewerkt',
     porraRandomSelected: 'Er is een willekeurig team voorgesteld',
+    searchDelay: 'Zoeken start over {seconds} seconden',
     userProfileUpdated: 'Je profiel is bijgewerkt',
   },
   notice: {

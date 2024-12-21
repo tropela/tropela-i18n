@@ -201,6 +201,7 @@ export default {
     porraCreated: 'Votre équipe a été créée',
     porraUpdated: 'Votre équipe a été mise à jour',
     porraRandomSelected: 'Une équipe aléatoire a été proposée',
+    searchDelay: 'La recherche commencera dans {seconds} secondes',
     userProfileUpdated: 'Votre profil a été mis à jour',
   },
   notice: {

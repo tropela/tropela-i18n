@@ -197,6 +197,7 @@ export default {
     porraCreated: "El teu equip s'ha creat correctament",
     porraUpdated: "El teu equip s'ha actualitzat",
     porraRandomSelected: "S'ha proposat un equip aleatori",
+    searchDelay: 'La cerca es realitzarà en {seconds} segons',
     userProfileUpdated: "El teu perfil s'ha actualitzat",
   },
   premium: {

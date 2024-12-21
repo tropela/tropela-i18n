@@ -200,6 +200,7 @@ export default {
     porraCreated: 'La tua squadra è stata creata',
     porraUpdated: 'La tua squadra è stata aggiornata',
     porraRandomSelected: 'È stata proposta una squadra casuale',
+    searchDelay: 'La ricerca verrà avviata in {seconds} secondi',
     userProfileUpdated: 'Il tuo profilo è stato aggiornato',
   },
   notice: {

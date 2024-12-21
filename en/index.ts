@@ -203,6 +203,7 @@ export default {
     porraCreated: 'Your team has been created',
     porraUpdated: 'Your team has been updated',
     porraRandomSelected: 'A random team has been proposed',
+    searchDelay: 'Search will start in {seconds} seconds',
     userProfileUpdated: 'Your profile has been updated',
   },
   notice: {
