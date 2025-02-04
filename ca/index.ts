@@ -190,6 +190,7 @@ export default {
     or: 'o',
   },
   message: {
+    invalidCredentials: 'El nom d’usuari i/o la contrasenya que has especificat no són correctes.',
     loggedIn: 'Has iniciat sessió com {username}',
     loggedOut: 'Has tancat sessió',
     passwordResetRequested: "S'ha enviat un email per restablir la contrasenya",

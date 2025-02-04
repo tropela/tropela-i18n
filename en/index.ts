@@ -196,6 +196,7 @@ export default {
     or: 'or',
   },
   message: {
+    invalidCredentials: 'The username and/or password you specified are not correct.',
     loggedIn: 'Signed in as {username}',
     loggedOut: 'You have signed out',
     passwordResetRequested: 'Password reset email has been sent',
@@ -213,6 +214,9 @@ export default {
     porraClosed: 'You cannot create a team for this race.',
     porraCreateLogIn: 'You need to sign in to make a team.',
     xedapAds: 'Do you want to see your ads here? Contact us!',
+  },
+  notification: {
+    makePorra: "Don't forget to make your team for {race}!",
   },
   premium: {
     banner: {

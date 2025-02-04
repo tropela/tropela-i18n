@@ -193,6 +193,7 @@ export default {
     or: 'o',
   },
   message: {
+    invalidCredentials: 'Il nome utente e/o la password specificati non sono corretti.',
     loggedIn: 'Accesso effettuato come {username}',
     loggedOut: "Hai effettuato l'uscita",
     passwordResetRequested: 'È stata inviata una email per il ripristino della password',
@@ -210,6 +211,9 @@ export default {
     porraClosed: 'Non puoi creare una squadra per questa gara.',
     porraCreateLogIn: 'Devi accedere per creare una squadra.',
     xedapAds: 'Vuoi vedere qui i tuoi annunci? Contattaci!',
+  },
+  notification: {
+    makePorra: 'Non dimenticare di creare la tua squadra per {race}!',
   },
   premium: {
     banner: {

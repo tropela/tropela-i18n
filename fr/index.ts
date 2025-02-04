@@ -194,6 +194,7 @@ export default {
     or: 'ou',
   },
   message: {
+    invalidCredentials: 'Le nom d’utilisateur et/ou le mot de passe que vous avez spécifié ne sont pas corrects.',
     loggedIn: 'Connecté en tant que {username}',
     loggedOut: 'Vous vous êtes déconnecté',
     passwordResetRequested: 'Un email de réinitialisation de mot de passe a été envoyé',
@@ -211,6 +212,9 @@ export default {
     porraClosed: "Vous ne pouvez pas créer d'équipe pour cette course.",
     porraCreateLogIn: 'Vous devez vous connecter pour créer une équipe.',
     xedapAds: 'Voulez-vous voir vos annonces ici ? Contactez-nous !',
+  },
+  notification: {
+    makePorra: "N'oubliez pas de créer votre équipe pour {race} !",
   },
   premium: {
     banner: {

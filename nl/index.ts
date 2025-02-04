@@ -188,6 +188,7 @@ export default {
     or: 'of',
   },
   message: {
+    invalidCredentials: 'De gebruikersnaam en/of het wachtwoord dat je hebt opgegeven is niet correct.',
     loggedIn: 'Aangemeld als {username}',
     loggedOut: 'Je bent afgemeld',
     passwordResetRequested: 'Een e-mail voor het opnieuw instellen van het wachtwoord is verzonden',
@@ -205,6 +206,9 @@ export default {
     porraClosed: 'Je kunt geen team maken voor deze race.',
     porraCreateLogIn: 'Je moet je aanmelden om een team te maken.',
     xedapAds: 'Wil je hier jouw advertenties zien? Neem contact met ons op!',
+  },
+  notification: {
+    makePorra: 'Vergeet niet om je team te maken voor {race}!',
   },
   premium: {
     banner: {

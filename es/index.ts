@@ -196,6 +196,7 @@ export default {
     or: 'o',
   },
   message: {
+    invalidCredentials: 'El nombre de usuario y/o la contraseña que has especificado no son correctos.',
     loggedIn: 'Has iniciado sesión como {username}',
     loggedOut: 'Has cerrado sesión',
     passwordResetRequested: 'Se ha enviado un email para restablecer la contraseña',
@@ -205,6 +206,9 @@ export default {
     porraRandomSelected: 'Se ha propuesto una porra aleatoria',
     searchDelay: 'La búsqueda se realizará en {seconds} segundos',
     userProfileUpdated: 'Tu perfil se ha actualizado',
+  },
+  notification: {
+    makePorra: '¡No olvides hacer tu equipo para {race}!',
   },
   premium: {
     banner: {

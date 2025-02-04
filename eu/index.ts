@@ -197,6 +197,7 @@ export default {
     or: 'edo',
   },
   message: {
+    invalidCredentials: 'Zehaztutako erabiltzailea eta/edo pasahitza ez dira zuzenak.',
     loggedIn: 'Saioa hasi duzu {username} bezala',
     loggedOut: 'Saioa amaitu duzu',
     passwordResetRequested: 'Pasahitza berrezartzeko emaila bidali da',
@@ -214,6 +215,9 @@ export default {
     porraClosed: 'Ezin duzu kinielarik egin lehiaketa honetan.',
     porraCreateLogIn: 'Kiniela egin ahal izateko saioa hasi behar duzu.',
     xedapAds: 'Zure iragarkia hemen ikusi nahi duzu? Jarri harremanetan gurekin!',
+  },
+  notification: {
+    makePorra: 'Ez ahaztu {race} lehiaketarako zure kiniela egitea!',
   },
   premium: {
     banner: {
@@ -346,10 +350,11 @@ export default {
         },
       },
       head: {
-        label: 'Ilea',
+        label: 'Buruan',
         options: {
-          short: 'Motza',
-          long: 'Luzea',
+          helmet: 'Kaskoa',
+          short: 'Ile motza',
+          long: 'Ile luzea',
           afro: 'Afro',
           punk: 'Punk',
           viet: 'Vietnamarra',
