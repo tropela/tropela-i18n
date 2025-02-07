@@ -208,7 +208,7 @@ export default {
     userProfileUpdated: 'El to perfil actualizóse',
   },
   notification: {
-    makePorra: '¡Nun escaezas facer el to equipu pa {race}!',
+    porraPending: '¡Nun escaezas facer el to equipu pa {race}!',
   },
   premium: {
     banner: {

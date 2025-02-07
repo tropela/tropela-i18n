@@ -216,7 +216,14 @@ export default {
     xedapAds: 'Do you want to see your ads here? Contact us!',
   },
   notification: {
-    makePorra: "Don't forget to make your team for {race}!",
+    dorsalsNotParticipating:
+      'Some riders in your team (#{porra_id}) will not participate in the {race_name}. You should check your rider selection!',
+    emptyTropeltxo:
+      'You are all alone in one of your tropeltxos for the {race_name}... tell your friends! Tropela is more fun with friends and family.|You are all alone in {count} of your tropeltxos for the {race_name}... tell your friends! Tropela is more fun with friends and family.',
+    porraPending: "Don't forget to make your team for {race_name}!",
+    tropeltxoMembershipPending:
+      'There is a pending request in the "{tropeltxo_name}" tropeltxo.|There are {count} pending requests in the "{tropeltxo_name}" tropeltxo.',
+    tropeltxoMessage: 'There are new messages in the "{tropeltxo_name}" tropeltxo chat.',
   },
   premium: {
     banner: {

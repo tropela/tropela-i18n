@@ -208,7 +208,14 @@ export default {
     userProfileUpdated: 'Tu perfil se ha actualizado',
   },
   notification: {
-    makePorra: '¡No olvides hacer tu equipo para {race}!',
+    dorsalsNotParticipating:
+      'Algunos ciclistas de tu equipo (#{porra_id}) no participarán en {race_name}. ¡Deberías revisar tu selección de ciclistas!',
+    emptyTropeltxo:
+      'Estás solo en uno de tus tropeltxos para {race_name}... ¡díselo a tus amigos! Tropela es más divertido con amigos y familia.|Estás solo en {count} de tus tropeltxos para {race_name}... ¡díselo a tus amigos! Tropela es más divertido con amigos y familia.',
+    porraPending: '¡No olvides hacer tu equipo para {race_name}!',
+    tropeltxoMembershipPending:
+      'Hay una solicitud pendiente en el tropeltxo "{tropeltxo_name}".|Hay {count} solicitudes pendientes en el tropeltxo "{tropeltxo_name}".',
+    tropeltxoMessage: 'Hay nuevos mensajes en el chat del tropeltxo "{tropeltxo_name}".',
   },
   premium: {
     banner: {

@@ -213,7 +213,14 @@ export default {
     xedapAds: 'Vuoi vedere qui i tuoi annunci? Contattaci!',
   },
   notification: {
-    makePorra: 'Non dimenticare di creare la tua squadra per {race}!',
+    dorsalsNotParticipating:
+      'Alcuni corridori della tua squadra (#{porra_id}) non parteciperanno a {race_name}. Dovresti controllare la tua selezione di corridori!',
+    emptyTropeltxo:
+      'Sei tutto solo in uno dei tu tropeltxos per {race_name}... parlane con i tuoi amici! Tropela è più divertente con amici e familiari.|Sei tutto solo in {count} dei tuoi tropeltxos per {race_name}... parlane con i tuoi amici! Tropela è più divertente con amici e familiari.',
+    porraPending: 'Non dimenticare di creare la tua squadra per {race_name}!',
+    tropeltxoMembershipPending:
+      'C\'è una richiesta in sospeso nel tropeltxo "{tropeltxo_name}".|Ci sono {count} richieste in sospeso nel tropeltxo "{tropeltxo_name}".',
+    tropeltxoMessage: 'Ci sono nuovi messaggi nella chat del tropeltxo "{tropeltxo_name}".',
   },
   premium: {
     banner: {

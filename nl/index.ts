@@ -208,7 +208,14 @@ export default {
     xedapAds: 'Wil je hier jouw advertenties zien? Neem contact met ons op!',
   },
   notification: {
-    makePorra: 'Vergeet niet om je team te maken voor {race}!',
+    dorsalsNotParticipating:
+      'Sommige renners in je team (#{porra_id}) zullen niet deelnemen in {race_name}. Je moet je rennerselectie controleren!',
+    emptyTropeltxo:
+      'Je bent helemaal alleen in een van je tropeltxos voor {race_name}... vertel het aan je vrienden! Tropela is leuker met vrienden en familie.|Je bent helemaal alleen in {count} van je tropeltxos voor {race_name}... vertel het aan je vrienden! Tropela is leuker met vrienden en familie.',
+    porraPending: 'Vergeet niet om je team te maken voor {race_name}!',
+    tropeltxoMembershipPending:
+      'Er is een verzoek in behandeling in de tropeltxo "{tropeltxo_name}".|Er zijn {count} verzoeken in behandeling in de tropeltxo "{tropeltxo_name}".',
+    tropeltxoMessage: 'Er zijn nieuwe berichten in de tropeltxo-chat "{tropeltxo_name}".',
   },
   premium: {
     banner: {

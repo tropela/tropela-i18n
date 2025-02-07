@@ -208,7 +208,7 @@ export default {
     userProfileUpdated: 'O teu perfil actualizouse',
   },
   notification: {
-    makePorra: 'Non esquezas facer o teu equipo para {race}!',
+    porraPending: 'Non esquezas facer o teu equipo para {race}!',
   },
   premium: {
     banner: {

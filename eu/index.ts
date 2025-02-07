@@ -217,7 +217,14 @@ export default {
     xedapAds: 'Zure iragarkia hemen ikusi nahi duzu? Jarri harremanetan gurekin!',
   },
   notification: {
-    makePorra: 'Ez ahaztu {race} lehiaketarako zure kiniela egitea!',
+    dorsalsNotParticipating:
+      'Zure kinielako (#{porra_id}) txirrindulariren bat ez da {race_name}-n izango. Eguneratu ezazu zure kiniela lasterketa hasi baino lehen!',
+    emptyTropeltxo:
+      'Bakar bakarrik zaude tropeltxo batetan {race_name} lehiaketarako... esan zure lagunei! Tropela dibertigarriagoa da lagun eta familiarekin.|Bakar bakarrik zaude, {count} tropeltxotan, {race_name} lehiaketarako... esan zure lagunei! Tropela dibertigarriagoa da lagun eta familiarekin.',
+    porraPending: 'Ez ahaztu {race_name} lehiaketarako zure kiniela egitea!',
+    tropeltxoMembershipPending:
+      'Eskaera bat duzu zain "{tropeltxo_name}" tropeltxoan.|{count} eskaera dituzu zain "{tropeltxo_name}" tropeltxoan.',
+    tropeltxoMessage: 'Mezu berriak daude "{tropeltxo_name}" tropeltxoko txatean.',
   },
   premium: {
     banner: {

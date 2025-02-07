@@ -214,7 +214,14 @@ export default {
     xedapAds: 'Voulez-vous voir vos annonces ici ? Contactez-nous !',
   },
   notification: {
-    makePorra: "N'oubliez pas de créer votre équipe pour {race} !",
+    dorsalsNotParticipating:
+      'Certains coureurs de votre équipe (#{porra_id}) ne participeront pas à {race_name}. Vous devriez vérifier votre sélection de coureurs !',
+    emptyTropeltxo:
+      'Vous êtes tout seul dans un de vos tropeltxos pour {race_name}... dites-le à vos amis ! Tropela est plus amusant avec des amis et de la famille.|Vous êtes tout seul dans {count} de vos tropeltxos pour {race_name}... dites-le à vos amis ! Tropela est plus amusant avec des amis et de la famille.',
+    porraPending: "N'oubliez pas de créer votre équipe pour {race} !",
+    tropeltxoMembershipPending:
+      'Il y a une demande en attente dans le tropeltxo "{tropeltxo_name}".|Il y a {count} demandes en attente dans le tropeltxo "{tropeltxo_name}".',
+    tropeltxoMessage: 'Il y a de nouveaux messages dans le chat du tropeltxo "{tropeltxo_name}".',
   },
   premium: {
     banner: {
@@ -285,7 +292,7 @@ export default {
     raceStandings: {
       q: 'Comment les classements sont-ils calculés ?',
       description:
-        'Aan het einde van elke etappe ontvang je de punten van de renners die je in je team hebt geselecteerd. Deze punten bepalen de stand.',
+        'À la fin de chaque étape, vous recevez les points des coureurs que vous avez sélectionnés dans votre équipe. Ces points déterminent le classement.',
     },
     racePlaceStandings: {
       q: 'Que puis-je faire si je ne vois pas le classement local ?',
