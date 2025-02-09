@@ -146,6 +146,8 @@ export default {
         refresh: 'Actualizar',
         reset: 'Resetear',
         save: 'Guardar',
+        search: 'Buscar',
+        share: 'Compartir',
         submit: 'Unviar',
         filter: 'Filtrar',
         dismiss: 'Descartar',
@@ -208,7 +210,7 @@ export default {
     userProfileUpdated: 'El to perfil actualizóse',
   },
   notification: {
-    porraPending: '¡Nun escaezas facer el to equipu pa {race}!',
+    porraPending: '¡Nun escaezas facer el to equipu pa {race_name}!',
   },
   premium: {
     banner: {

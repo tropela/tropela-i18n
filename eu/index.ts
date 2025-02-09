@@ -147,6 +147,8 @@ export default {
         refresh: 'Freskatu',
         reset: 'Leheneratu',
         save: 'Gorde',
+        search: 'Bilatu',
+        share: 'Partekatu',
         submit: 'Bidali',
         filter: 'Filtratu',
         dismiss: 'Ezeztatu',

@@ -144,6 +144,8 @@ export default {
         refresh: 'Aggiorna',
         reset: 'Resetta',
         save: 'Salva',
+        search: 'Cerca',
+        share: 'Condividi',
         submit: 'Invia',
         filter: 'Filtra',
         dismiss: 'Annulla',

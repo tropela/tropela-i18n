@@ -146,6 +146,8 @@ export default {
         refresh: 'Actualizar',
         reset: 'Resetear',
         save: 'Guardar',
+        search: 'Buscar',
+        share: 'Compartir',
         submit: 'Enviar',
         filter: 'Filtrar',
         dismiss: 'Descartar',

@@ -146,6 +146,8 @@ export default {
         refresh: 'Actualizar',
         reset: 'Restablecer',
         save: 'Gardar',
+        search: 'Buscar',
+        share: 'Compartir',
         submit: 'Enviar',
         filter: 'Filtrar',
         dismiss: 'Descartar',
@@ -208,7 +210,7 @@ export default {
     userProfileUpdated: 'O teu perfil actualizouse',
   },
   notification: {
-    porraPending: 'Non esquezas facer o teu equipo para {race}!',
+    porraPending: 'Non esquezas facer o teu equipo para {race_name}!',
   },
   premium: {
     banner: {

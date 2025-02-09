@@ -138,6 +138,8 @@ export default {
         refresh: 'Verversen',
         reset: 'Resetten',
         save: 'Opslaan',
+        search: 'Zoeken',
+        share: 'Delen',
         submit: 'Verstuuren',
         filter: 'Filteren',
         dismiss: 'Sluiten',

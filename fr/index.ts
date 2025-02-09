@@ -145,6 +145,8 @@ export default {
         refresh: 'Rafraîchir',
         reset: 'Réinitialiser',
         save: 'Enregistrer',
+        search: 'Rechercher',
+        share: 'Partager',
         submit: 'Envoyer',
         filter: 'Filtrer',
         dismiss: 'Rejeter',
@@ -218,7 +220,7 @@ export default {
       'Certains coureurs de votre équipe (#{porra_id}) ne participeront pas à {race_name}. Vous devriez vérifier votre sélection de coureurs !',
     emptyTropeltxo:
       'Vous êtes tout seul dans un de vos tropeltxos pour {race_name}... dites-le à vos amis ! Tropela est plus amusant avec des amis et de la famille.|Vous êtes tout seul dans {count} de vos tropeltxos pour {race_name}... dites-le à vos amis ! Tropela est plus amusant avec des amis et de la famille.',
-    porraPending: "N'oubliez pas de créer votre équipe pour {race} !",
+    porraPending: "N'oubliez pas de créer votre équipe pour {race_name} !",
     tropeltxoMembershipPending:
       'Il y a une demande en attente dans le tropeltxo "{tropeltxo_name}".|Il y a {count} demandes en attente dans le tropeltxo "{tropeltxo_name}".',
     tropeltxoMessage: 'Il y a de nouveaux messages dans le chat du tropeltxo "{tropeltxo_name}".',

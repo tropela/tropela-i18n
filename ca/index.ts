@@ -143,6 +143,8 @@ export default {
         refresh: 'Refrescar',
         reset: 'Reiniciar',
         save: 'Desar',
+        search: 'Cercar',
+        share: 'Compartir',
         submit: 'Enviar',
         filter: 'Filtrar',
         dismiss: 'Descartar',
