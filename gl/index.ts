@@ -139,6 +139,8 @@ export default {
   ui: {
     form: {
       actions: {
+        ok: 'OK',
+        cancel: 'Cancelar',
         change: 'Cambiar',
         create: 'Crear',
         delete: 'Borrar',

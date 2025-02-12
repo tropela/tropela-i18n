@@ -140,6 +140,8 @@ export default {
   ui: {
     form: {
       actions: {
+        ok: 'Bai',
+        cancel: 'Ezeztatu',
         change: 'Aldatu',
         create: 'Sortu',
         delete: 'Ezabatu',

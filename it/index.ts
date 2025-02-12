@@ -137,6 +137,8 @@ export default {
   ui: {
     form: {
       actions: {
+        ok: 'OK',
+        cancel: 'Annulla',
         change: 'Cambia',
         create: 'Crea',
         delete: 'Elimina',
