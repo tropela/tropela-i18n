@@ -156,6 +156,7 @@ export default {
         signup: 'Registrati',
       },
       fields: {
+        username_email: 'Nome utente o email',
         username: 'Nome utente',
         password: 'Password',
         password2: 'Password (ripeti)',

@@ -151,6 +151,7 @@ export default {
         downloadIcs: 'Kalender downloaden',
       },
       fields: {
+        username_email: 'Gebruikersnaam of e-mailadres',
         username: 'Gebruikersnaam',
         password: 'Wachtwoord',
         password2: 'Herhaal wachtwoord',

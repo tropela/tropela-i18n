@@ -160,6 +160,7 @@ export default {
         downloadIcs: 'Egutegia jeitsi',
       },
       fields: {
+        username_email: 'Erabiltzailea edo emaila',
         username: 'Erabiltzailea',
         password: 'Pasahitza',
         password2: 'Pasahitza (errepikatu)',

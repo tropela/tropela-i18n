@@ -159,6 +159,7 @@ export default {
         downloadIcs: 'Download calendar',
       },
       fields: {
+        username_email: 'Username or email',
         username: 'Username',
         password: 'Password',
         password2: 'Password (repeat)',

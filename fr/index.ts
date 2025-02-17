@@ -157,6 +157,7 @@ export default {
         signup: "S'inscrire",
       },
       fields: {
+        username_email: 'Nom d’utilisateur ou email',
         username: "Nom d'utilisateur",
         password: 'Mot de passe',
         password2: 'Mot de passe (répéter)',

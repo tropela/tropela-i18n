@@ -155,6 +155,7 @@ export default {
         signup: 'Registrar-se',
       },
       fields: {
+        username_email: "Nom d'usuari o correu electrònic",
         username: "Nom d'usuari",
         password: 'Contrasenya',
         password2: 'Repeteix la contrasenya',
