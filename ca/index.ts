@@ -106,6 +106,7 @@ export default {
     legal: 'Bases legals',
     prizes: 'Premis',
   },
+  tropeltxo: {},
   user: {
     menu: {
       admin: "Zona d'administració",

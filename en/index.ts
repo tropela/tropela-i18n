@@ -109,6 +109,59 @@ export default {
     legal: 'Legal bases',
     prizes: 'Prizes',
   },
+  tropeltxo: {
+    create: 'Create a new tropeltxo',
+    search: 'Search for a tropeltxo',
+    membership: 'Membership',
+    membershipLevel: {
+      admin: 'Admin',
+      adminDescription: 'Full control over the tropeltxo. Can manage members and settings.',
+      moderator: 'Moderator',
+      moderatorDescription: 'Can manage members.',
+      member: 'Member',
+      memberDescription: 'Can view standings.',
+      pending: 'Pending member',
+      pendingDescription: 'Has requested access to the tropeltxo but has not yet been accepted.',
+      invited: 'Invited member',
+      invitedDescription: 'Has been invited to join the tropeltxo but has not yet accepted.',
+      rejected: 'Rejected member',
+    },
+    members: 'Members',
+    public: 'Public',
+    private: 'Private',
+    publicDescription: 'Anyone can find and join this tropeltxo.',
+    privateDescription: 'Only invited users can join this tropeltxo.',
+    createTropeltxo: {
+      action: 'Create tropeltxo',
+      description:
+        'You can create a tropeltxo with your friends, family, work colleagues or neighbors to see sub-classifications.',
+      success: 'Tropeltxo created successfully',
+    },
+    deleteTropeltxo: {
+      action: 'Delete tropeltxo',
+      description:
+        'This action is irreversible. All members will lose access to the tropeltxo standings and all tropeltxo data will be deleted.',
+      confirm: 'Are you sure you want to delete this tropeltxo?',
+      success: 'Tropeltxo deleted successfully',
+    },
+    leaveTropeltxo: {
+      action: 'Leave tropeltxo',
+      description: 'You will lose access to the tropeltxo standings. You can request access again at any time.',
+      adminDescription:
+        'As the only admin, you must transfer the admin role to another member before leaving the tropeltxo.',
+      confirm: 'Are you sure you want to leave this tropeltxo?',
+      success: 'You have left the tropeltxo',
+    },
+    inviteMember: {
+      action: 'Invite user',
+    },
+    removeMember: {
+      action: 'Remove member',
+      description: 'Remove the user from the tropeltxo? They will lose access to the tropeltxo standings.',
+      confirm: 'Are you sure you want to remove this member from this tropeltxo?',
+      success: 'Member removed from the tropeltxo',
+    },
+  },
   user: {
     menu: {
       admin: 'Admin area',

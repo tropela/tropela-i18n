@@ -109,6 +109,7 @@ export default {
     legal: 'Bases legais',
     prizes: 'Premios',
   },
+  tropeltxo: {},
   user: {
     menu: {
       admin: 'Zona de administración',

@@ -128,6 +128,7 @@ export default {
     },
     tropeltxo: 'Tropeltxo',
   },
+  tropeltxo: {},
   ui: {
     form: {
       actions: {

@@ -109,6 +109,7 @@ export default {
     legal: 'Bases llexales',
     prizes: 'Premios',
   },
+  tropeltxo: {},
   user: {
     menu: {
       admin: "Zona d'aministración",
@@ -319,4 +320,5 @@ export default {
         'Tropela nun ofrece premios nos tropeltxos, pero nun escaezas que tenemos una tienda si quies repartir premios!',
     },
   },
+  xedap: {},
 };

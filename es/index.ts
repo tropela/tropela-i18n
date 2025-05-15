@@ -109,6 +109,60 @@ export default {
     legal: 'Bases legales',
     prizes: 'Premios',
   },
+  tropeltxo: {
+    create: 'Crear un nuevo tropeltxo',
+    search: 'Buscar un tropeltxo',
+    membership: 'Membresía',
+    membershipLevel: {
+      admin: 'Admin',
+      adminDescription: 'Control total sobre el tropeltxo. Puede gestionar miembros y configuraciones.',
+      moderator: 'Moderador',
+      moderatorDescription: 'Puede aprobar y gestionar miembros.',
+      member: 'Miembro',
+      memberDescription: 'Puede ver clasificaciones.',
+      pending: 'Pendienten',
+      pendingDescription: 'Ha solicitado acceso al tropeltxo pero aún no ha sido aceptado.',
+      invited: 'Invitado',
+      invitedDescription: 'Ha sido invitado al tropeltxo pero aún no ha aceptado.',
+      rejected: 'Rechazado',
+    },
+    members: 'Miembros',
+    public: 'Público',
+    private: 'Privado',
+    publicDescription: 'Cualquiera puede encontrar y unirse a este tropeltxo.',
+    privateDescription2: 'Sólo los usuarios invitados pueden unirse a este tropeltxo.',
+    createTropeltxo: {
+      action: 'Crear tropeltxo',
+      description:
+        'Puedes crear un tropeltxo con tus amigos, familiares, compañeros de trabajo o vecinos para ver subclasificaciones.',
+      success: 'Tropeltxo creado correctamente',
+    },
+    deleteTropeltxo: {
+      action: 'Eliminar tropeltxo',
+      description:
+        'Esta acción no se puede deshacer. Todos los miembros perderán el acceso a las clasificaciones del tropeltxo y se eliminarán todos los datos del tropeltxo.',
+      confirm: '¿Estás seguro de que quieres eliminar este tropeltxo?',
+      success: 'Tropeltxo eliminado correctamente',
+    },
+    leaveTropeltxo: {
+      action: 'Dejar tropeltxo',
+      description:
+        'Perderás el acceso a las clasificaciones del tropeltxo. Puedes solicitar acceso nuevamente en cualquier momento.',
+      adminDescription:
+        'Como eres el único administrador, debes dar el rol de administrador a otro miembro antes de dejar el tropeltxo.',
+      confirm: '¿Estás seguro de que quieres dejar este tropeltxo?',
+      success: 'Has dejado el tropeltxo',
+    },
+    inviteMember: {
+      action: 'Invitar usuario',
+    },
+    removeMember: {
+      action: 'Eliminar miembro',
+      description: '¿Quieres eliminar al usuario del tropeltxo? Perderá el acceso a las clasificaciones del tropeltxo.',
+      confirm: '¿Estás seguro de que quieres eliminar a este miembro de este tropeltxo?',
+      success: 'Miembro eliminado del tropeltxo',
+    },
+  },
   user: {
     menu: {
       admin: 'Zona de administración',
@@ -327,4 +381,5 @@ export default {
         'Tropela no ofrece premios en los tropeltxos, pero no olvides que tenemos una tienda si quieres repartir premios!',
     },
   },
+  xedap: {},
 };

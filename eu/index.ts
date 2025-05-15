@@ -110,6 +110,58 @@ export default {
     legal: 'Oinarriak',
     prizes: 'Sariak',
   },
+  tropeltxo: {
+    create: 'Tropeltxo berria sortu',
+    search: 'Tropeltxo bat bilatu',
+    membership: 'Kidetza',
+    membershipLevel: {
+      admin: 'Kudeatzailea',
+      adminDescription: 'Tropeltxoaren kontrol osoa. Kideak eta ezarpenak kudeatu ditzake.',
+      moderator: 'Moderatzailea',
+      moderatorDescription: 'Kideak kudeatu ditzake.',
+      member: 'Kidea',
+      memberDescription: 'Sailkapenak ikusi ditzake.',
+      pending: 'Zain',
+      pendingDescription: 'Tropeltxoan sartzeko onarpenaren zain.',
+      invited: 'Gonbidatuta',
+      rejected: 'Ezeztatuta',
+    },
+    members: 'Kideak',
+    public: 'Publikoa',
+    private: 'Pribatua',
+    publicDescription: 'Edonork aurkitu eta sartu dezake tropeltxo honetan.',
+    privateDescription: 'Gonbidatutako erabiltzaileak bakarrik sar daitezke tropeltxo honetan.',
+    createTropeltxo: {
+      action: 'Tropeltxo berria sortu',
+      description:
+        'Tropeltxo bat sortu dezakezu zure lagunekin, etxekoekin, lankideekin edo ingurukoekin azpisailkapenak ateratzeko modua izango duzu.',
+      success: 'Tropeltxoa behar bezala sortu da',
+    },
+    deleteTropeltxo: {
+      action: 'Tropeltxoa ezabatu',
+      description:
+        'Ekintza hau ezin da desegin. Kide guztiak tropeltxoko sailkapenetara sartzeko aukera galduko dute eta tropeltxoko datu guztiak ezabatuko dira.',
+      confirm: 'Ziur al zaude tropeltxo hau ezabatu nahi duzula?',
+      success: 'Tropeltxoa behar bezala ezabatu da',
+    },
+    leaveTropeltxo: {
+      action: 'Tropeltxoa utzi',
+      description: 'Sailkapenetara sartzeko aukera galduko duzu. Edozein unetan eskatu dezakezu sarrera berriro.',
+      adminDescription:
+        'Administratzaile bakarra zarenez, beste kide bati administratzaile rola eman behar diozu tropeltxoa utzi aurretik.',
+      confirm: 'Ziur al zaude tropeltxo hau utzi nahi duzula?',
+      success: 'Tropeltxoa utzi duzu',
+    },
+    inviteMember: {
+      action: 'Erabiltzaileak gonbidatu',
+    },
+    removeMember: {
+      action: 'Kidea ezabatu',
+      description: 'Erabiltzailea tropeltxotik atera nahi duzu? Tropeltxoko sailkapenetara sartzeko aukera galduko du.',
+      confirm: 'Ziur al zaude kide hau tropeltxo honetatik atera nahi duzula?',
+      success: 'Kidea tropeltxotik atera da',
+    },
+  },
   user: {
     menu: {
       admin: 'Admin gunea',
