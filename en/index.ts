@@ -96,6 +96,13 @@ export default {
     porrasCount: 'No teams | One team | {n} teams',
     pointsRules: 'Scoring',
   },
+  payment: {
+    title: 'Payment details',
+    secure: 'Secure payment powered by Stripe',
+    pay: 'Pay {amount}',
+    card: 'Card information',
+    error: 'Payment failed. Please try again.',
+  },
   place: {
     menu: {
       standings: 'Local standings',
@@ -271,6 +278,7 @@ export default {
     placeStandingsNoPlace: 'Update your city information to see your local standings.',
     porraClosed: 'You cannot create a team for this race.',
     porraCreateLogIn: 'You need to sign in to make a team.',
+    porraViewLogIn: 'Sign in to see this team.',
     xedapAds: 'Do you want to see your ads here? Contact us!',
   },
   notification: {
@@ -412,6 +420,20 @@ export default {
           bike_mountain: 'MTB',
         },
       },
+    },
+  },
+  subscription: {
+    active: 'Active subscription',
+    available: 'Available plans',
+    expiresAt: 'Expires on {date}',
+    subscribe: 'Subscribe',
+    success: 'Subscription successful! Thank you for your support.',
+    benefits: {
+      title: 'Why become a Premium Member?',
+      adFree: 'Ad-free experience: enjoy Tropela without distractions.',
+      badges: 'Exclusive badge: show off your support with a special badge next to your name.',
+      stats: 'Advanced statistics: get access to detailed historical data and analysis.',
+      support: 'Support the project: help us keep the servers running and develop new features.',
     },
   },
 };

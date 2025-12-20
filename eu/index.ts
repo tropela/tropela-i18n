@@ -97,6 +97,13 @@ export default {
     porrasCount: 'Kinielarik ez | Kiniela bat | {n} kiniela',
     pointsRules: 'Puntuazioa',
   },
+  payment: {
+    title: 'Ordainketa xehetasunak',
+    secure: 'Stripe bidezko ordainketa segurua',
+    pay: 'Ordaindu {amount}',
+    card: 'Txartelaren informazioa',
+    error: 'Ordainketak huts egin du. Mesedez, saiatu berriro.',
+  },
   place: {
     menu: {
       standings: 'Herriko sailkapenak',
@@ -111,6 +118,7 @@ export default {
     prizes: 'Sariak',
   },
   tropeltxo: {
+    limitReached: 'Zure tropeltxoen mugara iritsi zara. Irten tropeltxo batetik edo ezabatu tropeltxo bat.',
     create: 'Tropeltxo berria sortu',
     search: 'Tropeltxo bat bilatu',
     membership: 'Kidetza',
@@ -160,6 +168,25 @@ export default {
       description: 'Erabiltzailea tropeltxotik atera nahi duzu? Tropeltxoko sailkapenetara sartzeko aukera galduko du.',
       confirm: 'Ziur al zaude kide hau tropeltxo honetatik atera nahi duzula?',
       success: 'Kidea tropeltxotik atera da',
+    },
+    searchTropeltxo: {
+      placeholder: 'Bilatu...',
+      noResults: 'Ez da tropeltxorik aurkitu bilaketa honekin.',
+      error: 'Errorea bilaketan. Saiatu berriro geroago.',
+      joinedPublic: 'Tropeltxo publikoan sartu zara.',
+      requestSent: 'Tropeltxo pribatuan sartzeko eskaera bidali da.',
+    },
+    form: {
+      name: 'Tropeltxo izena',
+      nameRequired: 'Tropeltxo izena beharrezkoa da',
+      nameMinLength: 'Gutxienez 4 karaktere',
+      isPublic: 'Tropeltxo publikoa',
+      createError: 'Tropeltxo berria sortzean errore bat gertatu da.',
+    },
+    changeLevel: {
+      confirm: 'Ziur al zaude kide honen maila aldatu nahi duzula?',
+      adminConfirm: 'Kide honi kudeatzaile rola ematen badiozu, zure rola moderatzaile izatera jaitsiko da.',
+      success: 'Kidearen maila aldatu da.',
     },
   },
   user: {
@@ -271,6 +298,7 @@ export default {
     placeStandingsNoPlace: 'Aukeratu zure herria herriko sailkapenak ikusteko.',
     porraClosed: 'Ezin duzu kinielarik egin lehiaketa honetan.',
     porraCreateLogIn: 'Kiniela egin ahal izateko saioa hasi behar duzu.',
+    porraViewLogIn: 'Hasi saioa talde hau ikusteko.',
     xedapAds: 'Zure iragarkia hemen ikusi nahi duzu? Jarri harremanetan gurekin!',
   },
   notification: {
@@ -482,6 +510,20 @@ export default {
           aladin: 'Aladinorenak',
         },
       },
+    },
+  },
+  subscription: {
+    active: 'Harpidetza aktiboa',
+    available: 'Eskuragarri dauden planak',
+    expiresAt: 'Iraungitze data: {date}',
+    subscribe: 'Harpidetu',
+    success: 'Harpidetza ondo burutu da! Eskerrik asko zure laguntzagatik.',
+    benefits: {
+      title: 'Zergatik egin Luxuzko Gregario?',
+      adFree: 'Iragarkirik gabeko esperientzia: gozatu Tropelaz distrakziorik gabe.',
+      badges: 'Insignia berezia: erakutsi zure babesa sailkapenetan zure izenaren ondoan.',
+      stats: 'Estatistika aurreratuak: datu historiko zehatzak eta analisiak eskuratu.',
+      support: 'Proiektuari lagundu: lagundu zerbitzariak mantentzen eta funtzio berriak garatzen.',
     },
   },
 };

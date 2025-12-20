@@ -96,6 +96,13 @@ export default {
     porrasCount: 'No hay equipos | Un equipo | {n} equipos',
     pointsRules: 'Puntuaciones',
   },
+  payment: {
+    title: 'Detalles del pago',
+    secure: 'Pago seguro procesado por Stripe',
+    pay: 'Pagar {amount}',
+    card: 'Información de la tarjeta',
+    error: 'El pago ha fallado. Por favor, inténtalo de nuevo.',
+  },
   place: {
     menu: {
       standings: 'Clasificaciones locales',
@@ -266,6 +273,9 @@ export default {
     searchDelay: 'La búsqueda se realizará en {seconds} segundos',
     userProfileUpdated: 'Tu perfil se ha actualizado',
   },
+  notice: {
+    porraViewLogIn: 'Inicia sesión para ver este equipo.',
+  },
   notification: {
     dorsalsNotParticipating:
       'Algunos ciclistas de tu equipo (#{porra_id}) no participarán en {race_name}. ¡Deberías revisar tu selección de ciclistas!',
@@ -382,4 +392,18 @@ export default {
     },
   },
   xedap: {},
+  subscription: {
+    active: 'Suscripción activa',
+    available: 'Planes disponibles',
+    expiresAt: 'Caduca el {date}',
+    subscribe: 'Suscribirse',
+    success: '¡Suscripción realizada con éxito! Gracias por tu apoyo.',
+    benefits: {
+      title: '¿Por qué hacerse Gregario de Lujo?',
+      adFree: 'Experiencia sin anuncios: disfruta de Tropela sin distracciones.',
+      badges: 'Insignia exclusivas: luce una insignia especial junto a tu nombre en las clasificaciones.',
+      stats: 'Estadísticas avanzadas: accede a datos históricos detallados y análisis.',
+      support: 'Apoya el proyecto: ayúdanos a mantener los servidores y desarrollar nuevas funciones.',
+    },
+  },
 };
