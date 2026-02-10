@@ -3,22 +3,14 @@
 //! author : github : https://github.com/github
 
 export default {
-  updated: 'Hemos actualizáu la aplicación. Refresca pa usar la última versión.',
-  welcome: 'En Tropela.eus pues competir colos tos familiares y amigos nes meyores carreres ciclistes de la temporada.',
-  menu: {
-    home: 'Entamu',
-    races: 'Competiciones',
-    seasons: 'Temporadas',
-    rules: 'Regles',
-    premium: 'Gregariu de lluxu | Gregarios de lluxu',
-    blog: 'Blog',
-    store: 'Tienda',
-    about: 'Asociación',
-    privacy: 'Política de privacidá',
-    terms: "Términos d'usu",
-    contact: 'Contactu',
-    tropeltxos: 'Tropeltxos',
+  // app: mensaxes xenerales de la aplicación
+  app: {
+    updated: 'Hemos actualizáu la aplicación. Refresca pa usar la última versión.',
+    welcome:
+      'En Tropela.eus pues competir colos tos familiares y amigos nes meyores carreres ciclistes de la temporada.',
   },
+
+  // auth: autenticación y xestión de cuentes
   auth: {
     login: {
       title: 'Bienveníu.',
@@ -35,9 +27,12 @@ export default {
       link: '¿Has olvidáu la to contraseña?',
     },
     passwordResetConfirm: {
+      title: 'Contraseña nueva.',
       intro: 'Escribe equí la to nueva contraseña; podrás usala pa acceder a Tropela.',
     },
   },
+
+  // countdown: unidaes de tiempu pa cuentes atrás
   countdown: {
     months: 'mes | meses',
     days: 'día | díes',
@@ -45,295 +40,15 @@ export default {
     minutes: 'minutu | minutos',
     seconds: 'segundu | segundos',
   },
-  season: {
-    allRaces: 'Toles competiciones',
-    calendar: 'Calendariu',
-    nextRace: 'Próxima competición | Próximes competiciones',
-    menu: {
-      standings: 'Clasificaciones de la temporada',
-    },
-    collection: 'Colección | Colecciones',
-    race: 'Competición | Competiciones',
-    racesCount: 'Nun hai competiciones | Una competición | {n} competiciones',
-    performance: 'Rendimientu',
+
+  // error: mensaxes d'error xenéricos
+  error: {
+    generic: 'Asocedió un error. Inténtalo de nuevu.',
+    loadingFailed: 'Error al cargar los datos.',
+    paymentFailed: 'El pagu falló. Inténtalo de nuevu.',
   },
-  race: {
-    metaDescription:
-      '{name} {season} - Xuegu de ciclismu fantasy. Escueye los tos ciclistes y compite colos tos amigos en Tropela.eus.',
-    menu: {
-      presentation: 'Presentación',
-      standings: 'Clasificaciones',
-      standings2: 'Clasificaciones (hasta esta carrera)',
-      points: 'Puntos de los ciclistes',
-      dorsals: 'Dorsales',
-      news: 'Noticies',
-      createPorra: 'Facer equipu',
-      myPorra: 'Mi equipu',
-    },
-    canceled: 'Cancelada',
-    stage: 'Etapa | Etapes',
-    stage_today: 'Etapa de güei | Etapes de güei',
-    team: 'Equipu | Equipos',
-    dorsal: {
-      filter: 'Filtrar por nome, equipu o país',
-      group: 'Grupu | Grupos',
-      status: 'Estáu | Estáos',
-      statuses: {
-        unconfirmed: 'Ensin confirmar',
-        participating: 'Confirmáu',
-        notParticipating: 'Nun participa',
-        retired: 'Retiráu',
-      },
-      sort: {
-        alpha: 'Ordenar por nome',
-        percent: 'Ordenar por porcentaxe',
-        position: 'Ordenar por puntos',
-      },
-    },
-    porra: {
-      registrationOpens: 'Abrimos en',
-      registrationOpenFor: "Fai'l to equipu en",
-      showAllStages: 'Amosar toles etapes',
-    },
-    porrasCount: 'Nun hai equipos | Un equipu | {n} equipos',
-    pointsRules: 'Puntuaciones',
-  },
-  place: {
-    menu: {
-      standings: 'Clasificaciones locales',
-    },
-  },
-  game: {
-    menu: {
-      standings: 'Clasificaciones patrocinaes',
-    },
-    banner: 'Esta ye una competición patrocina, con premios pa los usuarios de Tropela.',
-    legal: 'Bases llexales',
-    prizes: 'Premios',
-  },
-  tropeltxo: {
-    limitReached: "Llegasti al llímite de tropeltxos. Sal d'un tropeltxo o elimina unu.",
-    create: 'Crear un nuevu tropeltxo',
-    search: 'Guetar un tropeltxo',
-    membership: 'Pertenencia',
-    membershipLevel: {
-      admin: 'Admin',
-      adminDescription: "Control total sobre'l tropeltxo. Puede xestionar miembros y configuraciones.",
-      moderator: 'Moderador',
-      moderatorDescription: 'Puede xestionar miembros.',
-      member: 'Miembru',
-      memberDescription: 'Puede ver clasificaciones.',
-      pending: 'Pendiente',
-      pendingDescription: 'Solicitó accesu al tropeltxo pero entá nun foi aceptáu.',
-      invited: 'Convidáu',
-      rejected: 'Refugáu',
-    },
-    members: 'Miembros',
-    public: 'Públicu',
-    private: 'Priváu',
-    publicDescription: 'Cualesquier puede atopar y xunise a esti tropeltxo.',
-    privateDescription: 'Namás los usuarios convidaos pueden xunise a esti tropeltxo.',
-    createTropeltxo: {
-      action: 'Crear tropeltxo',
-      description:
-        'Pues crear un tropeltxo colos tos amigos, familia, compañeros de trabayu o vecinos pa ver subclasificaciones.',
-      success: 'Tropeltxo creáu correutamente',
-    },
-    deleteTropeltxo: {
-      action: 'Eliminar tropeltxo',
-      description:
-        "Esta aición nun se puede desacer. Tolos miembros perderán l'accesu a les clasificaciones del tropeltxo y tolos datos serán eliminaos.",
-      confirm: '¿De xuru que quies eliminar esti tropeltxo?',
-      success: 'Tropeltxo eliminau correutamente',
-    },
-    leaveTropeltxo: {
-      action: 'Dexar el tropeltxo',
-      description:
-        "Perderás l'accesu a les clasificaciones del tropeltxo. Pues solicitar accesu de nuevu en cualesquier momentu.",
-      adminDescription:
-        "Como yes l'únicu alministrador, tienes que da-y el rol d'alministrador a otru miembru enantes de dexar el tropeltxo.",
-      confirm: '¿De xuru que quies dexar esti tropeltxo?',
-      success: "Dexasti'l tropeltxo",
-    },
-    inviteMember: {
-      action: 'Convidar usuariu',
-    },
-    removeMember: {
-      action: 'Eliminar miembru',
-      description: "¿Quies eliminar al usuariu del tropeltxo? Perderá l'accesu a les clasificaciones del tropeltxo.",
-      confirm: "¿De xuru que quies eliminar esti miembru d'esti tropeltxo?",
-      success: 'Miembru eliminau del tropeltxo',
-    },
-    searchTropeltxo: {
-      placeholder: 'Guetar...',
-      noResults: "Nun s'atoparon tropeltxos con esta gueta.",
-      error: 'Error na gueta. Inténtalo de nuevu más tardi.',
-      joinedPublic: 'Xunícheste al tropeltxo públicu.',
-      requestSent: 'Unvióse la solicitú pa xunise al tropeltxo priváu.',
-    },
-    form: {
-      name: 'Nome del tropeltxo',
-      nameRequired: 'El nome del tropeltxo ye obligatoriu',
-      nameMinLength: 'Mínimu 4 carauteres',
-      isPublic: 'Tropeltxo públicu',
-      createError: 'Asocedió un error al crear el tropeltxo.',
-    },
-    changeLevel: {
-      confirm: "¿De xuru que quies camudar el nivel d'esti miembru?",
-      adminConfirm: "Si-y das el rol d'alministrador a esti miembru, el to rol baxará a moderador.",
-      success: 'El nivel del miembru foi camudáu.',
-    },
-    joinByCode: {
-      title: 'Xunise a un tropeltxo',
-      action: 'Xunise con códigu',
-      placeholder: "Introduz el códigu d'invitación",
-      confirm: '¿Quies xunite al tropeltxo "{name}"?',
-      membersCount: '{count} miembros',
-      success: '¡Xunícheste al tropeltxo!',
-      invalidCode: "El códigu d'invitación nun ye válidu.",
-      alreadyMember: "Yá yes miembru d'esti tropeltxo.",
-      loginRequired: "Tienes d'aniciar sesión pa xunite a un tropeltxo.",
-    },
-    share: {
-      title: 'Compartir tropeltxo',
-      shareText: '¡Xúnite al mio tropeltxo!',
-      inviteUrl: "Enllaz d'invitación",
-      copyCode: 'Copiar códigu',
-      codeCopied: '¡Códigu copiáu!',
-      copyLink: 'Copiar enllaz',
-      linkCopied: '¡Enllaz copiáu!',
-      shareLink: 'Compartir enllaz',
-      qrCode: 'Códigu QR',
-      downloadQr: 'Descargar códigu QR',
-    },
-  },
-  user: {
-    menu: {
-      admin: "Zona d'aministración",
-      avatar: 'Mi ciclista',
-      dashboard: 'Mis estadístiques',
-      privacy: 'Privacidá',
-      profile: 'Perfil',
-      settings: 'Configuración',
-      settingsAndPrivacy: 'Configuración y privacidá',
-      notifications: 'Notificaciones',
-      subscriptions: 'Suscripciones',
-      login: 'Aniciar sesión',
-      logout: 'Zarrar sesión',
-      passwordChange: 'Contraseña',
-      emails: 'Emails',
-      socialConnections: 'Conexones sociales',
-      signup: 'Rexistrase',
-      standings: 'Mis clasificaciones',
-      tropeltxos: 'Mis tropeltxos',
-    },
-    change_language:
-      'Pues camudar el idioma de la aplicación equí. El cambéu aplicarase de siguío y guardarase nel to perfil, pa que se recuerde la próxima vez que entres (en cualquier dispositivu).',
-    confirm: {
-      logout: '¿Tas seguru de que quies zarrar sesión?',
-    },
-    tropeltxo: 'Tropeltxo | Tropeltxos',
-  },
-  ui: {
-    form: {
-      actions: {
-        ok: 'Aceutar',
-        cancel: 'Encaboxar',
-        change: 'Cambiar',
-        create: 'Crear',
-        delete: 'Esborrar',
-        update: 'Actualizar',
-        refresh: 'Actualizar',
-        reset: 'Resetear',
-        save: 'Guardar',
-        search: 'Buscar',
-        share: 'Compartir',
-        submit: 'Unviar',
-        filter: 'Filtrar',
-        dismiss: 'Descartar',
-        typeMessage: 'Escribe el to mensaxe',
-        login: 'Aniciar sesión',
-        signup: 'Rexístrate',
-        downloadIcs: 'Descargar calendariu',
-      },
-      fields: {
-        username_email: "Nome d'usuariu o corréu",
-        username: "Nome d'usuariu",
-        password: 'Contraseña',
-        password2: 'Repit la contraseña',
-        email: 'Corréu',
-        firstName: 'Nome',
-        lastName: 'Apellíos',
-        city: 'Ciudá',
-        flag: 'La to bandera',
-      },
-      hints: {
-        city: 'Emplegaremos esto pa les clasificaciones locales.',
-        flag: 'Amuésase nes clasificaciones.',
-      },
-      required: 'Obligatoriu.',
-      rules: {
-        required: 'Esti campu ye obligatoriu.',
-      },
-      social: {
-        facebook: 'Continuar con Facebook',
-        google: 'Continuar con Google',
-        twitter: 'Continuar con Twitter / X',
-      },
-    },
-    select: {
-      all: 'To | Todos',
-      aggregate: 'Xeneral',
-      locale: 'Idioma',
-      race: 'Competición',
-      stage: 'Etapa',
-      finalStage: 'Final',
-      annual: 'Anual',
-    },
-    nav: {
-      pageFirst: 'Primera páxina',
-      pagePrevious: 'Páxina anterior',
-      pageNext: 'Páxina siguiente',
-      pageLast: 'Cabera páxina',
-    },
-    or: 'o',
-  },
-  message: {
-    invalidCredentials: "El nome d'usuariu y/o la contraseña que has especificáu nun son correutos.",
-    loggedIn: 'Entresti como {username}',
-    loggedOut: 'Has zarráu sesión',
-    passwordResetRequested: 'Unvióse un corréu pa restablecer la contraseña',
-    porraSaveDelay: 'La to porra guardarase en {seconds} segundos',
-    porraCreated: 'La to porra creóse correutamente',
-    porraUpdated: 'La to porra actualizóse',
-    porraRandomSelected: 'Propúnxose una porra aleatoria',
-    searchDelay: 'La búsqueda realizaráse en {seconds} segundos',
-    userProfileUpdated: 'El to perfil actualizóse',
-  },
-  notification: {
-    porraPending: '¡Nun escaezas facer el to equipu pa {race_name}!',
-  },
-  premium: {
-    banner: {
-      join: 'Únete a los Gregarios de lluxu y disfruta de ventaxes exclusives.',
-      noAds: '¡Y ensin publicidá!',
-    },
-    action: {
-      upgrade: 'Faite Gregariu',
-    },
-  },
-  privacy: {
-    shareOnSocialMedia: 'Compartir la to actividá en redes sociales',
-    shareOnSocialMediaDescription:
-      'Cuando faigas un equipu, puedes compartir en redes sociales que tas participando (si accedes vía Twitter o Facebook).',
-    makeProfilePublic: 'Facer públicu el to perfil',
-    makeProfilePublicDescription: 'Puedes facer públicu el to perfil y compartir los tos resultaos y estadístiques.',
-    receiveEmails: 'Recibir correos de Tropela',
-    receiveEmailsDescription: 'Recordatorios, novedaes, etc.',
-    receiveNotifications: 'Recibir notificaciones',
-    receiveNotificationsDescription:
-      'Recibir notificaciones `push` en dispositivos móviles, cuando abrimos una nueva competición.',
-  },
+
+  // faq: preguntes frecuentes
   faq: {
     title: 'Preguntes frecuentes',
     helpTropela: {
@@ -417,5 +132,416 @@ export default {
         'Tropela nun ofrece premios nos tropeltxos, pero nun escaezas que tenemos una tienda si quies repartir premios!',
     },
   },
-  xedap: {},
+
+  // game: funciones de competiciones patrocinaes
+  game: {
+    menu: {
+      standings: 'Clasificaciones patrocinaes',
+    },
+    banner: 'Esta ye una competición patrocina, con premios pa los usuarios de Tropela.',
+    legal: 'Bases llexales',
+    prizes: 'Premios',
+  },
+
+  // menu: navegación principal
+  menu: {
+    home: 'Entamu',
+    races: 'Competiciones',
+    seasons: 'Temporadas',
+    rules: 'Regles',
+    premium: 'Gregariu de lluxu | Gregarios de lluxu',
+    blog: 'Blog',
+    store: 'Tienda',
+    about: 'Asociación',
+    privacy: 'Política de privacidá',
+    terms: "Términos d'usu",
+    contact: 'Contactu',
+    tropeltxos: 'Tropeltxos',
+  },
+
+  // message: feedback pal usuariu
+  message: {
+    toast: {
+      invalidCredentials: "El nome d'usuariu y/o la contraseña que has especificáu nun son correutos.",
+      loggedIn: 'Entresti como {username}',
+      loggedOut: 'Has zarráu sesión',
+      passwordResetRequested: 'Unvióse un corréu pa restablecer la contraseña',
+      porraSaveDelay: 'La to porra guardarase en {seconds} segundos',
+      porraCreated: 'La to porra creóse correutamente',
+      porraUpdated: 'La to porra actualizóse',
+      porraRandomSelected: 'Propúnxose una porra aleatoria',
+      searchDelay: 'La búsqueda realizaráse en {seconds} segundos',
+      userProfileUpdated: 'El to perfil actualizóse',
+      userProfileUpdateError: 'Asocedió un error al actualizar el to perfil.',
+      emailTaken: "Esta direición de corréu yá ta n'usu.",
+      passwordsDontMatch: 'Les contraseñes nun concuerden.',
+      signupError: 'Asocedió un error nel rexistru. Inténtalo de nuevu.',
+      usernameTaken: "Esti nome d'usuariu yá ta n'usu.",
+    },
+    inline: {
+      noTropeltxoMessages: 'Nun tienes mensaxes nesti tropeltxo.',
+      placeStandingsLogIn: 'Anicia sesión pa ver les clasificaciones locales.',
+      placeStandingsNoPlace: 'Actualiza la to información de ciudá pa ver les clasificaciones locales.',
+      porraClosed: 'Nun pues facer un equipu pa esta competición.',
+      porraCreateLogIn: 'Necesites aniciar sesión pa facer un equipu.',
+      porraViewLogIn: 'Anicia sesión pa ver esti equipu.',
+      xedapAds: '¿Quies ver los tos anuncios equí? ¡Contáctanos!',
+    },
+  },
+
+  // notification: notificaciones push
+  notification: {
+    dorsalsNotParticipating:
+      'Dalgunos ciclistes del to equipu (#{porra_id}) nun van participar en {race_name}. ¡Deberíes revisar la to selección de ciclistes!',
+    emptyTropeltxo:
+      'Tas solu nun de los tos tropeltxos pa {race_name}... ¡díselo a los tos amigos! Tropela ye más divirtíu con amigos y familia.|Tas solu en {count} de los tos tropeltxos pa {race_name}... ¡díselo a los tos amigos! Tropela ye más divirtíu con amigos y familia.',
+    porraPending: '¡Nun escaezas facer el to equipu pa {race_name}!',
+    tropeltxoMembershipPending:
+      'Hai una solicitú pendiente nel tropeltxo "{tropeltxo_name}".|Hai {count} solicitúes pendientes nel tropeltxo "{tropeltxo_name}".',
+    tropeltxoMessage: 'Hai mensaxes nuevos nel chat del tropeltxo "{tropeltxo_name}".',
+  },
+
+  // payment: fluxu de pagu
+  payment: {
+    title: 'Detalles del pagu',
+    secure: 'Pagu seguru procesáu por Stripe',
+    pay: 'Pagar {amount}',
+    card: 'Información de la tarxeta',
+  },
+
+  // place: funciones basaes n'ubicación
+  place: {
+    menu: {
+      standings: 'Clasificaciones locales',
+    },
+  },
+
+  // premium: promoción de suscripción
+  premium: {
+    banner: {
+      join: 'Únete a los Gregarios de lluxu y disfruta de ventaxes exclusives.',
+      noAds: '¡Y ensin publicidá!',
+    },
+    action: {
+      upgrade: 'Faite Gregariu',
+    },
+  },
+
+  // privacy: configuración de privacidá
+  privacy: {
+    shareOnSocialMedia: 'Compartir la to actividá en redes sociales',
+    shareOnSocialMediaDescription:
+      'Cuando faigas un equipu, puedes compartir en redes sociales que tas participando (si accedes vía Twitter o Facebook).',
+    makeProfilePublic: 'Facer públicu el to perfil',
+    makeProfilePublicDescription: 'Puedes facer públicu el to perfil y compartir los tos resultaos y estadístiques.',
+    receiveEmails: 'Recibir correos de Tropela',
+    receiveEmailsDescription: 'Recordatorios, novedaes, etc.',
+    receiveNotifications: 'Recibir notificaciones',
+    receiveNotificationsDescription:
+      'Recibir notificaciones `push` en dispositivos móviles, cuando abrimos una nueva competición.',
+  },
+
+  // race: páxines de competiciones
+  race: {
+    metaDescription:
+      '{name} {season} - Xuegu de ciclismu fantasy. Escueye los tos ciclistes y compite colos tos amigos en Tropela.eus.',
+    menu: {
+      presentation: 'Presentación',
+      standings: 'Clasificaciones',
+      standings2: 'Clasificaciones (hasta esta carrera)',
+      points: 'Puntos de los ciclistes',
+      dorsals: 'Dorsales',
+      news: 'Noticies',
+      createPorra: 'Facer equipu',
+      myPorra: 'Mi equipu',
+    },
+    canceled: 'Cancelada',
+    stage: 'Etapa | Etapes',
+    stageToday: 'Etapa de güei | Etapes de güei',
+    team: 'Equipu | Equipos',
+    dorsal: {
+      filter: 'Filtrar por nome, equipu o país',
+      group: 'Grupu | Grupos',
+      status: 'Estáu | Estáos',
+      statuses: {
+        unconfirmed: 'Ensin confirmar',
+        participating: 'Confirmáu',
+        notParticipating: 'Nun participa',
+        retired: 'Retiráu',
+      },
+      sort: {
+        alpha: 'Ordenar por nome',
+        percent: 'Ordenar por porcentaxe',
+        position: 'Ordenar por puntos',
+      },
+    },
+    porra: {
+      registrationOpens: 'Abrimos en',
+      registrationOpenFor: "Fai'l to equipu en",
+      showAllStages: 'Amosar toles etapes',
+    },
+    porrasCount: 'Nun hai equipos | Un equipu | {n} equipos',
+    pointsRules: 'Puntuaciones',
+  },
+
+  // season: funciones de temporada
+  season: {
+    allRaces: 'Toles competiciones',
+    calendar: 'Calendariu',
+    nextRace: 'Próxima competición | Próximes competiciones',
+    menu: {
+      presentation: 'Presentación de la temporada',
+      standings: 'Clasificaciones de la temporada',
+    },
+    collection: 'Colección | Colecciones',
+    race: 'Competición | Competiciones',
+    racesCount: 'Nun hai competiciones | Una competición | {n} competiciones',
+    performance: 'Rendimientu',
+  },
+
+  // subscription: fluxu de suscripción premium
+  subscription: {
+    active: 'Suscripción activa',
+    available: 'Planes disponibles',
+    expiresAt: 'Caduca el {date}',
+    subscribe: 'Suscribise',
+    success: '¡Suscripción realizada con ésitu! Gracies pol to sofitu.',
+    benefits: {
+      title: '¿Por qué facise Gregariu de Lluxu?',
+      adFree: 'Esperiencia ensin anuncios: disfruta de Tropela ensin distracciones.',
+      badges: 'Insignia exclusiva: lluz una insignia especial xunto al to nome nes clasificaciones.',
+      stats: 'Estadístiques avanzaes: accede a datos históricos detallaos y análisis.',
+      support: "Apoya'l proyectu: ayúdanos a mantener los servidores y desarrollar nueves funciones.",
+    },
+  },
+
+  // tropeltxo: funciones de tropeltxo (grupos)
+  tropeltxo: {
+    chat: 'Chat',
+    limitReached: "Llegasti al llímite de tropeltxos. Sal d'un tropeltxo o elimina unu.",
+    create: 'Crear un nuevu tropeltxo',
+    search: 'Guetar un tropeltxo',
+    membership: 'Pertenencia',
+    membershipLevel: {
+      admin: 'Admin',
+      adminDescription: "Control total sobre'l tropeltxo. Puede xestionar miembros y configuraciones.",
+      moderator: 'Moderador',
+      moderatorDescription: 'Puede xestionar miembros.',
+      member: 'Miembru',
+      memberDescription: 'Puede ver clasificaciones.',
+      pending: 'Pendiente',
+      pendingDescription: 'Solicitó accesu al tropeltxo pero entá nun foi aceptáu.',
+      invited: 'Convidáu',
+      invitedDescription: 'Foi convidáu al tropeltxo pero entá nun aceptó.',
+      rejected: 'Refugáu',
+    },
+    members: 'Miembros',
+    public: 'Públicu',
+    private: 'Priváu',
+    publicDescription: 'Cualesquier puede atopar y xunise a esti tropeltxo.',
+    privateDescription: 'Namás los usuarios convidaos pueden xunise a esti tropeltxo.',
+    createTropeltxo: {
+      action: 'Crear tropeltxo',
+      description:
+        'Pues crear un tropeltxo colos tos amigos, familia, compañeros de trabayu o vecinos pa ver subclasificaciones.',
+      success: 'Tropeltxo creáu correutamente',
+    },
+    deleteTropeltxo: {
+      action: 'Eliminar tropeltxo',
+      description:
+        "Esta aición nun se puede desacer. Tolos miembros perderán l'accesu a les clasificaciones del tropeltxo y tolos datos serán eliminaos.",
+      confirm: '¿De xuru que quies eliminar esti tropeltxo?',
+      success: 'Tropeltxo eliminau correutamente',
+    },
+    leaveTropeltxo: {
+      action: 'Dexar el tropeltxo',
+      description:
+        "Perderás l'accesu a les clasificaciones del tropeltxo. Pues solicitar accesu de nuevu en cualesquier momentu.",
+      adminDescription:
+        "Como yes l'únicu alministrador, tienes que da-y el rol d'alministrador a otru miembru enantes de dexar el tropeltxo.",
+      confirm: '¿De xuru que quies dexar esti tropeltxo?',
+      success: "Dexasti'l tropeltxo",
+    },
+    inviteMember: {
+      action: 'Convidar usuariu',
+    },
+    removeMember: {
+      action: 'Eliminar miembru',
+      description: "¿Quies eliminar al usuariu del tropeltxo? Perderá l'accesu a les clasificaciones del tropeltxo.",
+      confirm: "¿De xuru que quies eliminar esti miembru d'esti tropeltxo?",
+      success: 'Miembru eliminau del tropeltxo',
+    },
+    searchTropeltxo: {
+      placeholder: 'Guetar...',
+      noResults: "Nun s'atoparon tropeltxos con esta gueta.",
+      error: 'Error na gueta. Inténtalo de nuevu más tardi.',
+      joinedPublic: 'Xunícheste al tropeltxo públicu.',
+      requestSent: 'Unvióse la solicitú pa xunise al tropeltxo priváu.',
+    },
+    form: {
+      name: 'Nome del tropeltxo',
+      nameRequired: 'El nome del tropeltxo ye obligatoriu',
+      nameMinLength: 'Mínimu 4 carauteres',
+      isPublic: 'Tropeltxo públicu',
+      createError: 'Asocedió un error al crear el tropeltxo.',
+    },
+    changeLevel: {
+      confirm: "¿De xuru que quies camudar el nivel d'esti miembru?",
+      adminConfirm: "Si-y das el rol d'alministrador a esti miembru, el to rol baxará a moderador.",
+      success: 'El nivel del miembru foi camudáu.',
+    },
+    joinByCode: {
+      title: 'Xunise a un tropeltxo',
+      action: 'Xunise con códigu',
+      placeholder: "Introduz el códigu d'invitación",
+      confirm: '¿Quies xunite al tropeltxo "{name}"?',
+      membersCount: '{count} miembros',
+      success: '¡Xunícheste al tropeltxo!',
+      invalidCode: "El códigu d'invitación nun ye válidu.",
+      alreadyMember: "Yá yes miembru d'esti tropeltxo.",
+      loginRequired: "Tienes d'aniciar sesión pa xunite a un tropeltxo.",
+    },
+    share: {
+      title: 'Compartir tropeltxo',
+      shareText: '¡Xúnite al mio tropeltxo!',
+      inviteUrl: "Enllaz d'invitación",
+      copyCode: 'Copiar códigu',
+      codeCopied: '¡Códigu copiáu!',
+      copyLink: 'Copiar enllaz',
+      linkCopied: '¡Enllaz copiáu!',
+      shareLink: 'Compartir enllaz',
+      qrCode: 'Códigu QR',
+      downloadQr: 'Descargar códigu QR',
+    },
+  },
+
+  // ui: elementos d'interfaz compartíos
+  ui: {
+    form: {
+      actions: {
+        ok: 'Aceutar',
+        cancel: 'Encaboxar',
+        change: 'Cambiar',
+        close: 'Zarrar',
+        confirm: 'Confirmar',
+        create: 'Crear',
+        delete: 'Esborrar',
+        dismiss: 'Descartar',
+        downloadIcs: 'Descargar calendariu',
+        filter: 'Filtrar',
+        login: 'Aniciar sesión',
+        pay: 'Pagar',
+        refresh: 'Actualizar',
+        reset: 'Resetear',
+        save: 'Guardar',
+        search: 'Buscar',
+        share: 'Compartir',
+        signup: 'Rexístrate',
+        submit: 'Unviar',
+        typeMessage: 'Escribe el to mensaxe',
+        update: 'Actualizar',
+      },
+      fields: {
+        username_email: "Nome d'usuariu o corréu",
+        username: "Nome d'usuariu",
+        password: 'Contraseña',
+        password2: 'Repit la contraseña',
+        email: 'Corréu',
+        firstName: 'Nome',
+        lastName: 'Apellíos',
+        city: 'Ciudá',
+        flag: 'La to bandera',
+      },
+      hints: {
+        city: 'Emplegaremos esto pa les clasificaciones locales.',
+        flag: 'Amuésase nes clasificaciones.',
+      },
+      required: 'Obligatoriu.',
+      rules: {
+        required: 'Esti campu ye obligatoriu.',
+      },
+      social: {
+        facebook: 'Continuar con Facebook',
+        google: 'Continuar con Google',
+        twitter: 'Continuar con Twitter / X',
+      },
+    },
+    select: {
+      all: 'To | Todos',
+      aggregate: 'Xeneral',
+      locale: 'Idioma',
+      race: 'Competición',
+      stage: 'Etapa',
+      finalStage: 'Final',
+      annual: 'Anual',
+    },
+    nav: {
+      pageFirst: 'Primera páxina',
+      pagePrevious: 'Páxina anterior',
+      pageNext: 'Páxina siguiente',
+      pageLast: 'Cabera páxina',
+    },
+    search: {
+      placeholder: 'Guetar...',
+    },
+    or: 'o',
+    loading: 'Cargando...',
+    retry: 'Reintentar',
+  },
+
+  // user: perfil d'usuariu y cuenta
+  user: {
+    menu: {
+      admin: "Zona d'aministración",
+      avatar: 'Mi ciclista',
+      dashboard: 'Mis estadístiques',
+      privacy: 'Privacidá',
+      profile: 'Perfil',
+      settings: 'Configuración',
+      settingsAndPrivacy: 'Configuración y privacidá',
+      notifications: 'Notificaciones',
+      subscriptions: 'Suscripciones',
+      login: 'Aniciar sesión',
+      logout: 'Zarrar sesión',
+      passwordChange: 'Contraseña',
+      emails: 'Emails',
+      socialConnections: 'Conexones sociales',
+      signup: 'Rexistrase',
+      standings: 'Mis clasificaciones',
+      tropeltxos: 'Mis tropeltxos',
+    },
+    changeLanguage:
+      'Pues camudar el idioma de la aplicación equí. El cambéu aplicarase de siguío y guardarase nel to perfil, pa que se recuerde la próxima vez que entres (en cualquier dispositivu).',
+    confirm: {
+      logout: '¿Tas seguru de que quies zarrar sesión?',
+    },
+    tropeltxo: 'Tropeltxo | Tropeltxos',
+  },
+
+  // xedap: editor d'avatar del ciclista
+  xedap: {
+    banner: {
+      updateRider:
+        "Actualiza'l to ciclista na to configuración. ¡Cientos de combinaciones diferentes pa crear el to avatar únicu, miles si yes Gregariu de lluxu!",
+    },
+    form: {
+      height: {
+        label: 'Altor',
+      },
+      weight: {
+        label: 'Pesu',
+      },
+      skin: {
+        label: 'Tonu de piel',
+      },
+      bikes: {
+        label: 'Bicicleta',
+        options: {
+          bike_road: 'Carretera',
+          bike_victorian: 'Victoriana',
+          bike_mountain: 'BTT',
+        },
+      },
+    },
+  },
 };

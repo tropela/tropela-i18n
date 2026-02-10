@@ -3,22 +3,14 @@
 //! author : eillarra : https://github.com/eillarra
 
 export default {
-  updated: 'Aplikazioa eguneratu dugu. Freskatu azken bertsioa erabiltzeko.',
-  welcome: 'Tropela.eus-en zure familia eta lagunekin lehiatu zaitezke denboraldiko txirrindulari lasterketa onenetan.',
-  menu: {
-    home: 'Sarrera',
-    races: 'Lehiaketak',
-    seasons: 'Denboraldiak',
-    rules: 'Arauak',
-    premium: 'Luxuzko gregarioa | Luxuzko gregarioak',
-    blog: 'Bloga',
-    store: 'Denda',
-    about: 'Tropela Elkartea',
-    privacy: 'Pribatutasun politika',
-    terms: 'Erabilera baldintzak',
-    contact: 'Kontaktua',
-    tropeltxos: 'Tropeltxoak',
+  // app: aplikazioko kate orokorrak
+  app: {
+    updated: 'Aplikazioa eguneratu dugu. Freskatu azken bertsioa erabiltzeko.',
+    welcome:
+      'Tropela.eus-en zure familia eta lagunekin lehiatu zaitezke denboraldiko txirrindulari lasterketa onenetan.',
   },
+
+  // auth: autentifikazioa eta kontuaren kudeaketa
   auth: {
     login: {
       title: 'Ongi etorri.',
@@ -35,9 +27,12 @@ export default {
       link: 'Pasahitza ahaztu duzu?',
     },
     passwordResetConfirm: {
+      title: 'Pasahitz berria.',
       intro: 'Idatzi hemen zure pasahitz berria; Tropelan sartzeko erabili ahalko duzu.',
     },
   },
+
+  // countdown: atzerako kontaketarako denbora unitateak
   countdown: {
     months: 'hilabete | hilabete',
     days: 'egun | egun',
@@ -45,19 +40,213 @@ export default {
     minutes: 'minutu | minutu',
     seconds: 'segundu | segundo',
   },
-  season: {
-    allRaces: 'Lehiaketa guztiak',
-    calendar: 'Egutegia',
-    nextRace: 'Hurrengo lehiaketa | Hurrengo lehiaketak',
-    menu: {
-      presentation: 'Denboraldiaren aurkezpena',
-      standings: 'Denboraldiko sailkapenak',
-    },
-    collection: 'Bilduma | Bildumak',
-    race: 'Lehiaketa | Lehiaketak',
-    racesCount: 'Lehiaketarik ez | Lehiaketa bat | {n} lehiaketa',
-    performance: 'Errendimendua',
+
+  // error: errore orokorrak
+  error: {
+    generic: 'Errore bat gertatu da. Saiatu berriro.',
+    loadingFailed: 'Datuak kargatzeak huts egin du.',
+    paymentFailed: 'Ordainketak huts egin du. Saiatu berriro.',
   },
+
+  // faq: ohiko galderak
+  faq: {
+    title: 'Ohiko galderak',
+    helpTropela: {
+      q: 'Nola lagundu diezaioket Tropela Elkarteari?',
+      description: 'Egin zaitez Luxuzko Gregario gure proiektuak bultzatzeko.',
+    },
+    translateTropela: {
+      q: 'Itzulpenekin lagundu al dezaket?',
+      description:
+        'Hizkuntza gutxituak eta txirrindularitza kultura indartsua duten herrialdeetako hizkuntzak babesten ditugu. Hizkuntza berriak gehitu edo itzulpenak hobetu ditzakezu gure biltegi publikoan.',
+    },
+    dashboardPercentage: {
+      q: 'Zer esan nahi dute zure Tropela-ko ehunekoek?',
+      description:
+        'Zure Tropela-n lehiaketa bakoitzeko ehunekoak zure errendimendua adierazten du. Ehunekoa zure atzetik geratu diren erabiltzaileen ehunekoa da.',
+    },
+    profileAvatar: {
+      q: 'Nola aldatu dezaket nire txirrindularia?',
+      description:
+        'Zure txirrindularia ezarpenetan aldatu dezakezu. Zure txirrindularia osatzeko ehundaka konbinazio dituzu!',
+    },
+    profilePremium: {
+      q: 'Zergatik dute erabiltzaile batzuk ikur hau?',
+      description:
+        'Ikur hau dutenak Luxuzko Gregarioak dira: Tropelari lagunduz abantaila bereziak jasotzen dituzten erabiltzaileak.',
+    },
+    raceLoginToCreatePorra: {
+      q: 'Nola jokatu dezaket lehiaketa honetan?',
+      description: 'Lehiaketa honetan zure kiniela egin ahal izateko saioa hasi behar duzu.',
+    },
+    raceDorsalsRetired: {
+      q: 'Non aurkitu dezaket erretiratuen zerrenda osoa?',
+      description: 'Dortsalen zerrenda filtratu dezakezu erretiratuak bakarrik ikusteko.',
+    },
+    racePointsAbc: {
+      q: 'Zer esan nahi dute dortsalen ondoko letrek?',
+      description:
+        'Partehartzaileek beraien kinieletan txirrindulari hori zenbatek aukeratu duten adierazten dute. Lau letra daude: A (>%30), B (%30-%3), C (%3-%1) eta D (<%1).',
+    },
+    racePointsStars: {
+      q: 'Zer esan nahi du txirrindulari batek izar bat badu?',
+      description:
+        'Izar bat duten txirrindulariak kiniela idealean daude; hau da, aukera onena dira lehiaketa irabazteko.',
+    },
+    raceStandings: {
+      q: 'Nola kalkulatzen dira sailkapenak?',
+      description:
+        'Etapa bakoitzaren amaieran, kinielan aukeratuta dituzun txirrindulariei dagozkien puntuak jasoko dituzu. Puntu hauek lasterketako sailkapenen araberakoak dira.',
+    },
+    racePlaceStandings: {
+      q: 'Zer egin dezaket herriko sailkapenak ikusten ez baditut?',
+      description: 'Herriko sailkapenak ikusi ahal izateko, zure herria zehaztu behar duzu zure profilean.',
+    },
+    racePorraRiskFactor: {
+      q: 'Zein da barraren esanahia?',
+      description:
+        '0tik 10era arrisku maila adirazten du barrak: bere porra egitean erabiltzaileak hartutako arriskua.',
+    },
+    racePorraMyRiskFactor: {
+      q: 'Zein da nire kinielaren arrisku maila?',
+      description: 'Porra egitean hartu duzun arrisku maila 0tik 10era adierazita:',
+    },
+    racePorraAds: {
+      q: 'Zergatik ikusten ditut iragarkiak kiniela gorde aurretik?',
+      description: 'Iragarkiak ez ikusteko aukera Luxuzko Gregarioentzat bakarrik dago eskuragarri.',
+    },
+    racePorraCreateRandom: {
+      q: 'Egin al dezakezue kiniela proposamen bat niretzat?',
+      description: 'Noski. Aukeratu kontutan izan behar ditugun letrak eta kiniela bat proposatuko dizugu!',
+    },
+    seasonIcs: {
+      q: 'Nola jaso dezaket denboraldiaren egutegia?',
+      description:
+        'Hemengo esteka hau erabiliz ICS fitxategi bat jeitsi dezakezu, zure agenda digitalean denboraldiko lehiaketak ikusi ahal izateko.',
+    },
+    tropeltxos: {
+      q: 'Non kudeatu ditzaket tropeltxoak?',
+      description:
+        'Tropeltxoen bidez zure lagunekin, etxekoekin, zure lankideekin edota ingurukoekin azpisailkapenak ateratzeko modua izango duzu.',
+    },
+    tropeltxoPrize: {
+      q: 'Ba al daude sariak tropeltxoko irabazlearentzat?',
+      description:
+        'Tropelak ez ditu sariak ematen tropeltxoetan, baina ez ahaztu denda bat dugula sariren bat banatu nahi baduzue!',
+    },
+  },
+
+  // game: babestutako lehiaketak
+  game: {
+    menu: {
+      standings: 'Babestutako sailkapenak',
+    },
+    banner: 'Lehiaketa hau babestuta dago, eta sari ederrak ditu Tropelako erabiltzaileentzat.',
+    legal: 'Oinarriak',
+    prizes: 'Sariak',
+  },
+
+  // menu: nabigazio nagusia
+  menu: {
+    home: 'Sarrera',
+    races: 'Lehiaketak',
+    seasons: 'Denboraldiak',
+    rules: 'Arauak',
+    premium: 'Luxuzko gregarioa | Luxuzko gregarioak',
+    blog: 'Bloga',
+    store: 'Denda',
+    about: 'Tropela Elkartea',
+    privacy: 'Pribatutasun politika',
+    terms: 'Erabilera baldintzak',
+    contact: 'Kontaktua',
+    tropeltxos: 'Tropeltxoak',
+  },
+
+  // message: erabiltzailearentzako feedbacka
+  //   toast: ekintzen ondorengo mezu laburrak
+  //   inline: orrialdean erakusten direnak
+  message: {
+    toast: {
+      invalidCredentials: 'Zehaztutako erabiltzailea eta/edo pasahitza ez dira zuzenak.',
+      loggedIn: 'Saioa hasi duzu {username} bezala',
+      loggedOut: 'Saioa amaitu duzu',
+      passwordResetRequested: 'Pasahitza berrezartzeko emaila bidali da',
+      porraSaveDelay: 'Kiniela {seconds} segundo barru gordeko da',
+      porraCreated: 'Kiniela behar bezala sortu da',
+      porraUpdated: 'Kiniela eguneratu da',
+      porraRandomSelected: 'Kiniela proposatu da',
+      searchDelay: 'Bilaketa {seconds} segundo barru burutuko da',
+      userProfileUpdated: 'Zure profila eguneratu da',
+      userProfileUpdateError: 'Errore bat gertatu da zure profila eguneratzean.',
+      emailTaken: 'Email helbide hau dagoeneko erabiltzen da.',
+      passwordsDontMatch: 'Pasahitzak ez datoz bat.',
+      signupError: 'Errore bat gertatu da kontua sortzean. Saiatu berriro.',
+      usernameTaken: 'Erabiltzaile izen hau dagoeneko hartuta dago.',
+    },
+    inline: {
+      noTropeltxoMessages: 'Ez duzu mezurik tropeltxo honetan.',
+      placeStandingsLogIn: 'Herriko sailkapenak ikusteko saioa hasi behar duzu.',
+      placeStandingsNoPlace: 'Aukeratu zure herria herriko sailkapenak ikusteko.',
+      porraClosed: 'Ezin duzu kinielarik egin lehiaketa honetan.',
+      porraCreateLogIn: 'Kiniela egin ahal izateko saioa hasi behar duzu.',
+      porraViewLogIn: 'Hasi saioa talde hau ikusteko.',
+      xedapAds: 'Zure iragarkia hemen ikusi nahi duzu? Jarri harremanetan gurekin!',
+    },
+  },
+
+  // notification: push notifikazioak
+  notification: {
+    dorsalsNotParticipating:
+      'Zure kinielako (#{porra_id}) txirrindulariren bat ez da {race_name}-n izango. Eguneratu ezazu zure kiniela lasterketa hasi baino lehen!',
+    emptyTropeltxo:
+      'Bakar bakarrik zaude tropeltxo batetan {race_name} lehiaketarako... esan zure lagunei! Tropela dibertigarriagoa da lagun eta familiarekin.|Bakar bakarrik zaude, {count} tropeltxotan, {race_name} lehiaketarako... esan zure lagunei! Tropela dibertigarriagoa da lagun eta familiarekin.',
+    porraPending: 'Ez ahaztu {race_name} lehiaketarako zure kiniela egitea!',
+    tropeltxoMembershipPending:
+      'Eskaera bat duzu zain "{tropeltxo_name}" tropeltxoan.|{count} eskaera dituzu zain "{tropeltxo_name}" tropeltxoan.',
+    tropeltxoMessage: 'Mezu berriak daude "{tropeltxo_name}" tropeltxoko txatean.',
+  },
+
+  // payment: ordainketa fluxua
+  payment: {
+    title: 'Ordainketa xehetasunak',
+    secure: 'Stripe bidezko ordainketa segurua',
+    pay: 'Ordaindu {amount}',
+    card: 'Txartelaren informazioa',
+  },
+
+  // place: lekuan oinarritutako ezaugarriak
+  place: {
+    menu: {
+      standings: 'Herriko sailkapenak',
+    },
+  },
+
+  // premium: harpidetza sustapena
+  premium: {
+    banner: {
+      join: 'Egin zaitez Luxuzko Gregario eta gozatu abantaila bereziez!',
+      noAds: 'Eta iragarkirik gabe!',
+    },
+    action: {
+      upgrade: 'LG bihurtu',
+    },
+  },
+
+  // privacy: pribatutasun ezarpenak
+  privacy: {
+    shareOnSocialMedia: 'Zure jarduera sare sozialetan partekatu',
+    shareOnSocialMediaDescription:
+      'Kiniela berri bat egitean, sare sozialetan partekatu (Twitter edo Facebook bidezko logina erabili baduzu).',
+    makeProfilePublic: 'Zure profila publiko egin',
+    makeProfilePublicDescription:
+      'Zure profila publiko egin dezakezu, eta zure Tropelako emaitzen historikoa elkarbanatu.',
+    receiveEmails: 'Tropelako emailak jaso',
+    receiveEmailsDescription: 'Kiniela egiteko oroigarriak, lehiaketan inguruko informazioa, Tropelako berriak.',
+    receiveNotifications: 'Tropelako notifikazioak jaso',
+    receiveNotificationsDescription: 'Mugikorretan, `push` notifikazioak jaso kinielak irekitzean.',
+  },
+
+  // race: lehiaketa orriak
   race: {
     metaDescription:
       '{name} {season} - Txirrindularitzako fantasy jokoa. Aukeratu zure txirrindulariak eta lehiatu lagunekin Tropela.eus-en.',
@@ -73,7 +262,7 @@ export default {
     },
     canceled: 'Bertan behera',
     stage: 'Etapa | Etapak',
-    stage_today: 'Gaurko etapa | Gaurko etapak',
+    stageToday: 'Gaurko etapa | Gaurko etapak',
     team: 'Taldea | Taldeak',
     dorsal: {
       filter: 'Izen, talde edo herrialdearen arabera filtratu',
@@ -99,27 +288,41 @@ export default {
     porrasCount: 'Kinielarik ez | Kiniela bat | {n} kiniela',
     pointsRules: 'Puntuazioa',
   },
-  payment: {
-    title: 'Ordainketa xehetasunak',
-    secure: 'Stripe bidezko ordainketa segurua',
-    pay: 'Ordaindu {amount}',
-    card: 'Txartelaren informazioa',
-    error: 'Ordainketak huts egin du. Mesedez, saiatu berriro.',
-  },
-  place: {
+
+  // season: denboraldiko ezaugarriak
+  season: {
+    allRaces: 'Lehiaketa guztiak',
+    calendar: 'Egutegia',
+    nextRace: 'Hurrengo lehiaketa | Hurrengo lehiaketak',
     menu: {
-      standings: 'Herriko sailkapenak',
+      presentation: 'Denboraldiaren aurkezpena',
+      standings: 'Denboraldiko sailkapenak',
+    },
+    collection: 'Bilduma | Bildumak',
+    race: 'Lehiaketa | Lehiaketak',
+    racesCount: 'Lehiaketarik ez | Lehiaketa bat | {n} lehiaketa',
+    performance: 'Errendimendua',
+  },
+
+  // subscription: premium harpidetza fluxua
+  subscription: {
+    active: 'Harpidetza aktiboa',
+    available: 'Eskuragarri dauden planak',
+    expiresAt: 'Iraungitze data: {date}',
+    subscribe: 'Harpidetu',
+    success: 'Harpidetza ondo burutu da! Eskerrik asko zure laguntzagatik.',
+    benefits: {
+      title: 'Zergatik egin Luxuzko Gregario?',
+      adFree: 'Iragarkirik gabeko esperientzia: gozatu Tropelaz distrakziorik gabe.',
+      badges: 'Insignia berezia: erakutsi zure babesa sailkapenetan zure izenaren ondoan.',
+      stats: 'Estatistika aurreratuak: datu historiko zehatzak eta analisiak eskuratu.',
+      support: 'Proiektuari lagundu: lagundu zerbitzariak mantentzen eta funtzio berriak garatzen.',
     },
   },
-  game: {
-    menu: {
-      standings: 'Babestutako sailkapenak',
-    },
-    banner: 'Lehiaketa hau babestuta dago, eta sari ederrak ditu Tropelako erabiltzaileentzat.',
-    legal: 'Oinarriak',
-    prizes: 'Sariak',
-  },
+
+  // tropeltxo: tropeltxo (talde) ezaugarriak
   tropeltxo: {
+    chat: 'Txata',
     limitReached: 'Zure tropeltxoen mugara iritsi zara. Irten tropeltxo batetik edo ezabatu tropeltxo bat.',
     create: 'Tropeltxo berria sortu',
     search: 'Tropeltxo bat bilatu',
@@ -214,54 +417,32 @@ export default {
       downloadQr: 'QR kodea deskargatu',
     },
   },
-  user: {
-    menu: {
-      admin: 'Admin gunea',
-      avatar: 'Txirrindularia',
-      dashboard: 'Nire Tropela',
-      privacy: 'Pribatutasuna',
-      profile: 'Profila',
-      settings: 'Ezarpenak',
-      settingsAndPrivacy: 'Ezarpenak eta pribatutasuna',
-      notifications: 'Oharrak',
-      subscriptions: 'Harpidetzak',
-      login: 'Saioa hasi',
-      logout: 'Saioa amaitu',
-      passwordChange: 'Pasahitza',
-      emails: 'Emailak',
-      socialConnections: 'Lotutako kontuak',
-      signup: 'Kontua sortu',
-      standings: 'Nire sailkapenak',
-      tropeltxos: 'Nire tropeltxoak',
-    },
-    change_language:
-      'Aplikazioaren hizkuntza aldatu dezakezu hemen. Aldaketak berehala burutuko dira eta hizkuntza zure profilean gordeko da, hurrengo aldiz saioa hasten duzunean gogoratzeko (edozein gailutan).',
-    confirm: {
-      logout: 'Ziur al zaude saioa amaitu nahi duzula?',
-    },
-    tropeltxo: 'Tropeltxoa | Tropeltxoak',
-  },
+
+  // ui: partekatutako UI elementuak (botoiak, eremuak, hautatzaileak, nabigazioa)
   ui: {
     form: {
       actions: {
         ok: 'Bai',
         cancel: 'Ezeztatu',
         change: 'Aldatu',
+        close: 'Itxi',
+        confirm: 'Berretsi',
         create: 'Sortu',
         delete: 'Ezabatu',
-        update: 'Eguneratu',
+        dismiss: 'Ezeztatu',
+        downloadIcs: 'Egutegia jeitsi',
+        filter: 'Filtratu',
+        login: 'Saioa hasi',
+        pay: 'Ordaindu',
         refresh: 'Freskatu',
         reset: 'Leheneratu',
         save: 'Gorde',
         search: 'Bilatu',
         share: 'Partekatu',
-        submit: 'Bidali',
-        filter: 'Filtratu',
-        dismiss: 'Ezeztatu',
-        typeMessage: 'Zure mezua idatzi',
-        login: 'Saioa hasi',
         signup: 'Kontua sortu',
-        downloadIcs: 'Egutegia jeitsi',
+        submit: 'Bidali',
+        typeMessage: 'Zure mezua idatzi',
+        update: 'Eguneratu',
       },
       fields: {
         username_email: 'Erabiltzailea edo emaila',
@@ -303,146 +484,44 @@ export default {
       pageNext: 'Hurrengo orria',
       pageLast: 'Azken orria',
     },
+    search: {
+      placeholder: 'Bilatu...',
+    },
     or: 'edo',
+    loading: 'Kargatzen...',
+    retry: 'Saiatu berriro',
   },
-  message: {
-    invalidCredentials: 'Zehaztutako erabiltzailea eta/edo pasahitza ez dira zuzenak.',
-    loggedIn: 'Saioa hasi duzu {username} bezala',
-    loggedOut: 'Saioa amaitu duzu',
-    passwordResetRequested: 'Pasahitza berrezartzeko emaila bidali da',
-    porraSaveDelay: 'Kiniela {seconds} segundo barru gordeko da',
-    porraCreated: 'Kiniela behar bezala sortu da',
-    porraUpdated: 'Kiniela eguneratu da',
-    porraRandomSelected: 'Kiniela proposatu da',
-    searchDelay: 'Bilaketa {seconds} segundo barru burutuko da',
-    userProfileUpdated: 'Zure profila eguneratu da',
+
+  // user: erabiltzaile profila eta kontua
+  user: {
+    menu: {
+      admin: 'Admin gunea',
+      avatar: 'Txirrindularia',
+      dashboard: 'Nire Tropela',
+      privacy: 'Pribatutasuna',
+      profile: 'Profila',
+      settings: 'Ezarpenak',
+      settingsAndPrivacy: 'Ezarpenak eta pribatutasuna',
+      notifications: 'Oharrak',
+      subscriptions: 'Harpidetzak',
+      login: 'Saioa hasi',
+      logout: 'Saioa amaitu',
+      passwordChange: 'Pasahitza',
+      emails: 'Emailak',
+      socialConnections: 'Lotutako kontuak',
+      signup: 'Kontua sortu',
+      standings: 'Nire sailkapenak',
+      tropeltxos: 'Nire tropeltxoak',
+    },
+    changeLanguage:
+      'Aplikazioaren hizkuntza aldatu dezakezu hemen. Aldaketak berehala burutuko dira eta hizkuntza zure profilean gordeko da, hurrengo aldiz saioa hasten duzunean gogoratzeko (edozein gailutan).',
+    confirm: {
+      logout: 'Ziur al zaude saioa amaitu nahi duzula?',
+    },
+    tropeltxo: 'Tropeltxoa | Tropeltxoak',
   },
-  notice: {
-    noTropeltxoMessages: 'Ez duzu mezurik tropeltxo honetan.',
-    placeStandingsLogIn: 'Herriko sailkapenak ikusteko saioa hasi behar duzu.',
-    placeStandingsNoPlace: 'Aukeratu zure herria herriko sailkapenak ikusteko.',
-    porraClosed: 'Ezin duzu kinielarik egin lehiaketa honetan.',
-    porraCreateLogIn: 'Kiniela egin ahal izateko saioa hasi behar duzu.',
-    porraViewLogIn: 'Hasi saioa talde hau ikusteko.',
-    xedapAds: 'Zure iragarkia hemen ikusi nahi duzu? Jarri harremanetan gurekin!',
-  },
-  notification: {
-    dorsalsNotParticipating:
-      'Zure kinielako (#{porra_id}) txirrindulariren bat ez da {race_name}-n izango. Eguneratu ezazu zure kiniela lasterketa hasi baino lehen!',
-    emptyTropeltxo:
-      'Bakar bakarrik zaude tropeltxo batetan {race_name} lehiaketarako... esan zure lagunei! Tropela dibertigarriagoa da lagun eta familiarekin.|Bakar bakarrik zaude, {count} tropeltxotan, {race_name} lehiaketarako... esan zure lagunei! Tropela dibertigarriagoa da lagun eta familiarekin.',
-    porraPending: 'Ez ahaztu {race_name} lehiaketarako zure kiniela egitea!',
-    tropeltxoMembershipPending:
-      'Eskaera bat duzu zain "{tropeltxo_name}" tropeltxoan.|{count} eskaera dituzu zain "{tropeltxo_name}" tropeltxoan.',
-    tropeltxoMessage: 'Mezu berriak daude "{tropeltxo_name}" tropeltxoko txatean.',
-  },
-  premium: {
-    banner: {
-      join: 'Egin zaitez Luxuzko Gregario eta gozatu abantaila bereziez!',
-      noAds: 'Eta iragarkirik gabe!',
-    },
-    action: {
-      upgrade: 'LG bihurtu',
-    },
-  },
-  privacy: {
-    shareOnSocialMedia: 'Zure jarduera sare sozialetan partekatu',
-    shareOnSocialMediaDescription:
-      'Kiniela berri bat egitean, sare sozialetan partekatu (Twitter edo Facebook bidezko logina erabili baduzu).',
-    makeProfilePublic: 'Zure profila publiko egin',
-    makeProfilePublicDescription:
-      'Zure profila publiko egin dezakezu, eta zure Tropelako emaitzen historikoa elkarbanatu.',
-    receiveEmails: 'Tropelako emailak jaso',
-    receiveEmailsDescription: 'Kiniela egiteko oroigarriak, lehiaketan inguruko informazioa, Tropelako berriak.',
-    receiveNotifications: 'Tropelako notifikazioak jaso',
-    receiveNotificationsDescription: 'Mugikorretan, `push` notifikazioak jaso kinielak irekitzean.',
-  },
-  faq: {
-    title: 'Ohiko galderak',
-    helpTropela: {
-      q: 'Nola lagundu diezaioket Tropela Elkarteari?',
-      description: 'Egin zaitez Luxuzko Gregario gure proiektuak bultzatzeko.',
-    },
-    translateTropela: {
-      q: 'Itzulpenekin lagundu al dezaket?',
-      description:
-        'Hizkuntza gutxituak eta txirrindularitza kultura indartsua duten herrialdeetako hizkuntzak babesten ditugu. Hizkuntza berriak gehitu edo itzulpenak hobetu ditzakezu gure biltegi publikoan.',
-    },
-    dashboardPercentage: {
-      q: 'Zer esan nahi dute zure Tropela-ko ehunekoek?',
-      description:
-        'Zure Tropela-n lehiaketa bakoitzeko ehunekoak zure errendimendua adierazten du. Ehunekoa zure atzetik geratu diren erabiltzaileen ehunekoa da.',
-    },
-    profileAvatar: {
-      q: 'Nola aldatu dezaket nire txirrindularia?',
-      description:
-        'Zure txirrindularia ezarpenetan aldatu dezakezu. Zure txirrindularia osatzeko ehundaka konbinazio dituzu!',
-    },
-    profilePremium: {
-      q: 'Zergatik dute erabiltzaile batzuk ikur hau?',
-      description:
-        'Ikur hau dutenak Luxuzko Gregarioak dira: Tropelari lagunduz abantaila bereziak jasotzen dituzten erabiltzaileak.',
-    },
-    raceLoginToCreatePorra: {
-      q: 'Nola jokatu dezaket lehiaketa honetan?',
-      description: 'Lehiaketa honetan zure kiniela egin ahal izateko saioa hasi behar duzu.',
-    },
-    raceDorsalsRetired: {
-      q: 'Non aurkitu dezaket erretiratuen zerrenda osoa?',
-      description: 'Dortsalen zerrenda filtratu dezakezu erretiratuak bakarrik ikusteko.',
-    },
-    racePointsAbc: {
-      q: 'Zer esan nahi dute dortsalen ondoko letrek?',
-      description:
-        'Partehartzaileek beraien kinieletan txirrindulari hori zenbatek aukeratu duten adierazten dute. Lau letra daude: A (>%30), B (%30-%3), C (%3-%1) eta D (<%1).',
-    },
-    racePointsStars: {
-      q: 'Zer esan nahi du txirrindulari batek izar bat badu?',
-      description:
-        'Izar bat duten txirrindulariak kiniela idealean daude; hau da, aukera onena dira lehiaketa irabazteko.',
-    },
-    raceStandings: {
-      q: 'Nola kalkulatzen dira sailkapenak?',
-      description:
-        'Etapa bakoitzaren amaieran, kinielan aukeratuta dituzun txirrindulariei dagozkien puntuak jasoko dituzu. Puntu hauek lasterketako sailkapenen araberakoak dira.',
-    },
-    racePlaceStandings: {
-      q: 'Zer egin dezaket herriko sailkapenak ikusten ez baditut?',
-      description: 'Herriko sailkapenak ikusi ahal izateko, zure herria zehaztu behar duzu zure profilean.',
-    },
-    racePorraRiskFactor: {
-      q: 'Zein da barraren esanahia?',
-      description:
-        '0tik 10era arrisku maila adirazten du barrak: bere porra egitean erabiltzaileak hartutako arriskua.',
-    },
-    racePorraMyRiskFactor: {
-      q: 'Zein da nire kinielaren arrisku maila?',
-      description: 'Porra egitean hartu duzun arrisku maila 0tik 10era adierazita:',
-    },
-    racePorraAds: {
-      q: 'Zergatik ikusten ditut iragarkiak kiniela gorde aurretik?',
-      description: 'Iragarkiak ez ikusteko aukera Luxuzko Gregarioentzat bakarrik dago eskuragarri.',
-    },
-    racePorraCreateRandom: {
-      q: 'Egin al dezakezue kiniela proposamen bat niretzat?',
-      description: 'Noski. Aukeratu kontutan izan behar ditugun letrak eta kiniela bat proposatuko dizugu!',
-    },
-    seasonIcs: {
-      q: 'Nola jaso dezaket denboraldiaren egutegia?',
-      description:
-        'Hemengo esteka hau erabiliz ICS fitxategi bat jeitsi dezakezu, zure agenda digitalean denboraldiko lehiaketak ikusi ahal izateko.',
-    },
-    tropeltxos: {
-      q: 'Non kudeatu ditzaket tropeltxoak?',
-      description:
-        'Tropeltxoen bidez zure lagunekin, etxekoekin, zure lankideekin edota ingurukoekin azpisailkapenak ateratzeko modua izango duzu.',
-    },
-    tropeltxoPrize: {
-      q: 'Ba al daude sariak tropeltxoko irabazlearentzat?',
-      description:
-        'Tropelak ez ditu sariak ematen tropeltxoetan, baina ez ahaztu denda bat dugula sariren bat banatu nahi baduzue!',
-    },
-  },
+
+  // xedap: txirrindulari avatar editorea
   xedap: {
     banner: {
       updateRider:
@@ -535,20 +614,6 @@ export default {
           aladin: 'Aladinorenak',
         },
       },
-    },
-  },
-  subscription: {
-    active: 'Harpidetza aktiboa',
-    available: 'Eskuragarri dauden planak',
-    expiresAt: 'Iraungitze data: {date}',
-    subscribe: 'Harpidetu',
-    success: 'Harpidetza ondo burutu da! Eskerrik asko zure laguntzagatik.',
-    benefits: {
-      title: 'Zergatik egin Luxuzko Gregario?',
-      adFree: 'Iragarkirik gabeko esperientzia: gozatu Tropelaz distrakziorik gabe.',
-      badges: 'Insignia berezia: erakutsi zure babesa sailkapenetan zure izenaren ondoan.',
-      stats: 'Estatistika aurreratuak: datu historiko zehatzak eta analisiak eskuratu.',
-      support: 'Proiektuari lagundu: lagundu zerbitzariak mantentzen eta funtzio berriak garatzen.',
     },
   },
 };

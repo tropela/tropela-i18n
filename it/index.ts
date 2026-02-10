@@ -3,23 +3,14 @@
 //! author : github : https://github.com/github
 
 export default {
-  updated: "Abbiamo aggiornato l'app. Ricarica per utilizzare l'ultima versione.",
-  welcome:
-    'Tropela.eus è un gioco di ciclismo fantasy dove puoi giocare con i tuoi amici e familiari, gratuitamente, nelle gare più emozionanti della stagione.',
-  menu: {
-    home: 'Home',
-    races: 'Gare',
-    seasons: 'Temporade',
-    rules: 'Regole',
-    premium: 'Primo domestico | Primi domestici',
-    blog: 'Blog',
-    store: 'Negozio',
-    about: 'Chi siamo',
-    privacy: 'Informativa sulla privacy',
-    terms: 'Termini di utilizzo',
-    contact: 'Contatti',
-    tropeltxos: 'Tropeltxos',
+  // app: stringhe generali dell'applicazione
+  app: {
+    updated: "Abbiamo aggiornato l'app. Ricarica per utilizzare l'ultima versione.",
+    welcome:
+      'Tropela.eus è un gioco di ciclismo fantasy dove puoi giocare con i tuoi amici e familiari, gratuitamente, nelle gare più emozionanti della stagione.',
   },
+
+  // auth: autenticazione e gestione account
   auth: {
     login: {
       title: 'Bentornato.',
@@ -35,9 +26,12 @@ export default {
       link: 'Hai dimenticato la password?',
     },
     passwordResetConfirm: {
+      title: 'Nuova password.',
       intro: 'Inserisci la tua nuova password qui; potrai usarla per accedere a Tropela.',
     },
   },
+
+  // countdown: unità di tempo per i conti alla rovescia
   countdown: {
     months: 'mese | mesi',
     days: 'giorno | giorni',
@@ -45,23 +39,217 @@ export default {
     minutes: 'minuto | minuti',
     seconds: 'secondo | secondi',
   },
-  season: {
-    calendar: 'Calendario',
-    nextRace: 'Prossima gara | Prossime gare',
-    menu: {
-      standings: 'Classifica stagione',
-    },
-    collection: 'Collezione | Collezioni',
-    race: 'Gara | Gare',
-    racesCount: 'Nessuna gara | Una gara | {n} gare',
-    performance: 'Prestazioni',
+
+  // error: messaggi di errore generici
+  error: {
+    generic: 'Si è verificato un errore. Riprova.',
+    loadingFailed: 'Caricamento dati non riuscito.',
+    paymentFailed: 'Pagamento non riuscito. Riprova.',
   },
+
+  // faq: domande frequenti
+  faq: {
+    title: 'Domande frequenti',
+    helpTropela: {
+      q: 'Come posso aiutare Tropela?',
+      description: 'Diventa un Primo domestico per sostenere i nostri progetti.',
+    },
+    translateTropela: {
+      q: 'Posso aiutare con le traduzioni?',
+      description:
+        'Supportiamo le lingue minoritarie e quelle parlate nei paesi con una forte cultura ciclistica. Puoi aggiungere nuove lingue o migliorare le traduzioni tramite il nostro repository pubblico.',
+    },
+    dashboardPercentage: {
+      q: 'Cosa significano le percentuali nel tuo dashboard?',
+      description:
+        'Nel tuo Tropela, le percentuali indicano le tue prestazioni in ogni competizione. La percentuale è la percentuale di utenti che sono finiti dietro di te.',
+    },
+    profileAvatar: {
+      q: 'Come posso cambiare il mio ciclista?',
+      description:
+        'Puoi cambiare il tuo pilota nelle impostazioni. Centinaia di diverse combinazioni per creare il tuo avatar unico!',
+    },
+    profilePremium: {
+      q: 'Perché alcuni utenti hanno questa icona?',
+      description: 'I Primi domestici sono utenti che aiutano Tropela e godono di vantaggi esclusivi.',
+    },
+    raceLoginToCreatePorra: {
+      q: 'Come posso partecipare a questa competizione?',
+      description: 'Per partecipare a questa competizione, devi accedere e creare la tua squadra.',
+    },
+    raceDorsalsRetired: {
+      q: 'Dove posso vedere i dorsali ritirati?',
+      description: 'Puoi filtrare i dorsali per stato per vedere solo quelli ritirati.',
+    },
+    racePointsAbc: {
+      q: 'Cosa significano le lettere accanto ai corridori?',
+      description:
+        'Le lettere mostrano quanti utenti hanno selezionato i corridori. Ci sono quattro lettere: A (>%30), B (%30-%3), C (%3-%1) e D (<%1).',
+    },
+    racePointsStars: {
+      q: 'Cosa significano le stelle accanto ai corridori?',
+      description:
+        'I corridori con le stelle sono nella squadra ideale; cioè, sono la migliore opzione per vincere questa competizione.',
+    },
+    raceStandings: {
+      q: 'Come vengono calcolate le classifiche?',
+      description:
+        'Alla fine di ogni tappa, riceverai i punti dei corridori che hai selezionato nella tua squadra. Questi punti determinano la classifica.',
+    },
+    racePlaceStandings: {
+      q: 'Cosa posso fare se non vedo le classifiche locali?',
+      description: 'Per vedere le classifiche locali, devi specificare la tua città nel tuo profilo.',
+    },
+    racePorraRiskFactor: {
+      q: 'Qual è il significato della barra?',
+      description:
+        "La barra indica il livello di rischio da 0 a 10: il rischio che l'utente ha assunto quando ha creato la sua squadra.",
+    },
+    racePorraMyRiskFactor: {
+      q: 'Qual è il livello di rischio della mia squadra?',
+      description: 'Il rischio che hai assunto quando hai creato la tua squadra, da 0 a 10:',
+    },
+    racePorraAds: {
+      q: 'Perché vedo annunci prima di salvare la mia squadra?',
+      description: 'Solo i Primi domestici possono salvare la loro squadra senza vedere annunci.',
+    },
+    racePorraCreateRandom: {
+      q: 'Puoi creare una squadra casuale per me?',
+      description: 'Certo. Scegli le lettere che dovremmo considerare e ti proporremo una squadra!',
+    },
+    seasonIcs: {
+      q: 'Come posso ricevere il calendario delle competizioni?',
+      description:
+        'Con questo link puoi scaricare un file ICS per aggiungere le competizioni della stagione al tuo calendario digitale.',
+    },
+    tropeltxos: {
+      q: 'Dove posso gestire i miei tropeltxos?',
+      description:
+        'Con i tropeltxos puoi vedere le sottoclassifiche con i tuoi amici, familiari, colleghi di lavoro o vicini.',
+    },
+    tropeltxoPrize: {
+      q: 'Ci sono premi per il vincitore del tropeltxo?',
+      description:
+        'Tropela non offre premi nei tropeltxos, ma non dimenticare che abbiamo un negozio se vuoi distribuire premi!',
+    },
+  },
+
+  // game: competizioni sponsorizzate
+  game: {
+    menu: {
+      standings: 'Classifiche del gioco',
+    },
+    banner: 'Questa è una gara sponsorizzata, con bei premi per gli utenti di Tropela.',
+    legal: 'Basi legali',
+    prizes: 'Premi',
+  },
+
+  // menu: navigazione principale
+  menu: {
+    home: 'Home',
+    races: 'Gare',
+    seasons: 'Temporade',
+    rules: 'Regole',
+    premium: 'Primo domestico | Primi domestici',
+    blog: 'Blog',
+    store: 'Negozio',
+    about: 'Chi siamo',
+    privacy: 'Informativa sulla privacy',
+    terms: 'Termini di utilizzo',
+    contact: 'Contatti',
+    tropeltxos: 'Tropeltxos',
+  },
+
+  // message: feedback per l'utente
+  message: {
+    toast: {
+      invalidCredentials: 'Il nome utente e/o la password specificati non sono corretti.',
+      loggedIn: 'Accesso effettuato come {username}',
+      loggedOut: "Hai effettuato l'uscita",
+      passwordResetRequested: 'È stata inviata una email per il ripristino della password',
+      porraSaveDelay: 'La tua squadra verrà salvata in {seconds} secondi',
+      porraCreated: 'La tua squadra è stata creata',
+      porraUpdated: 'La tua squadra è stata aggiornata',
+      porraRandomSelected: 'È stata proposta una squadra casuale',
+      searchDelay: 'La ricerca verrà avviata in {seconds} secondi',
+      userProfileUpdated: 'Il tuo profilo è stato aggiornato',
+      userProfileUpdateError: "Si è verificato un errore durante l'aggiornamento del profilo.",
+      emailTaken: 'Questo indirizzo email è già in uso.',
+      passwordsDontMatch: 'Le password non corrispondono.',
+      signupError: 'Si è verificato un errore durante la registrazione. Riprova.',
+      usernameTaken: 'Questo nome utente è già in uso.',
+    },
+    inline: {
+      noTropeltxoMessages: 'Non hai messaggi in questo tropeltxo.',
+      placeStandingsLogIn: 'Accedi per vedere le tue classifiche locali.',
+      placeStandingsNoPlace: 'Aggiorna le informazioni sulla tua città per vedere le classifiche locali.',
+      porraClosed: 'Non puoi creare una squadra per questa gara.',
+      porraCreateLogIn: 'Devi accedere per creare una squadra.',
+      porraViewLogIn: 'Accedi per vedere questa squadra.',
+      xedapAds: 'Vuoi vedere qui i tuoi annunci? Contattaci!',
+    },
+  },
+
+  // notification: notifiche push
+  notification: {
+    dorsalsNotParticipating:
+      'Alcuni corridori della tua squadra (#{porra_id}) non parteciperanno a {race_name}. Dovresti controllare la tua selezione di corridori!',
+    emptyTropeltxo:
+      'Sei tutto solo in uno dei tu tropeltxos per {race_name}... parlane con i tuoi amici! Tropela è più divertente con amici e familiari.|Sei tutto solo in {count} dei tuoi tropeltxos per {race_name}... parlane con i tuoi amici! Tropela è più divertente con amici e familiari.',
+    porraPending: 'Non dimenticare di creare la tua squadra per {race_name}!',
+    tropeltxoMembershipPending:
+      'C\'è una richiesta in sospeso nel tropeltxo "{tropeltxo_name}".|Ci sono {count} richieste in sospeso nel tropeltxo "{tropeltxo_name}".',
+    tropeltxoMessage: 'Ci sono nuovi messaggi nella chat del tropeltxo "{tropeltxo_name}".',
+  },
+
+  // payment: flusso di pagamento
+  payment: {
+    title: 'Dettagli del pagamento',
+    secure: 'Pagamento sicuro elaborato da Stripe',
+    pay: 'Paga {amount}',
+    card: 'Informazioni della carta',
+  },
+
+  // place: funzionalità basate sulla posizione
+  place: {
+    menu: {
+      standings: 'Classifiche locali',
+    },
+  },
+
+  // premium: promozione abbonamento
+  premium: {
+    banner: {
+      join: 'Diventa un Primo domestico e goditi alcune funzionalità extra!',
+      noAds: 'Senza pubblicità!',
+    },
+    action: {
+      upgrade: 'Aggiorna',
+    },
+  },
+
+  // privacy: impostazioni privacy
+  privacy: {
+    shareOnSocialMedia: 'Condividi la tua attività sui social media',
+    shareOnSocialMediaDescription:
+      'Quando crei una squadra, condividila sui social media (se stai usando il login di Twitter o Facebook).',
+    makeProfilePublic: 'Rendi il tuo profilo pubblico',
+    makeProfilePublicDescription:
+      'Puoi rendere il tuo profilo pubblico, in modo che gli altri utenti possano vedere la tua storia e i risultati di Tropela.',
+    receiveEmails: 'Ricevi email da Tropela',
+    receiveEmailsDescription: 'Promemoria per creare una squadra, notizie, ecc.',
+    receiveNotifications: 'Ricevi notifiche push',
+    receiveNotificationsDescription: 'Ricevi notifiche push sui dispositivi mobili, quando apriamo un nuovo gioco.',
+  },
+
+  // race: pagine delle competizioni
   race: {
     metaDescription:
       '{name} {season} - Gioco di ciclismo fantasy. Scegli i tuoi ciclisti e sfida i tuoi amici su Tropela.eus.',
     menu: {
       presentation: 'Presentazione',
       standings: 'Classifiche',
+      standings2: 'Classifiche (fino a questa gara)',
       points: 'Punti ciclisti',
       dorsals: 'Elenco ciclisti',
       news: 'Notizie',
@@ -70,7 +258,7 @@ export default {
     },
     canceled: 'Annullato',
     stage: 'Tappa | Tappe',
-    stage_today: 'Tappa di oggi | Tappe di oggi',
+    stageToday: 'Tappa di oggi | Tappe di oggi',
     team: 'Squadra | Squadre',
     dorsal: {
       filter: 'Filtra per nome, squadra o paese',
@@ -96,20 +284,41 @@ export default {
     porrasCount: 'Nessuna squadra | Una squadra | {n} squadre',
     pointsRules: 'Punteggi',
   },
-  place: {
+
+  // season: funzionalità stagionali
+  season: {
+    allRaces: 'Tutte le gare',
+    calendar: 'Calendario',
+    nextRace: 'Prossima gara | Prossime gare',
     menu: {
-      standings: 'Classifiche locali',
+      presentation: 'Presentazione della stagione',
+      standings: 'Classifica stagione',
+    },
+    collection: 'Collezione | Collezioni',
+    race: 'Gara | Gare',
+    racesCount: 'Nessuna gara | Una gara | {n} gare',
+    performance: 'Prestazioni',
+  },
+
+  // subscription: flusso di abbonamento premium
+  subscription: {
+    active: 'Abbonamento attivo',
+    available: 'Piani disponibili',
+    expiresAt: 'Scade il {date}',
+    subscribe: 'Abbonati',
+    success: 'Abbonamento effettuato con successo! Grazie per il tuo supporto.',
+    benefits: {
+      title: 'Perché diventare Primo domestico?',
+      adFree: 'Esperienza senza pubblicità: goditi Tropela senza distrazioni.',
+      badges: 'Badge esclusivo: mostra un badge speciale accanto al tuo nome nelle classifiche.',
+      stats: 'Statistiche avanzate: accedi a dati storici dettagliati e analisi.',
+      support: 'Sostieni il progetto: aiuta a mantenere i server e a sviluppare nuove funzionalità.',
     },
   },
-  game: {
-    menu: {
-      standings: 'Classifiche del gioco',
-    },
-    banner: 'Questa è una gara sponsorizzata, con bei premi per gli utenti di Tropela.',
-    legal: 'Basi legali',
-    prizes: 'Premi',
-  },
+
+  // tropeltxo: funzionalità tropeltxo (gruppi)
   tropeltxo: {
+    chat: 'Chat',
     limitReached: 'Hai raggiunto il limite di tropeltxo. Esci o elimina un tropeltxo.',
     create: 'Crea un nuovo tropeltxo',
     search: 'Cerca un tropeltxo',
@@ -124,6 +333,7 @@ export default {
       pending: 'In attesa',
       pendingDescription: 'Ha richiesto accesso al tropeltxo ma non è ancora stato accettato.',
       invited: 'Invitato',
+      invitedDescription: 'È stato invitato al tropeltxo ma non ha ancora accettato.',
       rejected: 'Rifiutato',
     },
     members: 'Membri',
@@ -205,53 +415,32 @@ export default {
       downloadQr: 'Scarica codice QR',
     },
   },
-  user: {
-    menu: {
-      admin: 'Area amministrativa',
-      avatar: 'Ciclista',
-      dashboard: 'Dashboard',
-      privacy: 'Privacy',
-      profile: 'Profilo',
-      settings: 'Impostazioni',
-      settingsAndPrivacy: 'Impostazioni e privacy',
-      notifications: 'Notifiche',
-      subscriptions: 'Abbonamenti',
-      login: 'Accedi',
-      logout: 'Esci',
-      passwordChange: 'Cambia password',
-      emails: 'Email',
-      socialConnections: 'Connessioni social',
-      signup: 'Registrati',
-      standings: 'Le mie classifiche',
-      tropeltxos: 'I miei tropeltxos',
-    },
-    change_language:
-      "Puoi cambiare la lingua dell'applicazione qui. Il cambiamento verrà applicato immediatamente e salvato nel tuo profilo, in modo che possa essere ricordato la prossima volta che accedi (su qualsiasi dispositivo).",
-    confirm: {
-      logout: 'Sei sicuro di voler uscire?',
-    },
-    tropeltxo: 'Tropeltxo | Tropeltxos',
-  },
+
+  // ui: elementi di interfaccia condivisi
   ui: {
     form: {
       actions: {
         ok: 'OK',
         cancel: 'Annulla',
         change: 'Cambia',
+        close: 'Chiudi',
+        confirm: 'Conferma',
         create: 'Crea',
         delete: 'Elimina',
-        update: 'Aggiorna',
+        dismiss: 'Annulla',
+        downloadIcs: 'Scarica calendario',
+        filter: 'Filtra',
+        login: 'Accedi',
+        pay: 'Paga',
         refresh: 'Aggiorna',
         reset: 'Resetta',
         save: 'Salva',
         search: 'Cerca',
         share: 'Condividi',
-        submit: 'Invia',
-        filter: 'Filtra',
-        dismiss: 'Annulla',
-        typeMessage: 'Scrivi il tuo messaggio',
-        login: 'Accedi',
         signup: 'Registrati',
+        submit: 'Invia',
+        typeMessage: 'Scrivi il tuo messaggio',
+        update: 'Aggiorna',
       },
       fields: {
         username_email: 'Nome utente o email',
@@ -293,139 +482,44 @@ export default {
       pageNext: 'Pagina successiva',
       pageLast: 'Ultima pagina',
     },
+    search: {
+      placeholder: 'Cerca...',
+    },
     or: 'o',
+    loading: 'Caricamento...',
+    retry: 'Riprova',
   },
-  message: {
-    invalidCredentials: 'Il nome utente e/o la password specificati non sono corretti.',
-    loggedIn: 'Accesso effettuato come {username}',
-    loggedOut: "Hai effettuato l'uscita",
-    passwordResetRequested: 'È stata inviata una email per il ripristino della password',
-    porraSaveDelay: 'La tua squadra verrà salvata in {seconds} secondi',
-    porraCreated: 'La tua squadra è stata creata',
-    porraUpdated: 'La tua squadra è stata aggiornata',
-    porraRandomSelected: 'È stata proposta una squadra casuale',
-    searchDelay: 'La ricerca verrà avviata in {seconds} secondi',
-    userProfileUpdated: 'Il tuo profilo è stato aggiornato',
+
+  // user: profilo utente e account
+  user: {
+    menu: {
+      admin: 'Area amministrativa',
+      avatar: 'Ciclista',
+      dashboard: 'Dashboard',
+      privacy: 'Privacy',
+      profile: 'Profilo',
+      settings: 'Impostazioni',
+      settingsAndPrivacy: 'Impostazioni e privacy',
+      notifications: 'Notifiche',
+      subscriptions: 'Abbonamenti',
+      login: 'Accedi',
+      logout: 'Esci',
+      passwordChange: 'Cambia password',
+      emails: 'Email',
+      socialConnections: 'Connessioni social',
+      signup: 'Registrati',
+      standings: 'Le mie classifiche',
+      tropeltxos: 'I miei tropeltxos',
+    },
+    changeLanguage:
+      "Puoi cambiare la lingua dell'applicazione qui. Il cambiamento verrà applicato immediatamente e salvato nel tuo profilo, in modo che possa essere ricordato la prossima volta che accedi (su qualsiasi dispositivo).",
+    confirm: {
+      logout: 'Sei sicuro di voler uscire?',
+    },
+    tropeltxo: 'Tropeltxo | Tropeltxos',
   },
-  notice: {
-    noTropeltxoMessages: 'Non hai messaggi tropeltxo',
-    placeStandingsLogIn: 'Accedi per vedere le tue classifiche locali.',
-    placeStandingsNoPlace: 'Aggiorna le informazioni sulla tua città per vedere le classifiche locali.',
-    porraClosed: 'Non puoi creare una squadra per questa gara.',
-    porraCreateLogIn: 'Devi accedere per creare una squadra.',
-    xedapAds: 'Vuoi vedere qui i tuoi annunci? Contattaci!',
-  },
-  notification: {
-    dorsalsNotParticipating:
-      'Alcuni corridori della tua squadra (#{porra_id}) non parteciperanno a {race_name}. Dovresti controllare la tua selezione di corridori!',
-    emptyTropeltxo:
-      'Sei tutto solo in uno dei tu tropeltxos per {race_name}... parlane con i tuoi amici! Tropela è più divertente con amici e familiari.|Sei tutto solo in {count} dei tuoi tropeltxos per {race_name}... parlane con i tuoi amici! Tropela è più divertente con amici e familiari.',
-    porraPending: 'Non dimenticare di creare la tua squadra per {race_name}!',
-    tropeltxoMembershipPending:
-      'C\'è una richiesta in sospeso nel tropeltxo "{tropeltxo_name}".|Ci sono {count} richieste in sospeso nel tropeltxo "{tropeltxo_name}".',
-    tropeltxoMessage: 'Ci sono nuovi messaggi nella chat del tropeltxo "{tropeltxo_name}".',
-  },
-  premium: {
-    banner: {
-      join: 'Diventa un Primo domestico e goditi alcune funzionalità extra!',
-      noAds: 'Senza pubblicità!',
-    },
-    action: {
-      upgrade: 'Aggiorna',
-    },
-  },
-  privacy: {
-    shareOnSocialMedia: 'Condividi la tua attività sui social media',
-    shareOnSocialMediaDescription:
-      'Quando crei una squadra, condividila sui social media (se stai usando il login di Twitter o Facebook).',
-    makeProfilePublic: 'Rendi il tuo profilo pubblico',
-    makeProfilePublicDescription:
-      'Puoi rendere il tuo profilo pubblico, in modo che gli altri utenti possano vedere la tua storia e i risultati di Tropela.',
-    receiveEmails: 'Ricevi email da Tropela',
-    receiveEmailsDescription: 'Promemoria per creare una squadra, notizie, ecc.',
-    receiveNotifications: 'Ricevi notifiche push',
-    receiveNotificationsDescription: 'Ricevi notifiche push sui dispositivi mobili, quando apriamo un nuovo gioco.',
-  },
-  faq: {
-    title: 'Domande frequenti',
-    helpTropela: {
-      q: 'Come posso aiutare Tropela?',
-      description: 'Diventa un Primo domestico per sostenere i nostri progetti.',
-    },
-    translateTropela: {
-      q: 'Posso aiutare con le traduzioni?',
-      description:
-        'Supportiamo le lingue minoritarie e quelle parlate nei paesi con una forte cultura ciclistica. Puoi aggiungere nuove lingue o migliorare le traduzioni tramite il nostro repository pubblico.',
-    },
-    dashboardPercentage: {
-      q: 'Cosa significano le percentuali nel tuo dashboard?',
-      description:
-        'Nel tuo Tropela, le percentuali indicano le tue prestazioni in ogni competizione. La percentuale è la percentuale di utenti che sono finiti dietro di te.',
-    },
-    profileAvatar: {
-      q: 'Come posso cambiare il mio ciclista?',
-      description:
-        'Puoi cambiare il tuo pilota nelle impostazioni. Centinaia di diverse combinazioni per creare il tuo avatar unico!',
-    },
-    profilePremium: {
-      q: 'Perché alcuni utenti hanno questa icona?',
-      description: 'I Primi domestici sono utenti che aiutano Tropela e godono di vantaggi esclusivi.',
-    },
-    raceLoginToCreatePorra: {
-      q: 'Come posso partecipare a questa competizione?',
-      description: 'Per partecipare a questa competizione, devi accedere e creare la tua squadra.',
-    },
-    raceDorsalsRetired: {
-      q: 'Dove posso vedere i dorsali ritirati?',
-      description: 'Puoi filtrare i dorsali per stato per vedere solo quelli ritirati.',
-    },
-    racePointsAbc: {
-      q: 'Cosa significano le lettere accanto ai corridori?',
-      description:
-        'Le lettere mostrano quanti utenti hanno selezionato i corridori. Ci sono quattro lettere: A (>%30), B (%30-%3), C (%3-%1) e D (<%1).',
-    },
-    racePointsStars: {
-      q: 'Cosa significano le stelle accanto ai corridori?',
-      description:
-        'I corridori con le stelle sono nella squadra ideale; cioè, sono la migliore opzione per vincere questa competizione.',
-    },
-    raceStandings: {
-      q: 'Come vengono calcolate le classifiche?',
-      description:
-        'Alla fine di ogni tappa, riceverai i punti dei corridori che hai selezionato nella tua squadra. Questi punti determinano la classifica.',
-    },
-    racePlaceStandings: {
-      q: 'Cosa posso fare se non vedo le classifiche locali?',
-      description: 'Per vedere le classifiche locali, devi specificare la tua città nel tuo profilo.',
-    },
-    racePorraRiskFactor: {
-      q: 'Qual è il significato della barra?',
-      description:
-        "La barra indica il livello di rischio da 0 a 10: il rischio che l'utente ha assunto quando ha creato la sua squadra.",
-    },
-    racePorraMyRiskFactor: {
-      q: 'Qual è il livello di rischio della mia squadra?',
-      description: 'Il rischio che hai assunto quando hai creato la tua squadra, da 0 a 10:',
-    },
-    racePorraAds: {
-      q: 'Perché vedo annunci prima di salvare la mia squadra?',
-      description: 'Solo i Primi domestici possono salvare la loro squadra senza vedere annunci.',
-    },
-    racePorraCreateRandom: {
-      q: 'Puoi creare una squadra casuale per me?',
-      description: 'Certo. Scegli le lettere che dovremmo considerare e ti proporremo una squadra!',
-    },
-    tropeltxos: {
-      q: 'Dove posso gestire i miei tropeltxos?',
-      description:
-        'Con i tropeltxos puoi vedere le sottoclassifiche con i tuoi amici, familiari, colleghi di lavoro o vicini.',
-    },
-    tropeltxoPrize: {
-      q: 'Ci sono premi per il vincitore del tropeltxo?',
-      description:
-        'Tropela non offre premi nei tropeltxos, ma non dimenticare che abbiamo un negozio se vuoi distribuire premi!',
-    },
-  },
+
+  // xedap: editor avatar ciclista
   xedap: {
     banner: {
       updateRider:

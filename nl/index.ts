@@ -1,25 +1,17 @@
 //! tropela-app translation file
 //! locale : Dutch [nl]
 //! author : eillarra : https://github.com/eillarra
+//! author : github : https://github.com/github
 
 export default {
-  updated: 'We hebben de app bijgewerkt. Ververs om de nieuwste versie te gebruiken.',
-  welcome:
-    'Welkom bij Tropela, een gratis online wielerspel waar je kunt strijden tegen je vrienden, familie en andere wielerfans.',
-  menu: {
-    home: 'Home',
-    races: 'Wedstrijden',
-    seasons: 'Seizoenen',
-    rules: 'Reglement',
-    premium: 'Meesterknecht | Meesterknechten',
-    blog: 'Blog',
-    store: 'Winkel',
-    about: 'Over ons',
-    privacy: 'Privacybeleid',
-    terms: 'Gebruiksvoorwaarden',
-    contact: 'Contact',
-    tropeltxos: 'Tropeltxos',
+  // app: algemene applicatiestrings
+  app: {
+    updated: 'We hebben de app bijgewerkt. Ververs om de nieuwste versie te gebruiken.',
+    welcome:
+      'Welkom bij Tropela, een gratis online wielerspel waar je kunt strijden tegen je vrienden, familie en andere wielerfans.',
   },
+
+  // auth: authenticatie en accountbeheer
   auth: {
     login: {
       title: 'Welkom.',
@@ -35,9 +27,12 @@ export default {
       link: 'Wachtwoord vergeten?',
     },
     passwordResetConfirm: {
+      title: 'Nieuw wachtwoord.',
       intro: 'Voer hier je nieuwe wachtwoord in; je kunt het gebruiken om toegang te krijgen tot Tropela.',
     },
   },
+
+  // countdown: tijdseenheden voor aftellen
   countdown: {
     months: 'maand | maanden',
     days: 'dag | dagen',
@@ -45,302 +40,15 @@ export default {
     minutes: 'minuut | minuten',
     seconds: 'seconde | seconden',
   },
-  season: {
-    allRaces: 'Alle wedstrijden',
-    calendar: 'Kalender',
-    nextRace: 'Volgende wedstrijd | Volgende wedstrijden',
-    menu: {
-      standings: 'Seizoensklassement',
-    },
-    collection: 'Collectie | Collecties',
-    race: 'Wedstrijd | Wedstrijden',
-    racesCount: 'Geen wedstrijden | Een wedstrijd | {n} wedstrijden',
-    performance: 'Prestatie',
+
+  // error: generieke foutmeldingen
+  error: {
+    generic: 'Er is een fout opgetreden. Probeer het opnieuw.',
+    loadingFailed: 'Laden van gegevens mislukt.',
+    paymentFailed: 'Betaling mislukt. Probeer het opnieuw.',
   },
-  race: {
-    metaDescription:
-      '{name} {season} - Fantasy wielerspel. Kies je renners en neem het op tegen je vrienden op Tropela.eus.',
-    menu: {
-      presentation: 'Overzicht',
-      standings: 'Klassement',
-      standings2: 'Klassement (tot deze wedstrijd)',
-      points: 'Punten renners',
-      dorsals: 'Rennerslijst',
-      news: 'Nieuws',
-      createPorra: 'Team samenstellen',
-      myPorra: 'Mijn team',
-    },
-    canceled: 'Afgelast',
-    stage: 'Etappe | Etappes',
-    stage_today: 'Etape van vandaag | Etappes van vandaag',
-    team: 'Team | Teams',
-    dorsal: {
-      filter: 'Filter op naam, team of land',
-      group: 'Groep | Groepen',
-      status: 'Status | Statussen',
-      statuses: {
-        unconfirmed: 'Onzeker',
-        participating: 'Zeker',
-        notParticipating: 'Komt niet',
-        retired: 'Gestopt',
-      },
-      sort: {
-        alpha: 'Sorteer op naam',
-        percent: 'Sorteer op percentage',
-        position: 'Sorteer op positie',
-      },
-    },
-    porra: {
-      registrationOpens: 'Inschrijvingen openen over',
-      registrationOpenFor: 'Inschrijvingen open voor',
-      showAllStages: 'Toon alle etappes',
-    },
-    porrasCount: 'Geen teams | Een team | {n} teams',
-    pointsRules: 'Punten',
-  },
-  place: {
-    menu: {
-      standings: 'Lokale klassement',
-    },
-  },
-  user: {
-    menu: {
-      admin: 'Admin area',
-      avatar: 'Mijn renner',
-      dashboard: 'Dashboard',
-      privacy: 'Privacy',
-      profile: 'Profiel',
-      settings: 'Instellingen',
-      settingsAndPrivacy: 'Instellingen en privacy',
-      notifications: 'Notificaties',
-      subscriptions: 'Abonnementen',
-      login: 'Aanmelden',
-      logout: 'Afmelden',
-      passwordChange: 'Wachtwoord',
-      emails: 'E-mailadressen',
-      socialConnections: 'Sociale accounts',
-      signup: 'Registreren',
-      standings: 'Mijn klassement',
-      tropeltxos: 'Mijn tropeltxos',
-    },
-    change_language:
-      'Je kunt hier de taal van de applicatie wijzigen. De wijziging wordt onmiddellijk toegepast en opgeslagen in je profiel, zodat deze kan worden onthouden wanneer je de volgende keer inlogt (op elk apparaat).',
-    confirm: {
-      logout: 'Weet je zeker dat je wilt afmelden?',
-    },
-    tropeltxo: 'Tropeltxo',
-  },
-  tropeltxo: {
-    limitReached: 'Je hebt de limiet van tropeltxos bereikt. Verlaat of verwijder een tropeltxo.',
-    create: 'Een nieuwe tropeltxo aanmaken',
-    search: 'Een tropeltxo zoeken',
-    membership: 'Lidmaatschap',
-    membershipLevel: {
-      admin: 'Admin',
-      adminDescription: 'Volledige controle over de tropeltxo. Kan leden en instellingen beheren.',
-      moderator: 'Moderator',
-      moderatorDescription: 'Kan leden beheren.',
-      member: 'Lid',
-      memberDescription: 'Kan klassementen bekijken.',
-      pending: 'In afwachting',
-      pendingDescription: 'Heeft toegang tot de tropeltxo aangevraagd maar is nog niet geaccepteerd.',
-      invited: 'Uitgenodigd',
-      rejected: 'Afgewezen',
-    },
-    members: 'Leden',
-    public: 'Openbaar',
-    private: 'Privé',
-    publicDescription: 'Iedereen kan deze tropeltxo vinden en eraan deelnemen.',
-    privateDescription: 'Alleen uitgenodigde gebruikers kunnen deelnemen aan deze tropeltxo.',
-    createTropeltxo: {
-      action: 'Tropeltxo aanmaken',
-      description:
-        "Je kunt een tropeltxo aanmaken met je vrienden, familie, collega's of buren om subklassementen te bekijken.",
-      success: 'Tropeltxo succesvol aangemaakt',
-    },
-    deleteTropeltxo: {
-      action: 'Tropeltxo verwijderen',
-      description:
-        'Deze actie kan niet ongedaan worden gemaakt. Alle leden verliezen toegang tot de klassementen en alle gegevens worden verwijderd.',
-      confirm: 'Weet je zeker dat je deze tropeltxo wilt verwijderen?',
-      success: 'Tropeltxo succesvol verwijderd',
-    },
-    leaveTropeltxo: {
-      action: 'Tropeltxo verlaten',
-      description:
-        'Je verliest toegang tot de klassementen van de tropeltxo. Je kunt op elk moment opnieuw toegang aanvragen.',
-      adminDescription:
-        'Als enige admin moet je de adminrol overdragen aan een ander lid voordat je de tropeltxo verlaat.',
-      confirm: 'Weet je zeker dat je deze tropeltxo wilt verlaten?',
-      success: 'Je hebt de tropeltxo verlaten',
-    },
-    inviteMember: {
-      action: 'Gebruiker uitnodigen',
-    },
-    removeMember: {
-      action: 'Lid verwijderen',
-      description: 'De gebruiker uit de tropeltxo verwijderen? Deze verliest dan toegang tot de klassementen.',
-      confirm: 'Weet je zeker dat je dit lid uit deze tropeltxo wilt verwijderen?',
-      success: 'Lid verwijderd uit de tropeltxo',
-    },
-    searchTropeltxo: {
-      placeholder: 'Zoeken...',
-      noResults: 'Geen tropeltxos gevonden voor deze zoekopdracht.',
-      error: 'Fout bij het zoeken. Probeer het later opnieuw.',
-      joinedPublic: 'Je bent lid geworden van de openbare tropeltxo.',
-      requestSent: 'Een verzoek om lid te worden van de privé tropeltxo is verstuurd.',
-    },
-    form: {
-      name: 'Tropeltxo naam',
-      nameRequired: 'Tropeltxo naam is verplicht',
-      nameMinLength: 'Minimaal 4 tekens',
-      isPublic: 'Openbare tropeltxo',
-      createError: 'Er is een fout opgetreden bij het aanmaken van de tropeltxo.',
-    },
-    changeLevel: {
-      confirm: 'Weet je zeker dat je het niveau van dit lid wilt wijzigen?',
-      adminConfirm: 'Als je dit lid de adminrol geeft, wordt jouw rol verlaagd naar moderator.',
-      success: 'Lidniveau is gewijzigd.',
-    },
-    joinByCode: {
-      title: 'Deelnemen aan een tropeltxo',
-      action: 'Deelnemen met code',
-      placeholder: 'Voer de uitnodigingscode in',
-      confirm: 'Wil je deelnemen aan de tropeltxo "{name}"?',
-      membersCount: '{count} leden',
-      success: 'Je bent lid geworden van de tropeltxo!',
-      invalidCode: 'De uitnodigingscode is niet geldig.',
-      alreadyMember: 'Je bent al lid van deze tropeltxo.',
-      loginRequired: 'Je moet inloggen om deel te nemen aan een tropeltxo.',
-    },
-    share: {
-      title: 'Tropeltxo delen',
-      shareText: 'Doe mee met mijn tropeltxo!',
-      inviteUrl: 'Uitnodigingslink',
-      copyCode: 'Code kopiëren',
-      codeCopied: 'Code gekopieerd!',
-      copyLink: 'Link kopiëren',
-      linkCopied: 'Link gekopieerd!',
-      shareLink: 'Link delen',
-      qrCode: 'QR-code',
-      downloadQr: 'QR-code downloaden',
-    },
-  },
-  ui: {
-    form: {
-      actions: {
-        ok: 'Ok',
-        cancel: 'Annuleren',
-        change: 'Wijzigen',
-        create: 'Maken',
-        delete: 'Verwijderen',
-        update: 'Bijwerken',
-        refresh: 'Verversen',
-        reset: 'Resetten',
-        save: 'Opslaan',
-        search: 'Zoeken',
-        share: 'Delen',
-        submit: 'Verstuuren',
-        filter: 'Filteren',
-        dismiss: 'Sluiten',
-        typeMessage: 'Typ jouw bericht',
-        login: 'Aanmelden',
-        signup: 'Registreren',
-        downloadIcs: 'Kalender downloaden',
-      },
-      fields: {
-        username_email: 'Gebruikersnaam of e-mailadres',
-        username: 'Gebruikersnaam',
-        password: 'Wachtwoord',
-        password2: 'Herhaal wachtwoord',
-        email: 'E-mailadres',
-        firstName: 'Naam',
-        lastName: 'Achternaam',
-        city: 'Gemeente',
-        flag: 'Jouw vlag',
-      },
-      hints: {
-        city: 'Wij gebruiken deze informatie om je te tonen in het klassement van je gemeente.',
-        flag: 'Als getoonde in het klassement.',
-      },
-      required: 'Verplicht veld.',
-      rules: {
-        required: 'Dit veld is verplicht.',
-      },
-      social: {
-        facebook: 'Doorgaan met Facebook',
-        google: 'Doorgaan met Google',
-        twitter: 'Doorgaan met Twitter / X',
-      },
-    },
-    select: {
-      all: 'Alle | Alles',
-      aggregate: 'Algemeen',
-      locale: 'Taal',
-      race: 'Wedstrijd',
-      stage: 'Etappe',
-      finalStage: 'Einde',
-      annual: 'Jaar',
-    },
-    nav: {
-      pageFirst: 'Eerste pagina',
-      pagePrevious: 'Vorige pagina',
-      pageNext: 'Volgende pagina',
-      pageLast: 'Laatste pagina',
-    },
-    or: 'of',
-  },
-  message: {
-    invalidCredentials: 'De gebruikersnaam en/of het wachtwoord dat je hebt opgegeven is niet correct.',
-    loggedIn: 'Aangemeld als {username}',
-    loggedOut: 'Je bent afgemeld',
-    passwordResetRequested: 'Een e-mail voor het opnieuw instellen van het wachtwoord is verzonden',
-    porraSaveDelay: 'Je team wordt opgeslagen in {seconds} seconden',
-    porraCreated: 'Je team is aangemaakt',
-    porraUpdated: 'Je team is bijgewerkt',
-    porraRandomSelected: 'Er is een willekeurig team voorgesteld',
-    searchDelay: 'Zoeken start over {seconds} seconden',
-    userProfileUpdated: 'Je profiel is bijgewerkt',
-  },
-  notice: {
-    noTropeltxoMessages: 'Je hebt geen tropeltxo-berichten',
-    placeStandingsLogIn: 'Meld je aan om de standen van jouw gemeente te zien.',
-    placeStandingsNoPlace: 'Werk je gemeente-informatie bij om de standen van jouw gemeente te zien.',
-    porraClosed: 'Je kunt geen team maken voor deze race.',
-    porraCreateLogIn: 'Je moet je aanmelden om een team te maken.',
-    xedapAds: 'Wil je hier jouw advertenties zien? Neem contact met ons op!',
-  },
-  notification: {
-    dorsalsNotParticipating:
-      'Sommige renners in je team (#{porra_id}) zullen niet deelnemen in {race_name}. Je moet je rennerselectie controleren!',
-    emptyTropeltxo:
-      'Je bent helemaal alleen in een van je tropeltxos voor {race_name}... vertel het aan je vrienden! Tropela is leuker met vrienden en familie.|Je bent helemaal alleen in {count} van je tropeltxos voor {race_name}... vertel het aan je vrienden! Tropela is leuker met vrienden en familie.',
-    porraPending: 'Vergeet niet om je team te maken voor {race_name}!',
-    tropeltxoMembershipPending:
-      'Er is een verzoek in behandeling in de tropeltxo "{tropeltxo_name}".|Er zijn {count} verzoeken in behandeling in de tropeltxo "{tropeltxo_name}".',
-    tropeltxoMessage: 'Er zijn nieuwe berichten in de tropeltxo-chat "{tropeltxo_name}".',
-  },
-  premium: {
-    banner: {
-      join: 'Word een Meesterknecht en geniet van extra functies!',
-      noAds: 'Zonder advertenties!',
-    },
-    action: {
-      upgrade: 'Upgrade',
-    },
-  },
-  privacy: {
-    shareOnSocialMedia: 'Deel je activiteit op sociale media',
-    shareOnSocialMediaDescription:
-      'Wanneer je een team maakt, deel het dan op sociale media (als je inlogt met Twitter of Facebook).',
-    makeProfilePublic: 'Maak je profiel publiek',
-    makeProfilePublicDescription:
-      'Je kunt je profiel publiek maken, zodat andere gebruikers jouw Tropela-geschiedenis en resultaten kunnen zien.',
-    receiveEmails: 'Ontvang e-mails van Tropela',
-    receiveEmailsDescription: 'Herinneringen om een team te maken, nieuws, etc.',
-    receiveNotifications: 'Ontvang pushmeldingen',
-    receiveNotificationsDescription: 'Ontvang pushmeldingen op mobiele apparaten wanneer we een nieuw spel openen.',
-  },
+
+  // faq: veelgestelde vragen
   faq: {
     title: 'Veelgestelde vragen',
     helpTropela: {
@@ -425,10 +133,416 @@ export default {
         'Tropela biedt geen prijzen aan voor tropeltxos, maar vergeet niet dat we een winkel hebben als je prijzen wilt uitdelen!',
     },
   },
+
+  // game: gesponsorde competities
+  game: {
+    menu: {
+      standings: 'Wedstrijdklassement',
+    },
+    banner: 'Dit is een gesponsorde wedstrijd, met mooie prijzen voor Tropela-gebruikers.',
+    legal: 'Spelregels',
+    prizes: 'Prijzen',
+  },
+
+  // menu: hoofdnavigatie
+  menu: {
+    home: 'Home',
+    races: 'Wedstrijden',
+    seasons: 'Seizoenen',
+    rules: 'Reglement',
+    premium: 'Meesterknecht | Meesterknechten',
+    blog: 'Blog',
+    store: 'Winkel',
+    about: 'Over ons',
+    privacy: 'Privacybeleid',
+    terms: 'Gebruiksvoorwaarden',
+    contact: 'Contact',
+    tropeltxos: 'Tropeltxos',
+  },
+
+  // message: feedback voor de gebruiker
+  message: {
+    toast: {
+      invalidCredentials: 'De gebruikersnaam en/of het wachtwoord dat je hebt opgegeven is niet correct.',
+      loggedIn: 'Aangemeld als {username}',
+      loggedOut: 'Je bent afgemeld',
+      passwordResetRequested: 'Een e-mail voor het opnieuw instellen van het wachtwoord is verzonden',
+      porraSaveDelay: 'Je team wordt opgeslagen in {seconds} seconden',
+      porraCreated: 'Je team is aangemaakt',
+      porraUpdated: 'Je team is bijgewerkt',
+      porraRandomSelected: 'Er is een willekeurig team voorgesteld',
+      searchDelay: 'Zoeken start over {seconds} seconden',
+      userProfileUpdated: 'Je profiel is bijgewerkt',
+      userProfileUpdateError: 'Er is een fout opgetreden bij het bijwerken van je profiel.',
+      emailTaken: 'Dit e-mailadres is al in gebruik.',
+      passwordsDontMatch: 'De wachtwoorden komen niet overeen.',
+      signupError: 'Er is een fout opgetreden bij het registreren. Probeer het opnieuw.',
+      usernameTaken: 'Deze gebruikersnaam is al in gebruik.',
+    },
+    inline: {
+      noTropeltxoMessages: 'Je hebt geen berichten in deze tropeltxo.',
+      placeStandingsLogIn: 'Meld je aan om de standen van jouw gemeente te zien.',
+      placeStandingsNoPlace: 'Werk je gemeente-informatie bij om de standen van jouw gemeente te zien.',
+      porraClosed: 'Je kunt geen team maken voor deze race.',
+      porraCreateLogIn: 'Je moet je aanmelden om een team te maken.',
+      porraViewLogIn: 'Meld je aan om dit team te bekijken.',
+      xedapAds: 'Wil je hier jouw advertenties zien? Neem contact met ons op!',
+    },
+  },
+
+  // notification: pushmeldingen
+  notification: {
+    dorsalsNotParticipating:
+      'Sommige renners in je team (#{porra_id}) zullen niet deelnemen in {race_name}. Je moet je rennerselectie controleren!',
+    emptyTropeltxo:
+      'Je bent helemaal alleen in een van je tropeltxos voor {race_name}... vertel het aan je vrienden! Tropela is leuker met vrienden en familie.|Je bent helemaal alleen in {count} van je tropeltxos voor {race_name}... vertel het aan je vrienden! Tropela is leuker met vrienden en familie.',
+    porraPending: 'Vergeet niet om je team te maken voor {race_name}!',
+    tropeltxoMembershipPending:
+      'Er is een verzoek in behandeling in de tropeltxo "{tropeltxo_name}".|Er zijn {count} verzoeken in behandeling in de tropeltxo "{tropeltxo_name}".',
+    tropeltxoMessage: 'Er zijn nieuwe berichten in de tropeltxo-chat "{tropeltxo_name}".',
+  },
+
+  // payment: betalingsstroom
+  payment: {
+    title: 'Betalingsgegevens',
+    secure: 'Veilige betaling verwerkt door Stripe',
+    pay: 'Betaal {amount}',
+    card: 'Kaartgegevens',
+  },
+
+  // place: locatiegebaseerde functies
+  place: {
+    menu: {
+      standings: 'Lokale klassement',
+    },
+  },
+
+  // premium: abonnementspromotie
+  premium: {
+    banner: {
+      join: 'Word een Meesterknecht en geniet van extra functies!',
+      noAds: 'Zonder advertenties!',
+    },
+    action: {
+      upgrade: 'Upgrade',
+    },
+  },
+
+  // privacy: privacy-instellingen
+  privacy: {
+    shareOnSocialMedia: 'Deel je activiteit op sociale media',
+    shareOnSocialMediaDescription:
+      'Wanneer je een team maakt, deel het dan op sociale media (als je inlogt met Twitter of Facebook).',
+    makeProfilePublic: 'Maak je profiel publiek',
+    makeProfilePublicDescription:
+      'Je kunt je profiel publiek maken, zodat andere gebruikers jouw Tropela-geschiedenis en resultaten kunnen zien.',
+    receiveEmails: 'Ontvang e-mails van Tropela',
+    receiveEmailsDescription: 'Herinneringen om een team te maken, nieuws, etc.',
+    receiveNotifications: 'Ontvang pushmeldingen',
+    receiveNotificationsDescription: 'Ontvang pushmeldingen op mobiele apparaten wanneer we een nieuw spel openen.',
+  },
+
+  // race: wedstrijdpagina's
+  race: {
+    metaDescription:
+      '{name} {season} - Fantasy wielerspel. Kies je renners en neem het op tegen je vrienden op Tropela.eus.',
+    menu: {
+      presentation: 'Overzicht',
+      standings: 'Klassement',
+      standings2: 'Klassement (tot deze wedstrijd)',
+      points: 'Punten renners',
+      dorsals: 'Rennerslijst',
+      news: 'Nieuws',
+      createPorra: 'Team samenstellen',
+      myPorra: 'Mijn team',
+    },
+    canceled: 'Afgelast',
+    stage: 'Etappe | Etappes',
+    stageToday: 'Etape van vandaag | Etappes van vandaag',
+    team: 'Team | Teams',
+    dorsal: {
+      filter: 'Filter op naam, team of land',
+      group: 'Groep | Groepen',
+      status: 'Status | Statussen',
+      statuses: {
+        unconfirmed: 'Onzeker',
+        participating: 'Zeker',
+        notParticipating: 'Komt niet',
+        retired: 'Gestopt',
+      },
+      sort: {
+        alpha: 'Sorteer op naam',
+        percent: 'Sorteer op percentage',
+        position: 'Sorteer op positie',
+      },
+    },
+    porra: {
+      registrationOpens: 'Inschrijvingen openen over',
+      registrationOpenFor: 'Inschrijvingen open voor',
+      showAllStages: 'Toon alle etappes',
+    },
+    porrasCount: 'Geen teams | Een team | {n} teams',
+    pointsRules: 'Punten',
+  },
+
+  // season: seizoensfuncties
+  season: {
+    allRaces: 'Alle wedstrijden',
+    calendar: 'Kalender',
+    nextRace: 'Volgende wedstrijd | Volgende wedstrijden',
+    menu: {
+      presentation: 'Seizoensoverzicht',
+      standings: 'Seizoensklassement',
+    },
+    collection: 'Collectie | Collecties',
+    race: 'Wedstrijd | Wedstrijden',
+    racesCount: 'Geen wedstrijden | Een wedstrijd | {n} wedstrijden',
+    performance: 'Prestatie',
+  },
+
+  // subscription: premium abonnementsstroom
+  subscription: {
+    active: 'Actief abonnement',
+    available: 'Beschikbare plannen',
+    expiresAt: 'Verloopt op {date}',
+    subscribe: 'Abonneren',
+    success: 'Abonnement succesvol! Bedankt voor je steun.',
+    benefits: {
+      title: 'Waarom Meesterknecht worden?',
+      adFree: 'Advertentievrije ervaring: geniet van Tropela zonder afleiding.',
+      badges: 'Exclusief badge: toon een speciaal badge naast je naam in de klassementen.',
+      stats: 'Geavanceerde statistieken: krijg toegang tot gedetailleerde historische gegevens en analyses.',
+      support: 'Steun het project: help bij het onderhouden van servers en het ontwikkelen van nieuwe functies.',
+    },
+  },
+
+  // tropeltxo: tropeltxo (groeps)functies
+  tropeltxo: {
+    chat: 'Chat',
+    limitReached: 'Je hebt de limiet van tropeltxos bereikt. Verlaat of verwijder een tropeltxo.',
+    create: 'Een nieuwe tropeltxo aanmaken',
+    search: 'Een tropeltxo zoeken',
+    membership: 'Lidmaatschap',
+    membershipLevel: {
+      admin: 'Admin',
+      adminDescription: 'Volledige controle over de tropeltxo. Kan leden en instellingen beheren.',
+      moderator: 'Moderator',
+      moderatorDescription: 'Kan leden beheren.',
+      member: 'Lid',
+      memberDescription: 'Kan klassementen bekijken.',
+      pending: 'In afwachting',
+      pendingDescription: 'Heeft toegang tot de tropeltxo aangevraagd maar is nog niet geaccepteerd.',
+      invited: 'Uitgenodigd',
+      invitedDescription: 'Is uitgenodigd voor de tropeltxo maar heeft nog niet geaccepteerd.',
+      rejected: 'Afgewezen',
+    },
+    members: 'Leden',
+    public: 'Openbaar',
+    private: 'Privé',
+    publicDescription: 'Iedereen kan deze tropeltxo vinden en eraan deelnemen.',
+    privateDescription: 'Alleen uitgenodigde gebruikers kunnen deelnemen aan deze tropeltxo.',
+    createTropeltxo: {
+      action: 'Tropeltxo aanmaken',
+      description:
+        "Je kunt een tropeltxo aanmaken met je vrienden, familie, collega's of buren om subklassementen te bekijken.",
+      success: 'Tropeltxo succesvol aangemaakt',
+    },
+    deleteTropeltxo: {
+      action: 'Tropeltxo verwijderen',
+      description:
+        'Deze actie kan niet ongedaan worden gemaakt. Alle leden verliezen toegang tot de klassementen en alle gegevens worden verwijderd.',
+      confirm: 'Weet je zeker dat je deze tropeltxo wilt verwijderen?',
+      success: 'Tropeltxo succesvol verwijderd',
+    },
+    leaveTropeltxo: {
+      action: 'Tropeltxo verlaten',
+      description:
+        'Je verliest toegang tot de klassementen van de tropeltxo. Je kunt op elk moment opnieuw toegang aanvragen.',
+      adminDescription:
+        'Als enige admin moet je de adminrol overdragen aan een ander lid voordat je de tropeltxo verlaat.',
+      confirm: 'Weet je zeker dat je deze tropeltxo wilt verlaten?',
+      success: 'Je hebt de tropeltxo verlaten',
+    },
+    inviteMember: {
+      action: 'Gebruiker uitnodigen',
+    },
+    removeMember: {
+      action: 'Lid verwijderen',
+      description: 'De gebruiker uit de tropeltxo verwijderen? Deze verliest dan toegang tot de klassementen.',
+      confirm: 'Weet je zeker dat je dit lid uit deze tropeltxo wilt verwijderen?',
+      success: 'Lid verwijderd uit de tropeltxo',
+    },
+    searchTropeltxo: {
+      placeholder: 'Zoeken...',
+      noResults: 'Geen tropeltxos gevonden voor deze zoekopdracht.',
+      error: 'Fout bij het zoeken. Probeer het later opnieuw.',
+      joinedPublic: 'Je bent lid geworden van de openbare tropeltxo.',
+      requestSent: 'Een verzoek om lid te worden van de privé tropeltxo is verstuurd.',
+    },
+    form: {
+      name: 'Tropeltxo naam',
+      nameRequired: 'Tropeltxo naam is verplicht',
+      nameMinLength: 'Minimaal 4 tekens',
+      isPublic: 'Openbare tropeltxo',
+      createError: 'Er is een fout opgetreden bij het aanmaken van de tropeltxo.',
+    },
+    changeLevel: {
+      confirm: 'Weet je zeker dat je het niveau van dit lid wilt wijzigen?',
+      adminConfirm: 'Als je dit lid de adminrol geeft, wordt jouw rol verlaagd naar moderator.',
+      success: 'Lidniveau is gewijzigd.',
+    },
+    joinByCode: {
+      title: 'Deelnemen aan een tropeltxo',
+      action: 'Deelnemen met code',
+      placeholder: 'Voer de uitnodigingscode in',
+      confirm: 'Wil je deelnemen aan de tropeltxo "{name}"?',
+      membersCount: '{count} leden',
+      success: 'Je bent lid geworden van de tropeltxo!',
+      invalidCode: 'De uitnodigingscode is niet geldig.',
+      alreadyMember: 'Je bent al lid van deze tropeltxo.',
+      loginRequired: 'Je moet inloggen om deel te nemen aan een tropeltxo.',
+    },
+    share: {
+      title: 'Tropeltxo delen',
+      shareText: 'Doe mee met mijn tropeltxo!',
+      inviteUrl: 'Uitnodigingslink',
+      copyCode: 'Code kopiëren',
+      codeCopied: 'Code gekopieerd!',
+      copyLink: 'Link kopiëren',
+      linkCopied: 'Link gekopieerd!',
+      shareLink: 'Link delen',
+      qrCode: 'QR-code',
+      downloadQr: 'QR-code downloaden',
+    },
+  },
+
+  // ui: gedeelde UI-elementen
+  ui: {
+    form: {
+      actions: {
+        ok: 'Ok',
+        cancel: 'Annuleren',
+        change: 'Wijzigen',
+        close: 'Sluiten',
+        confirm: 'Bevestigen',
+        create: 'Maken',
+        delete: 'Verwijderen',
+        dismiss: 'Sluiten',
+        downloadIcs: 'Kalender downloaden',
+        filter: 'Filteren',
+        login: 'Aanmelden',
+        pay: 'Betalen',
+        refresh: 'Verversen',
+        reset: 'Resetten',
+        save: 'Opslaan',
+        search: 'Zoeken',
+        share: 'Delen',
+        signup: 'Registreren',
+        submit: 'Verstuuren',
+        typeMessage: 'Typ jouw bericht',
+        update: 'Bijwerken',
+      },
+      fields: {
+        username_email: 'Gebruikersnaam of e-mailadres',
+        username: 'Gebruikersnaam',
+        password: 'Wachtwoord',
+        password2: 'Herhaal wachtwoord',
+        email: 'E-mailadres',
+        firstName: 'Naam',
+        lastName: 'Achternaam',
+        city: 'Gemeente',
+        flag: 'Jouw vlag',
+      },
+      hints: {
+        city: 'Wij gebruiken deze informatie om je te tonen in het klassement van je gemeente.',
+        flag: 'Als getoonde in het klassement.',
+      },
+      required: 'Verplicht veld.',
+      rules: {
+        required: 'Dit veld is verplicht.',
+      },
+      social: {
+        facebook: 'Doorgaan met Facebook',
+        google: 'Doorgaan met Google',
+        twitter: 'Doorgaan met Twitter / X',
+      },
+    },
+    select: {
+      all: 'Alle | Alles',
+      aggregate: 'Algemeen',
+      locale: 'Taal',
+      race: 'Wedstrijd',
+      stage: 'Etappe',
+      finalStage: 'Einde',
+      annual: 'Jaar',
+    },
+    nav: {
+      pageFirst: 'Eerste pagina',
+      pagePrevious: 'Vorige pagina',
+      pageNext: 'Volgende pagina',
+      pageLast: 'Laatste pagina',
+    },
+    search: {
+      placeholder: 'Zoeken...',
+    },
+    or: 'of',
+    loading: 'Laden...',
+    retry: 'Opnieuw proberen',
+  },
+
+  // user: gebruikersprofiel en account
+  user: {
+    menu: {
+      admin: 'Admin area',
+      avatar: 'Mijn renner',
+      dashboard: 'Dashboard',
+      privacy: 'Privacy',
+      profile: 'Profiel',
+      settings: 'Instellingen',
+      settingsAndPrivacy: 'Instellingen en privacy',
+      notifications: 'Notificaties',
+      subscriptions: 'Abonnementen',
+      login: 'Aanmelden',
+      logout: 'Afmelden',
+      passwordChange: 'Wachtwoord',
+      emails: 'E-mailadressen',
+      socialConnections: 'Sociale accounts',
+      signup: 'Registreren',
+      standings: 'Mijn klassement',
+      tropeltxos: 'Mijn tropeltxos',
+    },
+    changeLanguage:
+      'Je kunt hier de taal van de applicatie wijzigen. De wijziging wordt onmiddellijk toegepast en opgeslagen in je profiel, zodat deze kan worden onthouden wanneer je de volgende keer inlogt (op elk apparaat).',
+    confirm: {
+      logout: 'Weet je zeker dat je wilt afmelden?',
+    },
+    tropeltxo: 'Tropeltxo',
+  },
+
+  // xedap: wielrenner avatar editor
   xedap: {
     banner: {
       updateRider:
         'Update je renner in je instellingen. Honderden verschillende combinaties om je unieke avatar te maken, duizenden als je een Meesterknecht bent!',
+    },
+    form: {
+      height: {
+        label: 'Lengte',
+      },
+      weight: {
+        label: 'Gewicht',
+      },
+      skin: {
+        label: 'Huidskleur',
+      },
+      bikes: {
+        label: 'Fiets',
+        options: {
+          bike_road: 'Racefiets',
+          bike_victorian: 'Victoriaans',
+          bike_mountain: 'MTB',
+        },
+      },
     },
   },
 };
