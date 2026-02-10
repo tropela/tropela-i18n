@@ -58,6 +58,8 @@ export default {
     performance: 'Performance',
   },
   race: {
+    metaDescription:
+      '{name} {season} - Fantasy cycling game. Pick your riders and compete with friends on Tropela.eus.',
     menu: {
       presentation: 'Presentation',
       standings: 'Standings',
@@ -117,6 +119,7 @@ export default {
     prizes: 'Prizes',
   },
   tropeltxo: {
+    limitReached: 'You have reached the tropeltxo limit. Leave or delete a tropeltxo first.',
     create: 'Create a new tropeltxo',
     search: 'Search for a tropeltxo',
     membership: 'Membership',
@@ -167,6 +170,48 @@ export default {
       description: 'Remove the user from the tropeltxo? They will lose access to the tropeltxo standings.',
       confirm: 'Are you sure you want to remove this member from this tropeltxo?',
       success: 'Member removed from the tropeltxo',
+    },
+    searchTropeltxo: {
+      placeholder: 'Search...',
+      noResults: 'No tropeltxos found for this search.',
+      error: 'Error during search. Please try again later.',
+      joinedPublic: 'You have joined the public tropeltxo.',
+      requestSent: 'A request to join the private tropeltxo has been sent.',
+    },
+    form: {
+      name: 'Tropeltxo name',
+      nameRequired: 'Tropeltxo name is required',
+      nameMinLength: 'At least 4 characters',
+      isPublic: 'Public tropeltxo',
+      createError: 'An error occurred while creating the tropeltxo.',
+    },
+    changeLevel: {
+      confirm: "Are you sure you want to change this member's level?",
+      adminConfirm: 'If you give this member the admin role, your role will be downgraded to moderator.',
+      success: 'Member level has been changed.',
+    },
+    joinByCode: {
+      title: 'Join a tropeltxo',
+      action: 'Join with code',
+      placeholder: 'Enter invite code',
+      confirm: 'Do you want to join the tropeltxo "{name}"?',
+      membersCount: '{count} members',
+      success: 'You have joined the tropeltxo!',
+      invalidCode: 'The invite code is not valid.',
+      alreadyMember: 'You are already a member of this tropeltxo.',
+      loginRequired: 'You must log in to join a tropeltxo.',
+    },
+    share: {
+      title: 'Share tropeltxo',
+      shareText: 'Join my tropeltxo!',
+      inviteUrl: 'Invite link',
+      copyCode: 'Copy code',
+      codeCopied: 'Code copied!',
+      copyLink: 'Copy link',
+      linkCopied: 'Link copied!',
+      shareLink: 'Share link',
+      qrCode: 'QR code',
+      downloadQr: 'Download QR code',
     },
   },
   user: {

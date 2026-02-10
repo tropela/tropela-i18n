@@ -58,6 +58,8 @@ export default {
     performance: 'Prestatie',
   },
   race: {
+    metaDescription:
+      '{name} {season} - Fantasy wielerspel. Kies je renners en neem het op tegen je vrienden op Tropela.eus.',
     menu: {
       presentation: 'Overzicht',
       standings: 'Klassement',
@@ -128,7 +130,102 @@ export default {
     },
     tropeltxo: 'Tropeltxo',
   },
-  tropeltxo: {},
+  tropeltxo: {
+    limitReached: 'Je hebt de limiet van tropeltxos bereikt. Verlaat of verwijder een tropeltxo.',
+    create: 'Een nieuwe tropeltxo aanmaken',
+    search: 'Een tropeltxo zoeken',
+    membership: 'Lidmaatschap',
+    membershipLevel: {
+      admin: 'Admin',
+      adminDescription: 'Volledige controle over de tropeltxo. Kan leden en instellingen beheren.',
+      moderator: 'Moderator',
+      moderatorDescription: 'Kan leden beheren.',
+      member: 'Lid',
+      memberDescription: 'Kan klassementen bekijken.',
+      pending: 'In afwachting',
+      pendingDescription: 'Heeft toegang tot de tropeltxo aangevraagd maar is nog niet geaccepteerd.',
+      invited: 'Uitgenodigd',
+      rejected: 'Afgewezen',
+    },
+    members: 'Leden',
+    public: 'Openbaar',
+    private: 'Privé',
+    publicDescription: 'Iedereen kan deze tropeltxo vinden en eraan deelnemen.',
+    privateDescription: 'Alleen uitgenodigde gebruikers kunnen deelnemen aan deze tropeltxo.',
+    createTropeltxo: {
+      action: 'Tropeltxo aanmaken',
+      description:
+        "Je kunt een tropeltxo aanmaken met je vrienden, familie, collega's of buren om subklassementen te bekijken.",
+      success: 'Tropeltxo succesvol aangemaakt',
+    },
+    deleteTropeltxo: {
+      action: 'Tropeltxo verwijderen',
+      description:
+        'Deze actie kan niet ongedaan worden gemaakt. Alle leden verliezen toegang tot de klassementen en alle gegevens worden verwijderd.',
+      confirm: 'Weet je zeker dat je deze tropeltxo wilt verwijderen?',
+      success: 'Tropeltxo succesvol verwijderd',
+    },
+    leaveTropeltxo: {
+      action: 'Tropeltxo verlaten',
+      description:
+        'Je verliest toegang tot de klassementen van de tropeltxo. Je kunt op elk moment opnieuw toegang aanvragen.',
+      adminDescription:
+        'Als enige admin moet je de adminrol overdragen aan een ander lid voordat je de tropeltxo verlaat.',
+      confirm: 'Weet je zeker dat je deze tropeltxo wilt verlaten?',
+      success: 'Je hebt de tropeltxo verlaten',
+    },
+    inviteMember: {
+      action: 'Gebruiker uitnodigen',
+    },
+    removeMember: {
+      action: 'Lid verwijderen',
+      description: 'De gebruiker uit de tropeltxo verwijderen? Deze verliest dan toegang tot de klassementen.',
+      confirm: 'Weet je zeker dat je dit lid uit deze tropeltxo wilt verwijderen?',
+      success: 'Lid verwijderd uit de tropeltxo',
+    },
+    searchTropeltxo: {
+      placeholder: 'Zoeken...',
+      noResults: 'Geen tropeltxos gevonden voor deze zoekopdracht.',
+      error: 'Fout bij het zoeken. Probeer het later opnieuw.',
+      joinedPublic: 'Je bent lid geworden van de openbare tropeltxo.',
+      requestSent: 'Een verzoek om lid te worden van de privé tropeltxo is verstuurd.',
+    },
+    form: {
+      name: 'Tropeltxo naam',
+      nameRequired: 'Tropeltxo naam is verplicht',
+      nameMinLength: 'Minimaal 4 tekens',
+      isPublic: 'Openbare tropeltxo',
+      createError: 'Er is een fout opgetreden bij het aanmaken van de tropeltxo.',
+    },
+    changeLevel: {
+      confirm: 'Weet je zeker dat je het niveau van dit lid wilt wijzigen?',
+      adminConfirm: 'Als je dit lid de adminrol geeft, wordt jouw rol verlaagd naar moderator.',
+      success: 'Lidniveau is gewijzigd.',
+    },
+    joinByCode: {
+      title: 'Deelnemen aan een tropeltxo',
+      action: 'Deelnemen met code',
+      placeholder: 'Voer de uitnodigingscode in',
+      confirm: 'Wil je deelnemen aan de tropeltxo "{name}"?',
+      membersCount: '{count} leden',
+      success: 'Je bent lid geworden van de tropeltxo!',
+      invalidCode: 'De uitnodigingscode is niet geldig.',
+      alreadyMember: 'Je bent al lid van deze tropeltxo.',
+      loginRequired: 'Je moet inloggen om deel te nemen aan een tropeltxo.',
+    },
+    share: {
+      title: 'Tropeltxo delen',
+      shareText: 'Doe mee met mijn tropeltxo!',
+      inviteUrl: 'Uitnodigingslink',
+      copyCode: 'Code kopiëren',
+      codeCopied: 'Code gekopieerd!',
+      copyLink: 'Link kopiëren',
+      linkCopied: 'Link gekopieerd!',
+      shareLink: 'Link delen',
+      qrCode: 'QR-code',
+      downloadQr: 'QR-code downloaden',
+    },
+  },
   ui: {
     form: {
       actions: {

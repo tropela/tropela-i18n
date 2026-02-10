@@ -58,6 +58,8 @@ export default {
     performance: 'Rendemento',
   },
   race: {
+    metaDescription:
+      '{name} {season} - Xogo de ciclismo fantasy. Elixe os teus ciclistas e compite cos teus amigos en Tropela.eus.',
     menu: {
       presentation: 'Presentación',
       standings: 'Clasificacións',
@@ -109,7 +111,102 @@ export default {
     legal: 'Bases legais',
     prizes: 'Premios',
   },
-  tropeltxo: {},
+  tropeltxo: {
+    limitReached: 'Chegaches ao límite de tropeltxos. Sae dun tropeltxo ou elimina un.',
+    create: 'Crear un novo tropeltxo',
+    search: 'Buscar un tropeltxo',
+    membership: 'Pertenza',
+    membershipLevel: {
+      admin: 'Admin',
+      adminDescription: 'Control total sobre o tropeltxo. Pode xestionar membros e configuracións.',
+      moderator: 'Moderador',
+      moderatorDescription: 'Pode xestionar membros.',
+      member: 'Membro',
+      memberDescription: 'Pode ver clasificacións.',
+      pending: 'Pendente',
+      pendingDescription: 'Solicitou acceso ao tropeltxo pero aínda non foi aceptado.',
+      invited: 'Convidado',
+      rejected: 'Rexeitado',
+    },
+    members: 'Membros',
+    public: 'Público',
+    private: 'Privado',
+    publicDescription: 'Calquera pode atopar e unirse a este tropeltxo.',
+    privateDescription: 'Só os usuarios convidados poden unirse a este tropeltxo.',
+    createTropeltxo: {
+      action: 'Crear tropeltxo',
+      description:
+        'Podes crear un tropeltxo cos teus amigos, familia, compañeiros de traballo ou veciños para ver subclasificacións.',
+      success: 'Tropeltxo creado correctamente',
+    },
+    deleteTropeltxo: {
+      action: 'Eliminar tropeltxo',
+      description:
+        'Esta acción non se pode desfacer. Todos os membros perderán o acceso ás clasificacións do tropeltxo e todos os datos serán eliminados.',
+      confirm: 'Estás seguro de que queres eliminar este tropeltxo?',
+      success: 'Tropeltxo eliminado correctamente',
+    },
+    leaveTropeltxo: {
+      action: 'Deixar o tropeltxo',
+      description:
+        'Perderás o acceso ás clasificacións do tropeltxo. Podes solicitar acceso de novo en calquera momento.',
+      adminDescription:
+        'Como es o único administrador, debes dar o rol de administrador a outro membro antes de deixar o tropeltxo.',
+      confirm: 'Estás seguro de que queres deixar este tropeltxo?',
+      success: 'Deixaches o tropeltxo',
+    },
+    inviteMember: {
+      action: 'Convidar usuario',
+    },
+    removeMember: {
+      action: 'Eliminar membro',
+      description: 'Queres eliminar ao usuario do tropeltxo? Perderá o acceso ás clasificacións do tropeltxo.',
+      confirm: 'Estás seguro de que queres eliminar este membro deste tropeltxo?',
+      success: 'Membro eliminado do tropeltxo',
+    },
+    searchTropeltxo: {
+      placeholder: 'Buscar...',
+      noResults: 'Non se atoparon tropeltxos con esta busca.',
+      error: 'Erro na busca. Téntao de novo máis tarde.',
+      joinedPublic: 'Unícheste ao tropeltxo público.',
+      requestSent: 'Enviouse a solicitude para unirse ao tropeltxo privado.',
+    },
+    form: {
+      name: 'Nome do tropeltxo',
+      nameRequired: 'O nome do tropeltxo é obrigatorio',
+      nameMinLength: 'Mínimo 4 caracteres',
+      isPublic: 'Tropeltxo público',
+      createError: 'Ocorreu un erro ao crear o tropeltxo.',
+    },
+    changeLevel: {
+      confirm: 'Estás seguro de que queres cambiar o nivel deste membro?',
+      adminConfirm: 'Se lle das o rol de administrador a este membro, o teu rol baixará a moderador.',
+      success: 'O nivel do membro foi cambiado.',
+    },
+    joinByCode: {
+      title: 'Unirse a un tropeltxo',
+      action: 'Unirse con código',
+      placeholder: 'Introduce o código de invitación',
+      confirm: 'Queres unirte ao tropeltxo "{name}"?',
+      membersCount: '{count} membros',
+      success: 'Unícheste ao tropeltxo!',
+      invalidCode: 'O código de invitación non é válido.',
+      alreadyMember: 'Xa es membro deste tropeltxo.',
+      loginRequired: 'Debes iniciar sesión para unirte a un tropeltxo.',
+    },
+    share: {
+      title: 'Compartir tropeltxo',
+      shareText: 'Únete ao meu tropeltxo!',
+      inviteUrl: 'Ligazón de invitación',
+      copyCode: 'Copiar código',
+      codeCopied: 'Código copiado!',
+      copyLink: 'Copiar enlace',
+      linkCopied: 'Enlace copiado!',
+      shareLink: 'Compartir enlace',
+      qrCode: 'Código QR',
+      downloadQr: 'Descargar código QR',
+    },
+  },
   user: {
     menu: {
       admin: 'Zona de administración',

@@ -58,6 +58,8 @@ export default {
     performance: 'Rendimientu',
   },
   race: {
+    metaDescription:
+      '{name} {season} - Xuegu de ciclismu fantasy. Escueye los tos ciclistes y compite colos tos amigos en Tropela.eus.',
     menu: {
       presentation: 'Presentación',
       standings: 'Clasificaciones',
@@ -109,7 +111,102 @@ export default {
     legal: 'Bases llexales',
     prizes: 'Premios',
   },
-  tropeltxo: {},
+  tropeltxo: {
+    limitReached: "Llegasti al llímite de tropeltxos. Sal d'un tropeltxo o elimina unu.",
+    create: 'Crear un nuevu tropeltxo',
+    search: 'Guetar un tropeltxo',
+    membership: 'Pertenencia',
+    membershipLevel: {
+      admin: 'Admin',
+      adminDescription: "Control total sobre'l tropeltxo. Puede xestionar miembros y configuraciones.",
+      moderator: 'Moderador',
+      moderatorDescription: 'Puede xestionar miembros.',
+      member: 'Miembru',
+      memberDescription: 'Puede ver clasificaciones.',
+      pending: 'Pendiente',
+      pendingDescription: 'Solicitó accesu al tropeltxo pero entá nun foi aceptáu.',
+      invited: 'Convidáu',
+      rejected: 'Refugáu',
+    },
+    members: 'Miembros',
+    public: 'Públicu',
+    private: 'Priváu',
+    publicDescription: 'Cualesquier puede atopar y xunise a esti tropeltxo.',
+    privateDescription: 'Namás los usuarios convidaos pueden xunise a esti tropeltxo.',
+    createTropeltxo: {
+      action: 'Crear tropeltxo',
+      description:
+        'Pues crear un tropeltxo colos tos amigos, familia, compañeros de trabayu o vecinos pa ver subclasificaciones.',
+      success: 'Tropeltxo creáu correutamente',
+    },
+    deleteTropeltxo: {
+      action: 'Eliminar tropeltxo',
+      description:
+        "Esta aición nun se puede desacer. Tolos miembros perderán l'accesu a les clasificaciones del tropeltxo y tolos datos serán eliminaos.",
+      confirm: '¿De xuru que quies eliminar esti tropeltxo?',
+      success: 'Tropeltxo eliminau correutamente',
+    },
+    leaveTropeltxo: {
+      action: 'Dexar el tropeltxo',
+      description:
+        "Perderás l'accesu a les clasificaciones del tropeltxo. Pues solicitar accesu de nuevu en cualesquier momentu.",
+      adminDescription:
+        "Como yes l'únicu alministrador, tienes que da-y el rol d'alministrador a otru miembru enantes de dexar el tropeltxo.",
+      confirm: '¿De xuru que quies dexar esti tropeltxo?',
+      success: "Dexasti'l tropeltxo",
+    },
+    inviteMember: {
+      action: 'Convidar usuariu',
+    },
+    removeMember: {
+      action: 'Eliminar miembru',
+      description: "¿Quies eliminar al usuariu del tropeltxo? Perderá l'accesu a les clasificaciones del tropeltxo.",
+      confirm: "¿De xuru que quies eliminar esti miembru d'esti tropeltxo?",
+      success: 'Miembru eliminau del tropeltxo',
+    },
+    searchTropeltxo: {
+      placeholder: 'Guetar...',
+      noResults: "Nun s'atoparon tropeltxos con esta gueta.",
+      error: 'Error na gueta. Inténtalo de nuevu más tardi.',
+      joinedPublic: 'Xunícheste al tropeltxo públicu.',
+      requestSent: 'Unvióse la solicitú pa xunise al tropeltxo priváu.',
+    },
+    form: {
+      name: 'Nome del tropeltxo',
+      nameRequired: 'El nome del tropeltxo ye obligatoriu',
+      nameMinLength: 'Mínimu 4 carauteres',
+      isPublic: 'Tropeltxo públicu',
+      createError: 'Asocedió un error al crear el tropeltxo.',
+    },
+    changeLevel: {
+      confirm: "¿De xuru que quies camudar el nivel d'esti miembru?",
+      adminConfirm: "Si-y das el rol d'alministrador a esti miembru, el to rol baxará a moderador.",
+      success: 'El nivel del miembru foi camudáu.',
+    },
+    joinByCode: {
+      title: 'Xunise a un tropeltxo',
+      action: 'Xunise con códigu',
+      placeholder: "Introduz el códigu d'invitación",
+      confirm: '¿Quies xunite al tropeltxo "{name}"?',
+      membersCount: '{count} miembros',
+      success: '¡Xunícheste al tropeltxo!',
+      invalidCode: "El códigu d'invitación nun ye válidu.",
+      alreadyMember: "Yá yes miembru d'esti tropeltxo.",
+      loginRequired: "Tienes d'aniciar sesión pa xunite a un tropeltxo.",
+    },
+    share: {
+      title: 'Compartir tropeltxo',
+      shareText: '¡Xúnite al mio tropeltxo!',
+      inviteUrl: "Enllaz d'invitación",
+      copyCode: 'Copiar códigu',
+      codeCopied: '¡Códigu copiáu!',
+      copyLink: 'Copiar enllaz',
+      linkCopied: '¡Enllaz copiáu!',
+      shareLink: 'Compartir enllaz',
+      qrCode: 'Códigu QR',
+      downloadQr: 'Descargar códigu QR',
+    },
+  },
   user: {
     menu: {
       admin: "Zona d'aministración",

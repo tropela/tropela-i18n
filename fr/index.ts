@@ -58,6 +58,8 @@ export default {
     performance: 'Performance',
   },
   race: {
+    metaDescription:
+      '{name} {season} - Jeu de cyclisme fantasy. Choisissez vos coureurs et affrontez vos amis sur Tropela.eus.',
     menu: {
       presentation: 'Présentation',
       standings: 'Classement',
@@ -108,7 +110,102 @@ export default {
     legal: 'Bases légales',
     prizes: 'Prix',
   },
-  tropeltxo: {},
+  tropeltxo: {
+    limitReached: 'Vous avez atteint la limite de tropeltxos. Quittez ou supprimez un tropeltxo.',
+    create: 'Créer un nouveau tropeltxo',
+    search: 'Chercher un tropeltxo',
+    membership: 'Adhésion',
+    membershipLevel: {
+      admin: 'Admin',
+      adminDescription: 'Contrôle total sur le tropeltxo. Peut gérer les membres et les paramètres.',
+      moderator: 'Modérateur',
+      moderatorDescription: 'Peut gérer les membres.',
+      member: 'Membre',
+      memberDescription: 'Peut voir les classements.',
+      pending: 'En attente',
+      pendingDescription: "A demandé l'accès au tropeltxo mais n'a pas encore été accepté.",
+      invited: 'Invité',
+      rejected: 'Rejeté',
+    },
+    members: 'Membres',
+    public: 'Public',
+    private: 'Privé',
+    publicDescription: 'Tout le monde peut trouver et rejoindre ce tropeltxo.',
+    privateDescription: 'Seuls les utilisateurs invités peuvent rejoindre ce tropeltxo.',
+    createTropeltxo: {
+      action: 'Créer un tropeltxo',
+      description:
+        'Vous pouvez créer un tropeltxo avec vos amis, votre famille, vos collègues ou vos voisins pour voir des sous-classements.',
+      success: 'Tropeltxo créé avec succès',
+    },
+    deleteTropeltxo: {
+      action: 'Supprimer le tropeltxo',
+      description:
+        "Cette action est irréversible. Tous les membres perdront l'accès aux classements du tropeltxo et toutes les données seront supprimées.",
+      confirm: 'Êtes-vous sûr de vouloir supprimer ce tropeltxo ?',
+      success: 'Tropeltxo supprimé avec succès',
+    },
+    leaveTropeltxo: {
+      action: 'Quitter le tropeltxo',
+      description:
+        "Vous perdrez l'accès aux classements du tropeltxo. Vous pouvez demander l'accès à nouveau à tout moment.",
+      adminDescription:
+        "En tant que seul administrateur, vous devez transférer le rôle d'administrateur à un autre membre avant de quitter le tropeltxo.",
+      confirm: 'Êtes-vous sûr de vouloir quitter ce tropeltxo ?',
+      success: 'Vous avez quitté le tropeltxo',
+    },
+    inviteMember: {
+      action: 'Inviter un utilisateur',
+    },
+    removeMember: {
+      action: 'Supprimer le membre',
+      description: "Supprimer l'utilisateur du tropeltxo ? Il perdra l'accès aux classements du tropeltxo.",
+      confirm: 'Êtes-vous sûr de vouloir supprimer ce membre de ce tropeltxo ?',
+      success: 'Membre supprimé du tropeltxo',
+    },
+    searchTropeltxo: {
+      placeholder: 'Chercher...',
+      noResults: 'Aucun tropeltxo trouvé pour cette recherche.',
+      error: 'Erreur lors de la recherche. Réessayez plus tard.',
+      joinedPublic: 'Vous avez rejoint le tropeltxo public.',
+      requestSent: 'Une demande pour rejoindre le tropeltxo privé a été envoyée.',
+    },
+    form: {
+      name: 'Nom du tropeltxo',
+      nameRequired: 'Le nom du tropeltxo est requis',
+      nameMinLength: 'Au moins 4 caractères',
+      isPublic: 'Tropeltxo public',
+      createError: 'Une erreur est survenue lors de la création du tropeltxo.',
+    },
+    changeLevel: {
+      confirm: 'Êtes-vous sûr de vouloir changer le niveau de ce membre ?',
+      adminConfirm: "Si vous donnez le rôle d'administrateur à ce membre, votre rôle sera rétrogradé à modérateur.",
+      success: 'Le niveau du membre a été modifié.',
+    },
+    joinByCode: {
+      title: 'Rejoindre un tropeltxo',
+      action: 'Rejoindre avec un code',
+      placeholder: "Entrez le code d'invitation",
+      confirm: 'Voulez-vous rejoindre le tropeltxo "{name}" ?',
+      membersCount: '{count} membres',
+      success: 'Vous avez rejoint le tropeltxo !',
+      invalidCode: "Le code d'invitation n'est pas valide.",
+      alreadyMember: 'Vous êtes déjà membre de ce tropeltxo.',
+      loginRequired: 'Vous devez vous connecter pour rejoindre un tropeltxo.',
+    },
+    share: {
+      title: 'Partager le tropeltxo',
+      shareText: 'Rejoignez mon tropeltxo !',
+      inviteUrl: "Lien d'invitation",
+      copyCode: 'Copier le code',
+      codeCopied: 'Code copié !',
+      copyLink: 'Copier le lien',
+      linkCopied: 'Lien copié !',
+      shareLink: 'Partager le lien',
+      qrCode: 'Code QR',
+      downloadQr: 'Télécharger le code QR',
+    },
+  },
   user: {
     menu: {
       admin: 'Espace administrateur',

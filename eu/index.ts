@@ -59,6 +59,8 @@ export default {
     performance: 'Errendimendua',
   },
   race: {
+    metaDescription:
+      '{name} {season} - Txirrindularitzako fantasy jokoa. Aukeratu zure txirrindulariak eta lehiatu lagunekin Tropela.eus-en.',
     menu: {
       presentation: 'Aurkezpena',
       standings: 'Sailkapenak',
@@ -187,6 +189,29 @@ export default {
       confirm: 'Ziur al zaude kide honen maila aldatu nahi duzula?',
       adminConfirm: 'Kide honi kudeatzaile rola ematen badiozu, zure rola moderatzaile izatera jaitsiko da.',
       success: 'Kidearen maila aldatu da.',
+    },
+    joinByCode: {
+      title: 'Tropeltxoan sartu',
+      action: 'Kodez sartu',
+      placeholder: 'Sartu gonbidapen kodea',
+      confirm: 'Sartu nahi duzu "{name}" tropeltxoan?',
+      membersCount: '{count} kide',
+      success: 'Tropeltxoan sartu zara!',
+      invalidCode: 'Gonbidapen kodea ez da baliozkoa.',
+      alreadyMember: 'Tropeltxo honetako kidea zara jadanik.',
+      loginRequired: 'Saioa hasi behar duzu tropeltxo batean sartzeko.',
+    },
+    share: {
+      title: 'Tropeltxoa partekatu',
+      shareText: 'Sartu nire tropeltxoan!',
+      inviteUrl: 'Gonbidapen esteka',
+      copyCode: 'Kodea kopiatu',
+      codeCopied: 'Kodea kopiatu da!',
+      copyLink: 'Esteka kopiatu',
+      linkCopied: 'Esteka kopiatu da!',
+      shareLink: 'Esteka partekatu',
+      qrCode: 'QR kodea',
+      downloadQr: 'QR kodea deskargatu',
     },
   },
   user: {
