@@ -187,10 +187,12 @@ export default {
       noTropeltxoMessages: "Vous n'avez aucun message tropeltxo",
       placeStandingsLogIn: 'Connectez-vous pour voir votre classement local.',
       placeStandingsNoPlace: 'Mettez à jour vos informations de ville pour voir votre classement local.',
+      porrasMatrixPremium: 'Le tableau comparatif est réservé aux membres premium.',
       porraClosed: "Vous ne pouvez pas créer d'équipe pour cette course.",
       porraCreateLogIn: 'Vous devez vous connecter pour créer une équipe.',
       porraViewLogIn: 'Connectez-vous pour voir cette équipe.',
       xedapAds: 'Voulez-vous voir vos annonces ici ? Contactez-nous !',
+      xedapChangeRider: 'Changer votre coureur',
     },
   },
 

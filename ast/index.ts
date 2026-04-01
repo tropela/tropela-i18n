@@ -182,10 +182,12 @@ export default {
       noTropeltxoMessages: 'Nun tienes mensaxes nesti tropeltxo.',
       placeStandingsLogIn: 'Anicia sesión pa ver les clasificaciones locales.',
       placeStandingsNoPlace: 'Actualiza la to información de ciudá pa ver les clasificaciones locales.',
+      porrasMatrixPremium: 'La tabla comparativa de quinieles ye exclusiva pa los Gregarios de luxu.',
       porraClosed: 'Nun pues facer un equipu pa esta competición.',
       porraCreateLogIn: 'Necesites aniciar sesión pa facer un equipu.',
       porraViewLogIn: 'Anicia sesión pa ver esti equipu.',
       xedapAds: '¿Quies ver los tos anuncios equí? ¡Contáctanos!',
+      xedapChangeRider: 'Cambia el to corredor',
     },
   },
 

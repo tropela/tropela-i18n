@@ -183,10 +183,12 @@ export default {
       noTropeltxoMessages: 'Non hai messaggi in questo tropeltxo.',
       placeStandingsLogIn: 'Accedi per vedere le tue classifiche locali.',
       placeStandingsNoPlace: 'Aggiorna le informazioni sulla tua città per vedere le classifiche locali.',
+      porrasMatrixPremium: 'La tabella comparativa è riservata ai membri premium.',
       porraClosed: 'Non puoi creare una squadra per questa gara.',
       porraCreateLogIn: 'Devi accedere per creare una squadra.',
       porraViewLogIn: 'Accedi per vedere questa squadra.',
       xedapAds: 'Vuoi vedere qui i tuoi annunci? Contattaci!',
+      xedapChangeRider: 'Cambia il tuo corridore',
     },
   },
 

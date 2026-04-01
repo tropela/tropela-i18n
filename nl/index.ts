@@ -183,10 +183,12 @@ export default {
       noTropeltxoMessages: 'Je hebt geen berichten in deze tropeltxo.',
       placeStandingsLogIn: 'Meld je aan om de standen van jouw gemeente te zien.',
       placeStandingsNoPlace: 'Werk je gemeente-informatie bij om de standen van jouw gemeente te zien.',
+      porrasMatrixPremium: 'De vergelijkingstabel is exclusief voor premiumleden.',
       porraClosed: 'Je kunt geen team maken voor deze race.',
       porraCreateLogIn: 'Je moet je aanmelden om een team te maken.',
       porraViewLogIn: 'Meld je aan om dit team te bekijken.',
       xedapAds: 'Wil je hier jouw advertenties zien? Neem contact met ons op!',
+      xedapChangeRider: 'Verander je renner',
     },
   },
 

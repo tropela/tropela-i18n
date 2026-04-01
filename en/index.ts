@@ -185,10 +185,12 @@ export default {
       noTropeltxoMessages: 'You have no tropeltxo messages',
       placeStandingsLogIn: 'Sign in to see your local standings.',
       placeStandingsNoPlace: 'Update your city information to see your local standings.',
+      porrasMatrixPremium: 'The comparison table is exclusive to premium members.',
       porraClosed: 'You cannot create a team for this race.',
       porraCreateLogIn: 'You need to sign in to make a team.',
       porraViewLogIn: 'Sign in to see this team.',
       xedapAds: 'Do you want to see your ads here? Contact us!',
+      xedapChangeRider: 'Change your rider',
     },
   },
 

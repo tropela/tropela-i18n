@@ -181,10 +181,12 @@ export default {
       noTropeltxoMessages: 'No tens missatges en aquest tropeltxo.',
       placeStandingsLogIn: 'Inicia sessió per veure les classificacions locals.',
       placeStandingsNoPlace: 'Actualitza la teva informació de ciutat per veure les classificacions locals.',
+      porrasMatrixPremium: 'La taula comparativa de quinieles és exclusiva per als Gregaris de luxe.',
       porraClosed: 'No pots fer un equip per a aquesta competició.',
       porraCreateLogIn: "Has d'iniciar sessió per fer un equip.",
       porraViewLogIn: 'Inicia sessió per veure aquest equip.',
       xedapAds: 'Vols veure els teus anuncis aquí? Contacta amb nosaltres!',
+      xedapChangeRider: 'Canvia el teu corredor',
     },
   },
 

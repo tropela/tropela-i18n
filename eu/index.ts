@@ -187,10 +187,12 @@ export default {
       noTropeltxoMessages: 'Ez duzu mezurik tropeltxo honetan.',
       placeStandingsLogIn: 'Herriko sailkapenak ikusteko saioa hasi behar duzu.',
       placeStandingsNoPlace: 'Aukeratu zure herria herriko sailkapenak ikusteko.',
+      porrasMatrixPremium: 'Kinielen konparaketa taula Luxuzko gregarioentzat bakarrik dago.',
       porraClosed: 'Ezin duzu kinielarik egin lehiaketa honetan.',
       porraCreateLogIn: 'Kiniela egin ahal izateko saioa hasi behar duzu.',
       porraViewLogIn: 'Hasi saioa talde hau ikusteko.',
       xedapAds: 'Zure iragarkia hemen ikusi nahi duzu? Jarri harremanetan gurekin!',
+      xedapChangeRider: 'Aldatu zure txirrindularia',
     },
   },
 
