@@ -189,6 +189,7 @@ export default {
       porraViewLogIn: 'Meld je aan om dit team te bekijken.',
       xedapAds: 'Wil je hier jouw advertenties zien? Neem contact met ons op!',
       xedapChangeRider: 'Verander je renner',
+      seasonStanding: 'Je staat {position}e dit seizoen ({ratio})',
     },
   },
 

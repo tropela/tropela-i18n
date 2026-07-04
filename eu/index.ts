@@ -193,6 +193,7 @@ export default {
       porraViewLogIn: 'Hasi saioa talde hau ikusteko.',
       xedapAds: 'Zure iragarkia hemen ikusi nahi duzu? Jarri harremanetan gurekin!',
       xedapChangeRider: 'Aldatu zure txirrindularia',
+      seasonStanding: 'Denboraldian {position}. postuan zaude ({ratio})',
     },
   },
 

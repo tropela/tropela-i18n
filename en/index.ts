@@ -191,6 +191,7 @@ export default {
       porraViewLogIn: 'Sign in to see this team.',
       xedapAds: 'Do you want to see your ads here? Contact us!',
       xedapChangeRider: 'Change your rider',
+      seasonStanding: "You're ranked {position} this season ({ratio})",
     },
   },
 
@@ -285,6 +286,7 @@ export default {
       registrationOpens: 'Registration opens in',
       registrationOpenFor: 'Make your team in',
       showAllStages: 'Show all stages',
+      idealTotal: 'Ideal total',
     },
     porrasCount: 'No teams | One team | {n} teams',
     pointsRules: 'Scoring',

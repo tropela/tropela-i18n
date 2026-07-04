@@ -193,6 +193,7 @@ export default {
       porraViewLogIn: 'Connectez-vous pour voir cette équipe.',
       xedapAds: 'Voulez-vous voir vos annonces ici ? Contactez-nous !',
       xedapChangeRider: 'Changer votre coureur',
+      seasonStanding: 'Vous êtes {position}e cette saison ({ratio})',
     },
   },
 
@@ -288,6 +289,7 @@ export default {
       registrationOpens: 'Inscription ouverte dans',
       registrationOpenFor: 'Créez votre équipe dans',
       showAllStages: 'Afficher toutes les étapes',
+      idealTotal: 'Total idéal',
     },
     porrasCount: 'Aucune équipe | Une équipe | {n} équipes',
     pointsRules: 'Barème',

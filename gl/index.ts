@@ -187,6 +187,7 @@ export default {
       porraViewLogIn: 'Inicia sesión para ver este equipo.',
       xedapAds: 'Queres ver os teus anuncios aquí? Contacta connosco!',
       xedapChangeRider: 'Cambia o teu corredor',
+      seasonStanding: 'Estás na posición {position} esta tempada ({ratio})',
     },
   },
 

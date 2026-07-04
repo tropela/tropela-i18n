@@ -189,6 +189,7 @@ export default {
       porraViewLogIn: 'Accedi per vedere questa squadra.',
       xedapAds: 'Vuoi vedere qui i tuoi annunci? Contattaci!',
       xedapChangeRider: 'Cambia il tuo corridore',
+      seasonStanding: 'Sei al {position}° posto questa stagione ({ratio})',
     },
   },
 

@@ -188,6 +188,7 @@ export default {
       porraViewLogIn: 'Anicia sesión pa ver esti equipu.',
       xedapAds: '¿Quies ver los tos anuncios equí? ¡Contáctanos!',
       xedapChangeRider: 'Cambia el to corredor',
+      seasonStanding: 'Tas na posición {position} esta temporada ({ratio})',
     },
   },
 
