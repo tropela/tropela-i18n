@@ -158,6 +158,7 @@ export default {
     store: 'Magasin',
     about: 'À propos de nous',
     privacy: 'Politique de confidentialité',
+    privacySettings: 'Paramètres de confidentialité',
     terms: "Conditions d'utilisation",
     contact: 'Contact',
     tropeltxos: 'Tropeltxos',
@@ -171,7 +172,10 @@ export default {
       loggedIn: 'Connecté en tant que {username}',
       loggedOut: 'Vous vous êtes déconnecté',
       passwordResetRequested: 'Un email de réinitialisation de mot de passe a été envoyé',
+      oauthLoginError: 'La connexion via le réseau social a échoué. Veuillez réessayer.',
+      passwordResetInvalidLink: 'Ce lien de réinitialisation est invalide ou a expiré.',
       porraSaveDelay: 'Votre équipe sera enregistrée dans {seconds} secondes',
+      tropeltxoMessageSendDelay: 'Votre message sera envoyé dans {seconds} secondes',
       porraCreated: 'Votre équipe a été créée',
       porraUpdated: 'Votre équipe a été mise à jour',
       porraRandomSelected: 'Une équipe aléatoire a été proposée',
@@ -215,6 +219,8 @@ export default {
     secure: 'Paiement sécurisé traité par Stripe',
     pay: 'Payer {amount}',
     card: 'Informations de carte',
+    cardholder: 'Titulaire de la carte',
+    loadError: "Le système de paiement n'a pas pu être chargé. Veuillez réessayer plus tard.",
   },
 
   // place: fonctionnalités basées sur la localisation
@@ -265,6 +271,8 @@ export default {
       myPorra: 'Mon équipe',
       friends: 'Mes amis',
     },
+    friendsDescription: 'Ici, vous pouvez voir lesquels de vos amis participent à cette course.',
+    friendsFilter: 'Filtrer par nom',
     canceled: 'Annulé',
     stage: 'Étape | Étapes',
     stageToday: 'Étape du jour | Étapes du jour',
@@ -430,6 +438,9 @@ export default {
   // ui: éléments d'interface partagés
   ui: {
     form: {
+      validation: {
+        required: 'Ce champ est obligatoire.',
+      },
       actions: {
         ok: 'OK',
         cancel: 'Annuler',

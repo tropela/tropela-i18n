@@ -155,6 +155,7 @@ export default {
     store: 'Winkel',
     about: 'Over ons',
     privacy: 'Privacybeleid',
+    privacySettings: 'Privacy-instellingen',
     terms: 'Gebruiksvoorwaarden',
     contact: 'Contact',
     tropeltxos: 'Tropeltxos',
@@ -167,7 +168,10 @@ export default {
       loggedIn: 'Aangemeld als {username}',
       loggedOut: 'Je bent afgemeld',
       passwordResetRequested: 'Een e-mail voor het opnieuw instellen van het wachtwoord is verzonden',
+      oauthLoginError: 'Inloggen via sociale media is mislukt. Probeer het opnieuw.',
+      passwordResetInvalidLink: 'Deze link om je wachtwoord te herstellen is ongeldig of verlopen.',
       porraSaveDelay: 'Je team wordt opgeslagen in {seconds} seconden',
+      tropeltxoMessageSendDelay: 'Je bericht wordt over {seconds} seconden verstuurd',
       porraCreated: 'Je team is aangemaakt',
       porraUpdated: 'Je team is bijgewerkt',
       porraRandomSelected: 'Er is een willekeurig team voorgesteld',
@@ -211,6 +215,8 @@ export default {
     secure: 'Veilige betaling verwerkt door Stripe',
     pay: 'Betaal {amount}',
     card: 'Kaartgegevens',
+    cardholder: 'Naam kaarthouder',
+    loadError: 'Het betaalsysteem kon niet worden geladen. Probeer het later opnieuw.',
   },
 
   // place: locatiegebaseerde functies
@@ -260,6 +266,8 @@ export default {
       myPorra: 'Mijn team',
       friends: 'Mijn vrienden',
     },
+    friendsDescription: 'Hier zie je welke vrienden meedoen aan deze koers.',
+    friendsFilter: 'Filteren op naam',
     canceled: 'Afgelast',
     stage: 'Etappe | Etappes',
     stageToday: 'Etape van vandaag | Etappes van vandaag',
@@ -424,6 +432,9 @@ export default {
   // ui: gedeelde UI-elementen
   ui: {
     form: {
+      validation: {
+        required: 'Dit veld is verplicht.',
+      },
       actions: {
         ok: 'Ok',
         cancel: 'Annuleren',

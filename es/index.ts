@@ -154,6 +154,7 @@ export default {
     store: 'Tienda',
     about: 'Asociación',
     privacy: 'Política de privacidad',
+    privacySettings: 'Configuración de privacidad',
     terms: 'Términos de uso',
     contact: 'Contacto',
     tropeltxos: 'Tropeltxos',
@@ -168,7 +169,10 @@ export default {
       loggedIn: 'Has iniciado sesión como {username}',
       loggedOut: 'Has cerrado sesión',
       passwordResetRequested: 'Se ha enviado un email para restablecer la contraseña',
+      oauthLoginError: 'No se ha podido iniciar sesión con la red social. Inténtalo de nuevo.',
+      passwordResetInvalidLink: 'El enlace para restablecer la contraseña no es válido o ha caducado.',
       porraSaveDelay: 'Tu porra se guardará en {seconds} segundos',
+      tropeltxoMessageSendDelay: 'Tu mensaje se enviará en {seconds} segundos',
       porraCreated: 'Tu porra se ha creado correctamente',
       porraUpdated: 'Tu porra se ha actualizado',
       porraRandomSelected: 'Se ha propuesto una porra aleatoria',
@@ -212,6 +216,8 @@ export default {
     secure: 'Pago seguro procesado por Stripe',
     pay: 'Pagar {amount}',
     card: 'Información de la tarjeta',
+    cardholder: 'Titular de la tarjeta',
+    loadError: 'No se ha podido cargar el sistema de pago. Inténtalo más tarde.',
   },
 
   // place: funciones basadas en ubicación
@@ -261,6 +267,8 @@ export default {
       myPorra: 'Mi equipo',
       friends: 'Mis amigos',
     },
+    friendsDescription: 'Aquí puedes ver qué amigos tuyos participan en esta competición.',
+    friendsFilter: 'Filtrar por nombre',
     canceled: 'Cancelada',
     stage: 'Etapa | Etapas',
     stageToday: 'Etapa de hoy | Etapas de hoy',
@@ -426,6 +434,9 @@ export default {
   // ui: elementos de interfaz compartidos (botones, campos, selectores, navegación)
   ui: {
     form: {
+      validation: {
+        required: 'Este campo es obligatorio.',
+      },
       actions: {
         cancel: 'Cancelar',
         change: 'Cambiar',

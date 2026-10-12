@@ -153,6 +153,7 @@ export default {
     store: 'Botiga',
     about: 'Associació',
     privacy: 'Política de privacitat',
+    privacySettings: 'Configuració de privadesa',
     terms: "Termes d'ús",
     contact: 'Contacte',
     tropeltxos: 'Tropeltxos',
@@ -165,7 +166,10 @@ export default {
       loggedIn: 'Has iniciat sessió com {username}',
       loggedOut: 'Has tancat sessió',
       passwordResetRequested: "S'ha enviat un email per restablir la contrasenya",
+      oauthLoginError: "No s'ha pogut iniciar la sessió amb la xarxa social. Torna-ho a provar.",
+      passwordResetInvalidLink: "L'enllaç per restablir la contrasenya no és vàlid o ha caducat.",
       porraSaveDelay: 'El teu equip es guardarà en {seconds} segons',
+      tropeltxoMessageSendDelay: "El teu missatge s'enviarà en {seconds} segons",
       porraCreated: "El teu equip s'ha creat correctament",
       porraUpdated: "El teu equip s'ha actualitzat",
       porraRandomSelected: "S'ha proposat un equip aleatori",
@@ -209,6 +213,8 @@ export default {
     secure: 'Pagament segur processat per Stripe',
     pay: 'Pagar {amount}',
     card: 'Informació de la targeta',
+    cardholder: 'Titular de la targeta',
+    loadError: "No s'ha pogut carregar el sistema de pagament. Torna-ho a provar més tard.",
   },
 
   // place: funcions basades en ubicació
@@ -258,6 +264,8 @@ export default {
       myPorra: 'El meu equip',
       friends: 'Els meus amics',
     },
+    friendsDescription: 'Aquí pots veure quins amics teus participen en aquesta competició.',
+    friendsFilter: 'Filtrar per nom',
     canceled: 'Cancel·lada',
     stage: 'Etapa | Etapes',
     stageToday: "Etapa d'avui | Etapes d'avui",
@@ -422,6 +430,9 @@ export default {
   // ui: elements d'interfície compartits
   ui: {
     form: {
+      validation: {
+        required: 'Aquest camp és obligatori.',
+      },
       actions: {
         ok: "D'acord",
         cancel: 'Cancel·lar',

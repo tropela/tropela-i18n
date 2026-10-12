@@ -157,6 +157,7 @@ export default {
     store: 'Denda',
     about: 'Tropela Elkartea',
     privacy: 'Pribatutasun politika',
+    privacySettings: 'Pribatutasun ezarpenak',
     terms: 'Erabilera baldintzak',
     contact: 'Kontaktua',
     tropeltxos: 'Tropeltxoak',
@@ -171,7 +172,10 @@ export default {
       loggedIn: 'Saioa hasi duzu {username} bezala',
       loggedOut: 'Saioa amaitu duzu',
       passwordResetRequested: 'Pasahitza berrezartzeko emaila bidali da',
+      oauthLoginError: 'Ezin izan da saioa hasi sare sozialaren bidez. Saiatu berriro.',
+      passwordResetInvalidLink: 'Pasahitza berrezartzeko esteka ez da baliozkoa edo iraungi egin da.',
       porraSaveDelay: 'Kiniela {seconds} segundo barru gordeko da',
+      tropeltxoMessageSendDelay: 'Mezua {seconds} segundo barru bidaliko da',
       porraCreated: 'Kiniela behar bezala sortu da',
       porraUpdated: 'Kiniela eguneratu da',
       porraRandomSelected: 'Kiniela proposatu da',
@@ -215,6 +219,8 @@ export default {
     secure: 'Stripe bidezko ordainketa segurua',
     pay: 'Ordaindu {amount}',
     card: 'Txartelaren informazioa',
+    cardholder: 'Txartelaren titularra',
+    loadError: 'Ezin izan da ordainketa sistema kargatu. Saiatu berriro geroago.',
   },
 
   // place: lekuan oinarritutako ezaugarriak
@@ -264,6 +270,8 @@ export default {
       myPorra: 'Nire kiniela',
       friends: 'Nire lagunak',
     },
+    friendsDescription: 'Zure lagunek lehiaketa honetan parte hartu duten ikus dezakezu hemen.',
+    friendsFilter: 'Izenaren arabera filtratu',
     canceled: 'Bertan behera',
     stage: 'Etapa | Etapak',
     stageToday: 'Gaurko etapa | Gaurko etapak',
@@ -426,6 +434,9 @@ export default {
   // ui: partekatutako UI elementuak (botoiak, eremuak, hautatzaileak, nabigazioa)
   ui: {
     form: {
+      validation: {
+        required: 'Eremu hau derrigorrezkoa da.',
+      },
       actions: {
         ok: 'Bai',
         cancel: 'Ezeztatu',

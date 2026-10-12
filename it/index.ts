@@ -155,6 +155,7 @@ export default {
     store: 'Negozio',
     about: 'Chi siamo',
     privacy: 'Informativa sulla privacy',
+    privacySettings: 'Impostazioni privacy',
     terms: 'Termini di utilizzo',
     contact: 'Contatti',
     tropeltxos: 'Tropeltxos',
@@ -167,7 +168,10 @@ export default {
       loggedIn: 'Accesso effettuato come {username}',
       loggedOut: "Hai effettuato l'uscita",
       passwordResetRequested: 'È stata inviata una email per il ripristino della password',
+      oauthLoginError: 'Accesso tramite social non riuscito. Riprova.',
+      passwordResetInvalidLink: 'Il link per reimpostare la password non è valido o è scaduto.',
       porraSaveDelay: 'La tua squadra verrà salvata in {seconds} secondi',
+      tropeltxoMessageSendDelay: 'Il tuo messaggio verrà inviato tra {seconds} secondi',
       porraCreated: 'La tua squadra è stata creata',
       porraUpdated: 'La tua squadra è stata aggiornata',
       porraRandomSelected: 'È stata proposta una squadra casuale',
@@ -211,6 +215,8 @@ export default {
     secure: 'Pagamento sicuro elaborato da Stripe',
     pay: 'Paga {amount}',
     card: 'Informazioni della carta',
+    cardholder: 'Titolare della carta',
+    loadError: 'Impossibile caricare il sistema di pagamento. Riprova più tardi.',
   },
 
   // place: funzionalità basate sulla posizione
@@ -260,6 +266,8 @@ export default {
       myPorra: 'La mia squadra',
       friends: 'I miei amici',
     },
+    friendsDescription: 'Qui puoi vedere quali dei tuoi amici partecipano a questa gara.',
+    friendsFilter: 'Filtra per nome',
     canceled: 'Annullato',
     stage: 'Tappa | Tappe',
     stageToday: 'Tappa di oggi | Tappe di oggi',
@@ -424,6 +432,9 @@ export default {
   // ui: elementi di interfaccia condivisi
   ui: {
     form: {
+      validation: {
+        required: 'Questo campo è obbligatorio.',
+      },
       actions: {
         ok: 'OK',
         cancel: 'Annulla',

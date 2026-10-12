@@ -155,6 +155,7 @@ export default {
     store: 'Store',
     about: 'About us',
     privacy: 'Privacy policy',
+    privacySettings: 'Privacy settings',
     terms: 'Terms of use',
     contact: 'Contact',
     tropeltxos: 'Tropeltxos',
@@ -169,7 +170,10 @@ export default {
       loggedIn: 'Signed in as {username}',
       loggedOut: 'You have signed out',
       passwordResetRequested: 'Password reset email has been sent',
+      oauthLoginError: 'Social sign-in failed. Please try again.',
+      passwordResetInvalidLink: 'This password reset link is invalid or has expired.',
       porraSaveDelay: 'Your team will be saved in {seconds} seconds',
+      tropeltxoMessageSendDelay: 'Your message will be sent in {seconds} seconds',
       porraCreated: 'Your team has been created',
       porraUpdated: 'Your team has been updated',
       porraRandomSelected: 'A random team has been proposed',
@@ -213,6 +217,8 @@ export default {
     secure: 'Secure payment powered by Stripe',
     pay: 'Pay {amount}',
     card: 'Card information',
+    cardholder: 'Cardholder name',
+    loadError: 'The payment system could not be loaded. Please try again later.',
   },
 
   // place: location-based features
@@ -262,6 +268,8 @@ export default {
       myPorra: 'My team',
       friends: 'My friends',
     },
+    friendsDescription: 'Here you can see which of your friends are taking part in this race.',
+    friendsFilter: 'Filter by name',
     canceled: 'Canceled',
     stage: 'Stage | Stages',
     stageToday: "Today's stage | Today's stages",
@@ -426,6 +434,9 @@ export default {
   // ui: shared UI elements (buttons, fields, selectors, navigation)
   ui: {
     form: {
+      validation: {
+        required: 'This field is required.',
+      },
       actions: {
         ok: 'OK',
         cancel: 'Cancel',

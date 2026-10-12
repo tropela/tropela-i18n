@@ -154,6 +154,7 @@ export default {
     store: 'Tienda',
     about: 'Asociación',
     privacy: 'Política de privacidá',
+    privacySettings: 'Configuración de privacidá',
     terms: "Términos d'usu",
     contact: 'Contactu',
     tropeltxos: 'Tropeltxos',
@@ -166,7 +167,10 @@ export default {
       loggedIn: 'Entresti como {username}',
       loggedOut: 'Has zarráu sesión',
       passwordResetRequested: 'Unvióse un corréu pa restablecer la contraseña',
+      oauthLoginError: 'Nun se pudo aniciar sesión cola rede social. Inténtalo de nuevu.',
+      passwordResetInvalidLink: "L'enllaz pa restablecer la contraseña nun ye válidu o caducó.",
       porraSaveDelay: 'La to porra guardarase en {seconds} segundos',
+      tropeltxoMessageSendDelay: 'El to mensaxe unviaráse en {seconds} segundos',
       porraCreated: 'La to porra creóse correutamente',
       porraUpdated: 'La to porra actualizóse',
       porraRandomSelected: 'Propúnxose una porra aleatoria',
@@ -210,6 +214,8 @@ export default {
     secure: 'Pagu seguru procesáu por Stripe',
     pay: 'Pagar {amount}',
     card: 'Información de la tarxeta',
+    cardholder: 'Titular de la tarxeta',
+    loadError: 'Nun se pudo cargar el sistema de pagu. Inténtalo de nuevu más sero.',
   },
 
   // place: funciones basaes n'ubicación
@@ -259,6 +265,8 @@ export default {
       myPorra: 'Mi equipu',
       friends: 'Los mios amigos',
     },
+    friendsDescription: 'Equí pues ver qué amigos tuyos participen nesta competición.',
+    friendsFilter: 'Filtrar por nome',
     canceled: 'Cancelada',
     stage: 'Etapa | Etapes',
     stageToday: 'Etapa de güei | Etapes de güei',
@@ -423,6 +431,9 @@ export default {
   // ui: elementos d'interfaz compartíos
   ui: {
     form: {
+      validation: {
+        required: 'Esti campu ye obligatoriu.',
+      },
       actions: {
         ok: 'Aceutar',
         cancel: 'Encaboxar',
